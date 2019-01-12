@@ -72,12 +72,7 @@ def getReward(timeStep, signal, endState, price):
     net = (data[timeStep] - data[timeStep-1])*signal[timeStep-1]
     rewards = 0
     if not endState:
-        '''
-        bt = twp.Backtest(pd.Series(data=[x for x in price[timeStep - 1:timeStep +1]],
-                                    index=signal[timeStep - 1:timeStep + 1].index.values),
-                          signal[timeStep - 1:timeStep + 1], signalType='shares')
-        rewards = ((bt.data['price'].iloc[-1] - bt.data['price'].iloc[-2]) * bt.data['shares'].iloc[-2])'''
-
+        
         if net >0:
             rewards = 1
         elif net < 0:
@@ -86,25 +81,14 @@ def getReward(timeStep, signal, endState, price):
     else:
         bt = twp.Backtest(price, signal, signalType='shares')
         rewards = bt.pnl.iloc[-1]
-        '''if rewards>0:
-            rewards = 5
-        elif rewards<0:
-            rewards = -5'''
-
+        
     return rewards
 
 def getModel():
 
     num_features = 4
     exist =  0
-    '''
-    model = Sequential()
-    model.add(Dense(units=64, input_dim=num_features, activation="relu"))
-    model.add(Dense(units=32, activation="relu"))
-    model.add(Dense(units=8, activation="relu"))
-    model.add(Dense(3, activation="linear"))
-    model.compile(loss="mse", optimizer='Adam')
-    '''
+
     if exist:
         model = load_model('model/episode400.h5')
     else:
@@ -262,7 +246,7 @@ for i in range(episodes):
     print("Episode #: %s PnL:      %f Epsilon: %f Profit: %f" % (i, endReward, epsilon, profit))
     print("Episode #: %s real PnL: %f               real Profit: %f" % (i, r_reward, r_profit))
     bt.plotTrades()
-    #plt.axvline(x=400, color='black', linestyle='--')
+ 
     plt.suptitle(str(i))
     plt.savefig('plots/bull_test/' + str(i) + '.png')
     plt.show()
