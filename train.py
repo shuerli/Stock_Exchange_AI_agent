@@ -19,6 +19,12 @@ def getData():
     price = price[900:1400]
     price = price.reset_index()
     price = price['4. close']
+    
+    price2 = pd.read_csv('csv/bull_test/GOOG1min100.csv')
+    price2 = price2[899:1399]
+    price2 = price2.reset_index()
+    price2 = price2['4. close']
+    
     sma20 = pd.read_csv('csv/bull_test/GOOG1min100sma20.csv')
     #sma20 = sma20.tail(100).reset_index()
     sma20 = sma20[900:1400]
@@ -29,14 +35,11 @@ def getData():
     sma80 = sma80[900:1400]
     sma80 = sma80.reset_index()
     sma80 = sma80['SMA']
-    return price, sma20,sma80
+    return price,price2, sma20,sma80
 
-def initializeState(data, sma20, sma80):
-    diff = np.diff(data)
-    diff = np.insert(diff, 0, 0)
-
+def initializeState(data,data_prev, sma20, sma80):
     # Preprocessing Data
-    pdata = np.column_stack((data, diff, sma20, sma80))
+    pdata = np.column_stack((data, data_prev, sma20, sma80))
     pdata = np.nan_to_num(pdata)
     scaler = preprocessing.StandardScaler()
     pdata = scaler.fit_transform(pdata)
@@ -106,7 +109,7 @@ def test(model,data, sma20, sma80):
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)
 
-    state, pdata = initializeState(data, sma20, sma80)
+    state, pdata = initializeState(data,data_prev, sma20, sma80)
     endState = 0
     timeStep = 1
     realProfit = 0
@@ -150,7 +153,7 @@ profit_progress = []
 real_pnl_progress = []
 real_profit_progress = []
 
-data, sma20, sma80 = getData()
+data,data_prev, sma20, sma80 = getData()
 model = getModel()
 
 signal = pd.Series(index=np.arange(len(data)))
@@ -160,7 +163,7 @@ signal.fillna(value=0, inplace=True)
 startTime = timeit.default_timer()
 for i in range(episodes):
 
-    state,pdata = initializeState(data, sma20, sma80)
+    state,pdata = initializeState(data, data_prev,sma20, sma80)
     endState=0
     timeStep=1
     inventory = []
