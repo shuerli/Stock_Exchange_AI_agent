@@ -16,8 +16,8 @@ from functions import *
 episodes = 500
 gamma = 0.95  # higher gamma, more important future reward
 epsilon = 1
-batchSize = 50
-buffer = 100
+training_batch_size = 50
+buffer_size = 100
 replay = []
 replayIter = 0
 pnl_progress = []
@@ -27,7 +27,7 @@ real_pnl_progress = []
 real_profit_progress = []
 
 data,data_prev, sma20, sma80 = getData()
-model = getModel()
+model = getModel(0)
 
 signal = pd.Series(index=np.arange(len(data)))
 signal.fillna(value=0, inplace=True)
@@ -55,15 +55,15 @@ for i in range(episodes):
         reward = getReward(timeStep, signal, endState, data)
 
         # Experience Replay
-        if len(replay) < buffer:
+        if len(replay) < buffer_size:
             replay.append((state, action, reward, nextState,endState))
         else:
-            if replayIter < (buffer - 1):
+            if replayIter < (buffer_size - 1):
                 replayIter += 1
             else:
                 replayIter = 0
             replay[replayIter] = (state, action, reward, nextState,endState)
-            miniBatch = random.sample(replay, batchSize)
+            miniBatch = random.sample(replay, training_batch_size)
 
             x_train = []
             y_train = []
@@ -87,7 +87,7 @@ for i in range(episodes):
             #print(x_train)
             y_train = np.squeeze(np.array(y_train),axis=(1))
             #print(y_train)
-            model.fit(x_train,y_train,epochs=1,verbose=0,batch_size=batchSize) #batchsize can be <= # of x_train datas
+            model.fit(x_train,y_train,epochs=1,verbose=0,batch_size=training_batch_size) #training_batch_size can be <= # of x_train datas
 
         state = nextState
 

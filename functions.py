@@ -89,15 +89,15 @@ def getReward(timeStep, signal, endState, price):
     return rewards
 
 
-def getModel():
-    num_features = 4
-    exist = 0
+def getModel(load):
+    num_inputs = 4
 
-    if exist:
+
+    if load:
         model = load_model('model/episode400.h5')
     else:
         model = Sequential()
-        model.add(LSTM(80, input_shape=(1, num_features), return_sequences=True, stateful=False))
+        model.add(LSTM(80, input_shape=(1, num_inputs), return_sequences=True, stateful=False))
         model.add(Dropout(0.2))
         model.add(LSTM(80, return_sequences=False, stateful=False))
         model.add(Dropout(0.2))
