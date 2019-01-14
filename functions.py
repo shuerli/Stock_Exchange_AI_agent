@@ -105,9 +105,8 @@ def getModel(load):
         model.compile(optimizer='adam', loss='mse')
     return model
 
-
+# test agent without random actions
 def test(model, data,data_prev, sma20, sma80):
-    # This function is used to evaluate the performance of the system each epoch, without the influence of epsilon and random actions
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)
 
