@@ -18,7 +18,7 @@ gamma = 0.95  # higher gamma, more important future reward
 epsilon = 1
 training_batch_size = 50
 buffer_size = 100
-replay = []
+replay_buffer = []
 replayIter = 0
 pnl_progress = []
 profit_progress = []
@@ -55,15 +55,15 @@ for i in range(episodes):
         reward = getReward(timeStep, signal, endState, data)
 
         # Experience Replay
-        if len(replay) < buffer_size:
-            replay.append((state, action, reward, nextState,endState))
+        if len(replay_buffer) < buffer_size:
+            replay_buffer.append((state, action, reward, nextState,endState))
         else:
             if replayIter < (buffer_size - 1):
                 replayIter += 1
             else:
                 replayIter = 0
-            replay[replayIter] = (state, action, reward, nextState,endState)
-            miniBatch = random.sample(replay, training_batch_size)
+            replay_buffer[replayIter] = (state, action, reward, nextState,endState)
+            miniBatch = random.sample(replay_buffer, training_batch_size)
 
             x_train = []
             y_train = []
