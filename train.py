@@ -58,11 +58,10 @@ for i in range(episodes):
         if len(replay_buffer) < buffer_size:
             replay_buffer.append((state, action, reward, nextState,endState))
         else:
-            if replayIter < (buffer_size - 1):
-                replayIter += 1
-            else:
-                replayIter = 0
             replay_buffer[replayIter] = (state, action, reward, nextState,endState)
+            replayIter+=1
+            if replayIter == buffer_size-1:
+                replayIter = 0
             miniBatch = random.sample(replay_buffer, training_batch_size)
 
             x_train = []
