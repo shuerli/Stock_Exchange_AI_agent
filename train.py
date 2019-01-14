@@ -45,9 +45,9 @@ for i in range(episodes):
         qValues = model.predict(state, batch_size=1)
 
         #exploitation vs exploration
-        if (random.random() < epsilon):
+        if (random.random() < epsilon):       #random decision
             action = np.random.randint(0, 3)
-        else:  # choose best action from Q(s,a) values
+        else:                                 #agent decision
             action = (np.argmax(qValues))
 
         nextState, timeStep, signal, endState, profit = trade(action,pdata,signal,timeStep,inventory,data,profit)
