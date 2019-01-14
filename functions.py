@@ -1,8 +1,6 @@
 import pandas as pd
 import backtest as twp
 import numpy as np
-from matplotlib import pyplot as plt
-import random, timeit
 from sklearn import preprocessing
 
 from keras.models import Sequential
@@ -13,6 +11,8 @@ from keras.models import load_model
 
 # pnl explained : https://www.investopedia.com/ask/answers/how-do-you-calculate-percentage-gain-or-loss-investment/
 # backtesting: a strategy to analyze how accurate a model did in performing trading with historycal data
+
+# read data into pandas dataframe from csv file
 def getData():
     price = pd.read_csv('csv/FB1min1000.csv')
     # price = price.tail(100).reset_index()
@@ -37,23 +37,37 @@ def getData():
     sma80 = sma80['SMA']
     return price, price2, sma20, sma80
 
-
+# initialize first state
 def initializeState(data, data_prev, sma20, sma80):
-    # Preprocessing Data
+
+    # stack all data into a table
     pdata = np.column_stack((data, data_prev, sma20, sma80))
     pdata = np.nan_to_num(pdata)
-    scaler = preprocessing.StandardScaler()
+
+    # pre-process data using standard scalar
+    scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
     pdata = scaler.fit_transform(pdata)
-    pdata = np.expand_dims(scaler.fit_transform(pdata), axis=1)  # add dimension for lstm input
+
+    # expand dimension to fit into the neural net input
+    pdata = np.expand_dims(pdata, axis=1)
+
+    # initial state is 1st row of the table
     initialState = pdata[1:2, :, :]
 
     return initialState, pdata
 
 
 def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
+
     profit = totalProfit
+
+    # increase timeStep
     timeStep += 1
+
+    # this is next state
     state = pdata[timeStep: timeStep + 1, :, :]  # preserves dimension for lstm input
+
+    # determine if it's the last state
     if timeStep + 1 == pdata.shape[0]:
         endState = 1
     else:
@@ -62,8 +76,10 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
     if action == 1:  # buy 1
         signal.loc[timeStep - 1] = 1
         inventory.append(data[timeStep - 1])
-    elif action == 2:  # and len(inventory) > 0: #sell 1
+    elif action == 2:  # sell 1
         signal.loc[timeStep - 1] = -1
+
+        # if inventory is not empty, sell
         if len(inventory) > 0:
             profit += data[timeStep - 1] - inventory.pop(0)
     else:
@@ -71,17 +87,21 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
     return state, timeStep, signal, endState, profit
 
-
+# reward function
 def getReward(timeStep, signal, endState, price):
+
+    # net earning from previous action
     net = (price[timeStep] - price[timeStep - 1]) * signal[timeStep - 1]
     rewards = 0
-    if not endState:
 
+
+    if not endState:
         if net > 0:
             rewards = 1
         elif net < 0:
             rewards = -1
 
+    # reward for final state is the final pnl value
     else:
         bt = twp.Backtest(price, signal, signalType='shares')
         rewards = bt.pnl.iloc[-1]
@@ -90,16 +110,17 @@ def getReward(timeStep, signal, endState, price):
 
 
 def getModel(load):
-    num_inputs = 4
 
+    #number of inputs
+    num_inputs = 4
 
     if load:
         model = load_model('model/episode400.h5')
     else:
         model = Sequential()
-        model.add(LSTM(80, input_shape=(1, num_inputs), return_sequences=True, stateful=False))
+        model.add(LSTM(64, input_shape=(1, num_inputs), return_sequences=True, stateful=False))
         model.add(Dropout(0.2))
-        model.add(LSTM(80, return_sequences=False, stateful=False))
+        model.add(LSTM(64, return_sequences=False, stateful=False))
         model.add(Dropout(0.2))
         model.add(Dense(3, activation="linear"))
         model.compile(optimizer='adam', loss='mse')
@@ -107,6 +128,7 @@ def getModel(load):
 
 # test agent without random actions
 def test(model, data,data_prev, sma20, sma80):
+
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)
 
@@ -118,7 +140,6 @@ def test(model, data,data_prev, sma20, sma80):
     while not endState:
         Q = model.predict(state, batch_size=1)
         action = (np.argmax(Q))
-        # print(Q,'***',action)
         nextState, timeStep, signal, endState, realProfit = trade(action, pdata, signal, timeStep, realInventory, data,
                                                                   realProfit)
 
