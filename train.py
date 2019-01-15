@@ -76,10 +76,7 @@ for i in range(episodes):
             action = (np.argmax(qValues))  # agent action, argmax returns index of max value
 
         # perform trade and move to next state
-        nextState, timeStep, signal, endState, profit = trade(action, pdata, signal, timeStep, inventory, data, profit)
-
-        # obtain reward
-        reward = getReward(timeStep, signal, endState, data)
+        nextState, timeStep, signal, endState, profit,reward = trade(action, pdata, signal, timeStep, inventory, data, profit)
 
         # Experience Replay
 

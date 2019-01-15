@@ -19,7 +19,7 @@ model = getModel(1)
 signal = pd.Series(index=np.arange(len(data)))
 signal.fillna(value=0, inplace=True)
 
-state, pdata = initializeState(data, sma20, sma80)
+state, pdata = initializeState(data, data_prev, sma20, sma80)
 # indicate if now it's last state
 endState = 0
 timeStep = 1
@@ -35,7 +35,7 @@ while not endState:
         action = (np.argmax(qValues))
 
     # perform trade and move to next state
-    nextState, timeStep, signal, endState, profit = trade(action, pdata, signal, timeStep, inventory, data, profit)
+    nextState, timeStep, signal, endState, profit,reward = trade(action, pdata, signal, timeStep, inventory, data, profit)
 
     state = nextState
 
@@ -76,5 +76,5 @@ plt.title("PnL")
 plt.xlabel("timestamp")
 bt.pnl.plot(style='-')
 plt.tight_layout()
-plt.savefig('plots/bull_test/summary_test' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)
+plt.savefig('plot/summary_test' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)
 plt.show()

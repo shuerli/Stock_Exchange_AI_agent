@@ -85,26 +85,22 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
     else:
         signal.loc[timeStep - 1] = 0
 
-    return state, timeStep, signal, endState, profit
+    reward = getReward(timeStep,signal,data)
+
+    return state, timeStep, signal, endState, profit, reward
 
 # reward function
-def getReward(timeStep, signal, endState, price):
+def getReward(timeStep, signal, price):
 
     # net earning from previous action
     net = (price[timeStep] - price[timeStep - 1]) * signal[timeStep - 1]
     rewards = 0
 
+    if net > 0:
+        rewards = 1
+    elif net < 0:
+        rewards = -1
 
-    if not endState:
-        if net > 0:
-            rewards = 1
-        elif net < 0:
-            rewards = -1
-
-    # reward for final state is the final pnl value
-    else:
-        bt = twp.Backtest(price, signal, signalType='shares')
-        rewards = bt.pnl.iloc[-1]
 
     return rewards
 
@@ -140,7 +136,7 @@ def test(model, data,data_prev, sma20, sma80):
     while not endState:
         Q = model.predict(state, batch_size=1)
         action = (np.argmax(Q))
-        nextState, timeStep, signal, endState, realProfit = trade(action, pdata, signal, timeStep, realInventory, data,
+        nextState, timeStep, signal, endState, realProfit,reward = trade(action, pdata, signal, timeStep, realInventory, data,
                                                                   realProfit)
 
         state = nextState
