@@ -26,13 +26,12 @@ timeStep = 1
 inventory = []
 profit = 0
 while not endState:
-    qValues = model.predict(state, batch_size=1)
 
     # exploitation vs exploration
     if random.random() < epsilon:  # random decision
         action = np.random.randint(0, 3)
     else:  # agent decision
-        action = (np.argmax(qValues))
+        action = (np.argmax(model.predict(state, batch_size=1)))
 
     # perform trade and move to next state
     nextState, timeStep, signal, endState, profit,reward = trade(action, pdata, signal, timeStep, inventory, data, profit)
@@ -62,8 +61,6 @@ plt.figure(figsize=(20, 10))
 print("profit is ", profit)
 
 bt = twp.Backtest(data, signal, signalType='shares')
-bt.data['delta'] = bt.data['shares'].diff().fillna(0)
-
 print(bt.data)
 
 plt.figure(figsize=(10, 10))

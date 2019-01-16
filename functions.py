@@ -12,6 +12,24 @@ from keras.models import load_model
 # pnl explained : https://www.investopedia.com/ask/answers/how-do-you-calculate-percentage-gain-or-loss-investment/
 # backtesting: a strategy to analyze how accurate a model did in performing trading with historycal data
 
+
+def getModel(load):
+
+    #number of inputs
+    num_inputs = 4
+
+    if load:
+        model = load_model('model/episode400.h5')
+    else:
+        model = Sequential()
+        model.add(LSTM(64, input_shape=(1, num_inputs), return_sequences=True, stateful=False))
+        model.add(Dropout(0.2))
+        model.add(LSTM(64, return_sequences=False, stateful=False))
+        model.add(Dropout(0.2))
+        model.add(Dense(3, activation="linear"))
+        model.compile(optimizer='adam', loss='mse')
+    return model
+
 # read data into pandas dataframe from csv file
 def getData():
     price = pd.read_csv('csv/FB1min1000.csv')
@@ -56,6 +74,20 @@ def initializeState(data, data_prev, sma20, sma80):
 
     return initialState, pdata
 
+# reward function
+def getReward(timeStep, signal, price):
+
+    # net earning from previous action
+    net = (price[timeStep] - price[timeStep - 1]) * signal[timeStep - 1]
+    rewards = 0
+
+    if net > 0:
+        rewards = 1
+    elif net < 0:
+        rewards = -1
+
+
+    return rewards
 
 def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
@@ -89,41 +121,12 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
     return state, timeStep, signal, endState, profit, reward
 
-# reward function
-def getReward(timeStep, signal, price):
-
-    # net earning from previous action
-    net = (price[timeStep] - price[timeStep - 1]) * signal[timeStep - 1]
-    rewards = 0
-
-    if net > 0:
-        rewards = 1
-    elif net < 0:
-        rewards = -1
 
 
-    return rewards
 
-
-def getModel(load):
-
-    #number of inputs
-    num_inputs = 4
-
-    if load:
-        model = load_model('model/episode400.h5')
-    else:
-        model = Sequential()
-        model.add(LSTM(64, input_shape=(1, num_inputs), return_sequences=True, stateful=False))
-        model.add(Dropout(0.2))
-        model.add(LSTM(64, return_sequences=False, stateful=False))
-        model.add(Dropout(0.2))
-        model.add(Dense(3, activation="linear"))
-        model.compile(optimizer='adam', loss='mse')
-    return model
 
 # test agent without random actions
-def test(model, data,data_prev, sma20, sma80):
+def test_agent(model, data,data_prev, sma20, sma80):
 
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)

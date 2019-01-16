@@ -66,14 +66,11 @@ for i in range(episodes):
 
     while not endState:
 
-        # get q values from neural net
-        qValues = model.predict(state, batch_size=1)
-
         # exploitation vs exploration
         if random.random() < epsilon:
             action = np.random.randint(0, 3)  # random action
         else:
-            action = (np.argmax(qValues))  # agent action, argmax returns index of max value
+            action = (np.argmax(model.predict(state, batch_size=1)))  # agent action, argmax returns index of max qvalue
 
         # perform trade and move to next state
         nextState, timeStep, signal, endState, profit,reward = trade(action, pdata, signal, timeStep, inventory, data, profit)
@@ -94,17 +91,16 @@ for i in range(episodes):
             # sample random minibatch of transitions
             miniBatch = random.sample(replay_buffer, minibatch_size)
 
-            # input and output batch to be fit the neural net
-            x_train = []
-            y_train = []
+            # input x and output y batch to be fit the neural net
+            x = []
+            y = []
 
             for transition in miniBatch:
                 state_, action_, reward_, newState_, endState_ = transition
                 # reward of current state
                 Q = model.predict(state, batch_size=1)
-                # reward of next state
-                newQ = model.predict(newState_, batch_size=1)
-                newQMax = np.max(newQ)
+                # max reward of next state
+                newQMax = np.max(model.predict(newState_, batch_size=1))
 
                 if not endState_:
                     # non-terminal state
@@ -116,24 +112,21 @@ for i in range(episodes):
                 # update q table
                 Q[0][action] = update
 
-                x_train.append(state)
-                y_train.append(Q)
+                x.append(state)
+                y.append(Q)
 
             # reduce dimension
-            x_train = np.squeeze(np.array(x_train), axis=(1))
-            # print(x_train)
-            y_train = np.squeeze(np.array(y_train), axis=(1))
-            # print(y_train)
+            x = np.squeeze(np.array(x), axis=(1))
+            # print(x)
+            y = np.squeeze(np.array(y), axis=(1))
+            # print(y)
 
             # fit data into the model
-            model.fit(x_train, y_train, epochs=2, verbose=0,
-                      batch_size=minibatch_size)  # minibatch_size can be <= # of x_train datas
+            model.fit(x, y, epochs=2, verbose=0,
+                      batch_size=minibatch_size)  # minibatch_size can be <= # of x datas
 
         state = nextState
 
-    # decrement epsilon over time
-    if epsilon > 0.1:
-        epsilon -= (1 / episodes)
 
     # calculate final cash
     while len(inventory) > 0:
@@ -158,11 +151,8 @@ for i in range(episodes):
     # final pnl value
     endReward = bt.pnl.iloc[-1]
 
-    #set plot size
-    plt.figure(figsize=(20, 10))
-
     # test real performance of the agent without randomness
-    r_reward, r_profit = test(model, data, data_prev, sma20, sma80)
+    r_reward, r_profit = test_agent(model, data, data_prev, sma20, sma80)
 
     # append real performance result to the progress list
     real_pnl_progress.append((r_reward))
@@ -173,8 +163,10 @@ for i in range(episodes):
 
     print("Episode #: %s PnL:      %f Epsilon: %f Profit: %f" % (i, endReward, epsilon, profit))
     print("Episode #: %s real PnL: %f               real Profit: %f" % (i, r_reward, r_profit))
-    bt.plotTrades()
 
+    # set plot size
+    plt.figure(figsize=(20, 10))
+    bt.plotTrades()
     plt.suptitle(str(i))
     plt.savefig('plot/' + str(i) + '.png')
     plt.show()
@@ -183,14 +175,17 @@ for i in range(episodes):
     if i % 20 == 0 and i >= episodes / 2:
         model.save('model/episode' + str(i) + '.h5')
 
+    # decrement epsilon over time
+    if epsilon > 0.1:
+        epsilon -= (1 / episodes)
+
 # timer ends
 time_elapsed = timeit.default_timer() - startTime
 print("Finished in ", time_elapsed, "seconds")
 
 model.save('model/FINAL_model.h5')
-bt = twp.Backtest(data, signal, signalType='shares')
-bt.data['delta'] = bt.data['shares'].diff().fillna(0)
 
+bt = twp.Backtest(data, signal, signalType='shares')
 print(bt.data)
 
 # smoothing the curve using moving average
