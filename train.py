@@ -19,9 +19,6 @@ minibatch_size = 32
 # experience replay buffer size
 buffer_size = 64
 
-# experience replay buffer iterator
-replayIter = 0
-
 # initialize experience replay buffer
 replay_buffer = []
 
@@ -76,17 +73,14 @@ for i in range(episodes):
         nextState, timeStep, signal, endState, profit,reward = trade(action, pdata, signal, timeStep, inventory, data, profit)
 
         # Experience Replay
+        # fill replay buffer
+        replay_buffer.append((state, action, reward, nextState, endState))
 
-        # fill buffer if not full
-        if len(replay_buffer) < buffer_size:
-            replay_buffer.append((state, action, reward, nextState, endState))
         # reinforcement learning happens here
-        else:
-            # start to replace from beginning if buffer is full
-            replay_buffer[replayIter] = (state, action, reward, nextState, endState)
-            replayIter += 1
-            if replayIter == buffer_size - 1:
-                replayIter = 0
+        if len(replay_buffer) == buffer_size:
+
+            # pop 1st element after buffer is full
+            replay_buffer.pop(0)
 
             # sample random minibatch of transitions
             miniBatch = random.sample(replay_buffer, minibatch_size)
@@ -122,7 +116,7 @@ for i in range(episodes):
             # print(y)
 
             # fit data into the model
-            model.fit(x, y, epochs=2, verbose=0,
+            model.fit(x, y, epochs=1, verbose=0,
                       batch_size=minibatch_size)  # minibatch_size can be <= # of x datas
 
         state = nextState
@@ -172,7 +166,7 @@ for i in range(episodes):
     plt.show()
 
     # save model to file every 20 episodes
-    if i % 20 == 0 and i >= episodes / 2:
+    if i % 20 == 0 :
         model.save('model/episode' + str(i) + '.h5')
 
     # decrement epsilon over time
