@@ -286,7 +286,7 @@ class Backtest(object):
             #p[idx].plot(style='go')
             p[idx].plot(style='g.')
 
-            l.append('long')
+            l.append('buy')
 
         # colored line for short positions
 
@@ -295,7 +295,7 @@ class Backtest(object):
         if idx.any():
             p[idx].plot(style='r.')
             #p[idx].plot(style='ro')
-            l.append('short')
+            l.append('sell')
 
         plt.xlim([p.index[0], p.index[-1]])  # show full axis
 
