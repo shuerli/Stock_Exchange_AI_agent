@@ -8,7 +8,7 @@ from keras.layers.core import Dense, Dropout
 from keras.layers.recurrent import LSTM
 from keras.models import load_model
 
-
+from matplotlib import pyplot as plt
 # pnl explained : https://www.investopedia.com/ask/answers/how-do-you-calculate-percentage-gain-or-loss-investment/
 # backtesting: a strategy to analyze how accurate a model did in performing trading with historycal data
 
@@ -16,7 +16,7 @@ from keras.models import load_model
 def getModel(load):
 
     #number of inputs
-    num_inputs = 4
+    num_inputs = 6
 
     if load:
         model = load_model('model/episode400.h5')
@@ -34,32 +34,39 @@ def getModel(load):
 def getData():
     price = pd.read_csv('csv/FB1min1000.csv')
     # price = price.tail(100).reset_index()
-    price = price[900:1400]
+    price = price[500:1700]
     price = price.reset_index()
     price = price['4. close']
 
     price2 = pd.read_csv('csv/FB1min1000.csv')
-    price2 = price2[899:1399]
+    price2 = price2[499:1699]
     price2 = price2.reset_index()
     price2 = price2['4. close']
 
     sma20 = pd.read_csv('csv/FB1min1000sma20.csv')
     # sma20 = sma20.tail(100).reset_index()
-    sma20 = sma20[900:1400]
+    sma20 = sma20[481:1681]
     sma20 = sma20.reset_index()
     sma20 = sma20['SMA']
     sma80 = pd.read_csv('csv/FB1min1000sma80.csv')
     # sma80 = sma80.tail(100).reset_index()
-    sma80 = sma80[900:1400]
+    sma80 = sma80[421:1621]
     sma80 = sma80.reset_index()
     sma80 = sma80['SMA']
-    return price, price2, sma20, sma80
+
+    stoch = pd.read_csv('csv/FB1min1000stoch.csv')
+    stoch = stoch[492:1692]
+    stoch = stoch.reset_index()
+    slowD = stoch['SlowD']
+    slowK = stoch['SlowK']
+
+    return price, price2, sma20, sma80, slowD, slowK
 
 # initialize first state
-def initializeState(data, data_prev, sma20, sma80):
+def initializeState(data, data_prev, sma20, sma80,slowD,slowK):
 
     # stack all data into a table
-    pdata = np.column_stack((data, data_prev, sma20, sma80))
+    pdata = np.column_stack((data, data_prev, sma20, sma80,slowD,slowK))
     pdata = np.nan_to_num(pdata)
 
     # pre-process data using standard scalar
@@ -126,12 +133,12 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
 
 # test agent without random actions
-def test_agent(model, data,data_prev, sma20, sma80):
+def test_agent(model, data,data_prev, sma20, sma80,slowD,slowK):
 
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)
 
-    state, pdata = initializeState(data, data_prev, sma20, sma80)
+    state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK)
     endState = 0
     timeStep = 1
     realProfit = 0
@@ -159,6 +166,11 @@ def test_agent(model, data,data_prev, sma20, sma80):
     print('r-Buy: ', long, ', r-Sell: ', short, 'r-hold: ',hold)
 
     bt = twp.Backtest(data, signal, signalType='shares')
+    plt.figure(figsize=(20, 10))
+    bt.plotTrades()
+    plt.suptitle(str(i))
+    plt.savefig('plot/' + str(i) + '.png')
+    plt.show()
     endReward = bt.pnl.iloc[-1]
 
     return endReward, realProfit

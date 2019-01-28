@@ -1,23 +1,23 @@
 import random
 import timeit
-from matplotlib import pyplot as plt
+
 
 from functions import *
 
 # number of training episodes
-episodes = 500
+episodes = 1000
 
 # discount factor, higher gamma, more important future reward
-gamma = 0.95
+gamma = 0.9
 
 # probability of action randomness
 epsilon = 1
 
 # batchsize to be fed into the neural net
-minibatch_size = 32
+minibatch_size = 50
 
 # experience replay buffer size
-buffer_size = 64
+buffer_size = 100
 
 # initialize experience replay buffer
 replay_buffer = []
@@ -35,7 +35,7 @@ real_pnl_progress = []
 real_profit_progress = []
 
 # get price & techinical indicator data as pandas dataframe
-data, data_prev, sma20, sma80 = getData()
+data, data_prev, sma20, sma80, slowD,slowK = getData()
 
 # get neural net model
 model = getModel(0)
@@ -50,7 +50,7 @@ startTime = timeit.default_timer()
 # training start
 for i in range(episodes):
 
-    state, pdata = initializeState(data, data_prev, sma20, sma80)
+    state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK)
 
     # indicate if now it's last state
     endState = 0
@@ -146,7 +146,7 @@ for i in range(episodes):
     endReward = bt.pnl.iloc[-1]
 
     # test real performance of the agent without randomness
-    r_reward, r_profit = test_agent(model, data, data_prev, sma20, sma80)
+    r_reward, r_profit = test_agent(model, data, data_prev, sma20, sma80,slowD,slowK)
 
     # append real performance result to the progress list
     real_pnl_progress.append((r_reward))
@@ -155,18 +155,34 @@ for i in range(episodes):
     pnl_progress.append((endReward))
     profit_progress.append((profit))
 
+    with open('progress_file/real_pnl_progress.txt', 'w') as filehandle:
+        for listitem in real_pnl_progress:
+            filehandle.write('%s\n' % listitem)
+
+    with open('progress_file/real_profit_progress.txt', 'w') as filehandle:
+        for listitem in real_profit_progress:
+            filehandle.write('%s\n' % listitem)
+
+    with open('progress_file/pnl_progress.txt', 'w') as filehandle:
+        for listitem in pnl_progress:
+            filehandle.write('%s\n' % listitem)
+
+    with open('progress_file/profit_progress.txt', 'w') as filehandle:
+        for listitem in profit_progress:
+            filehandle.write('%s\n' % listitem)
+
     print("Episode #: %s PnL:      %f Epsilon: %f Profit: %f" % (i, endReward, epsilon, profit))
     print("Episode #: %s real PnL: %f               real Profit: %f" % (i, r_reward, r_profit))
 
     # set plot size
-    plt.figure(figsize=(20, 10))
-    bt.plotTrades()
-    plt.suptitle(str(i))
-    plt.savefig('plot/' + str(i) + '.png')
-    plt.show()
+  #  plt.figure(figsize=(20, 10))
+   # bt.plotTrades()
+  #  plt.suptitle(str(i))
+   # plt.savefig('plot/' + str(i) + '.png')
+  #  plt.show()
 
     # save model to file every 20 episodes
-    if i % 20 == 0 :
+    if i % 20 == 0 and i!=0:
         model.save('model/episode' + str(i) + '.h5')
 
     # decrement epsilon over time
@@ -181,6 +197,12 @@ model.save('model/FINAL_model.h5')
 
 bt = twp.Backtest(data, signal, signalType='shares')
 print(bt.data)
+
+
+with open('progress_file/signal.txt', 'w') as filehandle:
+    for listitem in signal:
+        filehandle.write('%s\n' % listitem)
+
 
 # smoothing the curve using moving average
 
