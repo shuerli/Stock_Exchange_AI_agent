@@ -10,7 +10,7 @@ gamma = 0.95
 epsilon = 0.1
 
 # get price & techinical indicator data as pandas dataframe
-data, data_prev, sma20, sma80 = getData()
+data, data_prev, sma20, sma80,slowD,slowK = getData()
 
 # load model from file
 model = getModel(1)
@@ -19,7 +19,7 @@ model = getModel(1)
 signal = pd.Series(index=np.arange(len(data)))
 signal.fillna(value=0, inplace=True)
 
-state, pdata = initializeState(data, data_prev, sma20, sma80)
+state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK)
 # indicate if now it's last state
 endState = 0
 timeStep = 1
