@@ -19,7 +19,7 @@ def getModel(load):
     num_inputs = 6
 
     if load:
-        model = load_model('model/episode400.h5')
+        model = load_model('model/episode960.h5')
     else:
         model = Sequential()
         model.add(LSTM(64, input_shape=(1, num_inputs), return_sequences=True, stateful=False))
@@ -34,28 +34,28 @@ def getModel(load):
 def getData():
     price = pd.read_csv('csv/FB1min1000.csv')
     # price = price.tail(100).reset_index()
-    price = price[500:1700]
+    price = price[100:275]
     price = price.reset_index()
     price = price['4. close']
 
     price2 = pd.read_csv('csv/FB1min1000.csv')
-    price2 = price2[499:1699]
+    price2 = price2[99:274]
     price2 = price2.reset_index()
     price2 = price2['4. close']
 
     sma20 = pd.read_csv('csv/FB1min1000sma20.csv')
     # sma20 = sma20.tail(100).reset_index()
-    sma20 = sma20[481:1681]
+    sma20 = sma20[81:256]
     sma20 = sma20.reset_index()
     sma20 = sma20['SMA']
     sma80 = pd.read_csv('csv/FB1min1000sma80.csv')
     # sma80 = sma80.tail(100).reset_index()
-    sma80 = sma80[421:1621]
+    sma80 = sma80[21:196]
     sma80 = sma80.reset_index()
     sma80 = sma80['SMA']
 
     stoch = pd.read_csv('csv/FB1min1000stoch.csv')
-    stoch = stoch[492:1692]
+    stoch = stoch[92:267]
     stoch = stoch.reset_index()
     slowD = stoch['SlowD']
     slowK = stoch['SlowK']
