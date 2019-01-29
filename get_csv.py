@@ -31,13 +31,21 @@ sma20 = sma20[81:256]
 sma80 = sma80[21:196]
 stoch = stoch[92:267]
 
+price = price.reset_index()
+price = price['4. close']
+sma20 = sma20.reset_index()
+sma20 = sma20['SMA']
+sma80 = sma80.reset_index()
+sma80 = sma80['SMA']
 #price = price[200:1000] bear
 #sma20 = sma20[181:981]
 #sma80 = sma80[121:921]
 #stoch = stoch[192:992]
 #plt.plot(sma20['SMA'],'b')
 #plt.plot(sma80['SMA'], 'g')
-plt.plot(price['4. close'],'r')
+plt.plot(price,'r')
+plt.plot(sma20,'g')
+plt.plot(sma80,'b')
 plt.show()
 print(price)
 print(sma20)

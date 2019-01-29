@@ -82,16 +82,36 @@ def initializeState(data, data_prev, sma20, sma80,slowD,slowK):
     return initialState, pdata
 
 # reward function
-def getReward(timeStep, signal, price):
+def getReward(timeStep, signal, price,state):
 
     # net earning from previous action
     net = (price[timeStep] - price[timeStep - 1]) * signal[timeStep - 1]
     rewards = 0
 
+
+    #intuition reward
     if net > 0:
-        rewards = 1
+        rewards += 1
     elif net < 0:
-        rewards = -1
+        rewards -= 1
+    else:
+        rewards -= 1 #don't encourage hold
+
+
+    #sma reward
+    sma20 = state[0,0,2]
+    sma80 = state[0,0,3]
+    sma_net = sma20 - sma80
+
+    if sma_net < 0 : # short sma < long sma, down trend
+        if signal[timeStep - 1] < 0:
+            rewards += 0.5
+    elif sma_net > 0: #short sma > long sma, up trend
+        if signal[timeStep - 1] > 0:
+            rewards += 0.5
+
+
+
 
 
     return rewards
@@ -124,7 +144,7 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
     else:
         signal.loc[timeStep - 1] = 0
 
-    reward = getReward(timeStep,signal,data)
+    reward = getReward(timeStep,signal,data,state)
 
     return state, timeStep, signal, endState, profit, reward
 
