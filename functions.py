@@ -159,7 +159,7 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
 
 # test agent without random actions
-def test_agent(model, data,data_prev, sma20, sma80,slowD,slowK):
+def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK, episode_i):
 
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)
@@ -182,21 +182,21 @@ def test_agent(model, data,data_prev, sma20, sma80,slowD,slowK):
     long = 0
     short = 0
     hold = 0
-    for i in range(signal.shape[0]):
-        if signal.iloc[i] < 0:
+    for j in range(signal.shape[0]):
+        if signal.iloc[j] < 0:
             short += 1
-        elif signal.iloc[i] > 0:
+        elif signal.iloc[j] > 0:
             long += 1
         else:
             hold+=1
     print('r-Buy: ', long, ', r-Sell: ', short, 'r-hold: ',hold)
 
     bt = twp.Backtest(data, signal, signalType='shares')
-    print(bt.data,signal)
     plt.figure(figsize=(20, 10))
     bt.plotTrades()
-    plt.suptitle(str(i))
-    plt.savefig('plot/' + str(i) + '.png')
+    plt.suptitle(str(episode_i))
+    if episode_i % 2 == 0:
+        plt.savefig('plot/' + str(episode_i) + '.png')
     plt.show()
     endReward = bt.pnl.iloc[-1]
 

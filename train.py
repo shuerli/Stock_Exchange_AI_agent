@@ -146,7 +146,7 @@ for i in range(episodes):
     endReward = bt.pnl.iloc[-1]
 
     # test real performance of the agent without randomness
-    r_reward, r_profit = test_agent(model, data, data_prev, sma20, sma80,slowD,slowK)
+    r_reward, r_profit = test_agent(model, data, data_prev, sma20, sma80,slowD,slowK, i)
 
     # append real performance result to the progress list
     real_pnl_progress.append((r_reward))
