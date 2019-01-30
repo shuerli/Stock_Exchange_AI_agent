@@ -7,6 +7,7 @@ from keras.models import Sequential
 from keras.layers.core import Dense, Dropout
 from keras.layers.recurrent import LSTM
 from keras.models import load_model
+from keras.optimizers import Adam
 
 from matplotlib import pyplot as plt
 # pnl explained : https://www.investopedia.com/ask/answers/how-do-you-calculate-percentage-gain-or-loss-investment/
@@ -21,13 +22,20 @@ def getModel(load):
     if load:
         model = load_model('model/episode960.h5')
     else:
+        '''
         model = Sequential()
         model.add(LSTM(64, input_shape=(1, num_inputs), return_sequences=True, stateful=False))
         model.add(Dropout(0.2))
         model.add(LSTM(64, return_sequences=False, stateful=False))
         model.add(Dropout(0.2))
         model.add(Dense(3, activation="linear"))
-        model.compile(optimizer='adam', loss='mse')
+        model.compile(optimizer='adam', loss='mse')'''
+        model = Sequential()
+        model.add(Dense(units=64, input_dim=num_inputs, activation="relu"))
+        model.add(Dense(units=32, activation="relu"))
+        model.add(Dense(units=8, activation="relu"))
+        model.add(Dense(3, activation="linear"))
+        model.compile(loss="mse", optimizer=Adam(lr=0.001))
     return model
 
 # read data into pandas dataframe from csv file
@@ -74,10 +82,11 @@ def initializeState(data, data_prev, sma20, sma80,slowD,slowK):
     pdata = scaler.fit_transform(pdata)
 
     # expand dimension to fit into the neural net input
-    pdata = np.expand_dims(pdata, axis=1)
+    #pdata = np.expand_dims(pdata, axis=1)
 
     # initial state is 1st row of the table
-    initialState = pdata[0:1, :, :]
+    #initialState = pdata[0:1, :, :]
+    initialState = pdata[0:1, :]
 
     return initialState, pdata
 
@@ -104,8 +113,10 @@ def getReward(timeStep, signal, price,state, endState):
 
     if not endState:
         #sma reward
-        sma20 = state[0,0,2]
-        sma80 = state[0,0,3]
+        #sma20 = state[0,0,2]
+        #sma80 = state[0,0,3]
+        sma20 = state[0, 2]
+        sma80 = state[0,3]
         sma_net = sma20 - sma80
 
         if sma_net < 0 : # short sma < long sma, down trend
@@ -144,11 +155,13 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
     # determine if it's the last state
     if timeStep  == pdata.shape[0]:
         endState = 1
-        state = pdata[timeStep -1: timeStep, :, :]  # don't want go out of bound
+        #state = pdata[timeStep -1: timeStep, :, :]  # don't want go out of bound
+        state = pdata[timeStep - 1: timeStep, :]
     else:
         endState = 0
         # this is next state
-        state = pdata[timeStep: timeStep + 1, :, :]  # preserves dimension for lstm input
+        #state = pdata[timeStep: timeStep + 1, :, :]  # preserves dimension for lstm input
+        state = pdata[timeStep: timeStep + 1, :]
 
     reward = getReward(timeStep,signal,data,state, endState)
 
