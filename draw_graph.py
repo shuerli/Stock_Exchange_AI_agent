@@ -1,4 +1,5 @@
-from functions import *
+from matplotlib import pyplot as plt
+import pandas as pd
 
 pnl_progress = []
 profit_progress = []
@@ -41,10 +42,10 @@ with open('progress_file/real_profit_progress.txt', 'r') as filehandle:
         # add item to the list
         real_profit_progress.append(float(currentPlace))
 
-for i,val in enumerate(real_pnl_progress):
+for i,val in enumerate(pnl_progress):
     print(i,": ",val)
 
-pnl_df = pd.DataFrame({'col': real_pnl_progress})
+pnl_df = pd.DataFrame({'col': pnl_progress})
 
 pnl_df = pnl_df.rolling(window=100).mean()
 

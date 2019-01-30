@@ -77,38 +77,43 @@ def initializeState(data, data_prev, sma20, sma80,slowD,slowK):
     pdata = np.expand_dims(pdata, axis=1)
 
     # initial state is 1st row of the table
-    initialState = pdata[1:2, :, :]
+    initialState = pdata[0:1, :, :]
 
     return initialState, pdata
 
 # reward function
-def getReward(timeStep, signal, price,state):
+def getReward(timeStep, signal, price,state, endState):
 
-    # net earning from previous action
-    net = (price[timeStep] - price[timeStep - 1]) * signal[timeStep - 1]
+    if not endState:
+        # net earning from previous action
+        net = (price[timeStep] - price[timeStep - 1]) * signal[timeStep - 1]
+    else:
+        bt = twp.Backtest(price, signal, signalType='shares')
+        net = bt.pnl.iloc[-1]
     rewards = 0
 
 
     #intuition reward
     if net > 0:
-        rewards += 1
+        rewards += net
     elif net < 0:
-        rewards -= 1
+        rewards += net/2
     else:
         rewards -= 1 #don't encourage hold
 
 
-    #sma reward
-    sma20 = state[0,0,2]
-    sma80 = state[0,0,3]
-    sma_net = sma20 - sma80
+    if not endState:
+        #sma reward
+        sma20 = state[0,0,2]
+        sma80 = state[0,0,3]
+        sma_net = sma20 - sma80
 
-    if sma_net < 0 : # short sma < long sma, down trend
-        if signal[timeStep - 1] < 0:
-            rewards += 0.5
-    elif sma_net > 0: #short sma > long sma, up trend
-        if signal[timeStep - 1] > 0:
-            rewards += 0.5
+        if sma_net < 0 : # short sma < long sma, down trend
+            if signal[timeStep - 1] < 0:
+                rewards += abs(net)
+        elif sma_net > 0: #short sma > long sma, up trend
+            if signal[timeStep - 1] > 0:
+                rewards += abs(net)
 
 
 
@@ -120,31 +125,32 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
     profit = totalProfit
 
-    # increase timeStep
-    timeStep += 1
-
-    # this is next state
-    state = pdata[timeStep: timeStep + 1, :, :]  # preserves dimension for lstm input
-
-    # determine if it's the last state
-    if timeStep + 1 == pdata.shape[0]:
-        endState = 1
-    else:
-        endState = 0
-
     if action == 1:  # buy 1
-        signal.loc[timeStep - 1] = 1
-        inventory.append(data[timeStep - 1])
+        signal.loc[timeStep] = 10
+        inventory.append(data[timeStep])
     elif action == 2:  # sell 1
-        signal.loc[timeStep - 1] = -1
+        signal.loc[timeStep] = -10
 
         # if inventory is not empty, sell
         if len(inventory) > 0:
-            profit += data[timeStep - 1] - inventory.pop(0)
+            profit += data[timeStep] - inventory.pop(0)
     else:
-        signal.loc[timeStep - 1] = 0
+        signal.loc[timeStep] = 0
 
-    reward = getReward(timeStep,signal,data,state)
+    # increase timeStep
+    timeStep += 1
+
+
+    # determine if it's the last state
+    if timeStep  == pdata.shape[0]:
+        endState = 1
+        state = pdata[timeStep -1: timeStep, :, :]  # don't want go out of bound
+    else:
+        endState = 0
+        # this is next state
+        state = pdata[timeStep: timeStep + 1, :, :]  # preserves dimension for lstm input
+
+    reward = getReward(timeStep,signal,data,state, endState)
 
     return state, timeStep, signal, endState, profit, reward
 
@@ -157,7 +163,7 @@ def test_agent(model, data,data_prev, sma20, sma80,slowD,slowK):
 
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)
-
+    signal.loc[0] = 1
     state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK)
     endState = 0
     timeStep = 1
@@ -186,6 +192,7 @@ def test_agent(model, data,data_prev, sma20, sma80,slowD,slowK):
     print('r-Buy: ', long, ', r-Sell: ', short, 'r-hold: ',hold)
 
     bt = twp.Backtest(data, signal, signalType='shares')
+    print(bt.data,signal)
     plt.figure(figsize=(20, 10))
     bt.plotTrades()
     plt.suptitle(str(i))

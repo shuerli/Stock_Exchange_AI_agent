@@ -210,6 +210,7 @@ class Backtest(object):
         self.data['price'] = price
 
         self.data['shares'] = self.trades.reindex(self.data.index).ffill().fillna(0)
+        # self.data['shares'] = self.signal.reindex(self.data.index).ffill().fillna(0)
 
         self.data['value'] = self.data['shares'] * self.data['price']
 
@@ -280,21 +281,23 @@ class Backtest(object):
 
         # colored line for long positions
 
-        idx = (self.data['shares'] > 0)# | (self.data['shares'] > 0).shift(1)
+        #idx = (self.data['shares'] > 0) | (self.data['shares'] > 0).shift(1)
+        idx = (self.data['shares'] > 0)
 
         if idx.any():
-            #p[idx].plot(style='go')
-            p[idx].plot(style='g.')
+            p[idx].plot(style='go')
+            #p[idx].plot(style='g.')
 
             l.append('buy')
 
         # colored line for short positions
 
-        idx = (self.data['shares'] < 0)#| (self.data['shares'] < 0).shift(1)
+        #idx = (self.data['shares'] < 0)| (self.data['shares'] < 0).shift(1)
+        idx = (self.data['shares'] < 0)
 
         if idx.any():
-            p[idx].plot(style='r.')
-            #p[idx].plot(style='ro')
+            #p[idx].plot(style='r.')
+            p[idx].plot(style='ro')
             l.append('sell')
 
         plt.xlim([p.index[0], p.index[-1]])  # show full axis

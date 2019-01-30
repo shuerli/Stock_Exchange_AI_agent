@@ -18,7 +18,7 @@ model = getModel(1)
 # initialize signal(buy/sell/hold decisions)
 signal = pd.Series(index=np.arange(len(data)))
 signal.fillna(value=0, inplace=True)
-
+signal.loc[0] = 1
 state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK)
 # indicate if now it's last state
 endState = 0

@@ -8,7 +8,7 @@ from functions import *
 episodes = 1000
 
 # discount factor, higher gamma, more important future reward
-gamma = 0.9
+gamma = 0.5
 
 # probability of action randomness
 epsilon = 1
@@ -43,7 +43,7 @@ model = getModel(0)
 # initialize signal(buy/sell/hold decisions)
 signal = pd.Series(index=np.arange(len(data)))
 signal.fillna(value=0, inplace=True)
-
+signal.loc[0] = 1
 # timer start
 startTime = timeit.default_timer()
 
