@@ -5,7 +5,7 @@ import timeit
 from functions import *
 
 # number of training episodes
-episodes = 5
+episodes = 500
 
 # discount factor, higher gamma, more important future reward
 gamma = 0.95
@@ -14,10 +14,10 @@ gamma = 0.95
 epsilon = 1
 
 # batchsize to be fed into the neural net
-minibatch_size = 64
+minibatch_size = 128
 
 # experience replay buffer size
-buffer_size = 128
+buffer_size = 256
 
 # initialize experience replay buffer
 replay_buffer = []
