@@ -100,7 +100,7 @@ def initializeState(data, data_prev, sma20, sma80,slowD,slowK,rsi, dji):
     return initialState, pdata
 
 # reward function
-def getReward(timeStep, signal, price,state, endState):
+def getReward(timeStep, signal, price,state, endState, diff):
 
     if not endState:
         # net earning from previous action
@@ -115,13 +115,16 @@ def getReward(timeStep, signal, price,state, endState):
     if net > 0:
         rewards += net
     elif net < 0:
-        rewards += net/2
+        rewards += net/5
     else:
-        rewards -= 1 #don't encourage hold
+        #rewards -= 1 #don't encourage hold
+        rewards += 0
 
+    #profit reward
+    #rewards += diff
 
+    # sma reward
     if not endState:
-        #sma reward
         #sma20 = state[0,0,2]
         #sma80 = state[0,0,3]
         sma20 = state[0, 2]
@@ -130,10 +133,10 @@ def getReward(timeStep, signal, price,state, endState):
 
         if sma_net < 0 : # short sma < long sma, down trend
             if signal[timeStep - 1] < 0:
-                rewards += abs(net)
+                rewards += abs(sma_net)
         elif sma_net > 0: #short sma > long sma, up trend
             if signal[timeStep - 1] > 0:
-                rewards += abs(net)
+                rewards += abs(sma_net)
 
 
 
@@ -144,6 +147,7 @@ def getReward(timeStep, signal, price,state, endState):
 def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
     profit = totalProfit
+    diff = 0
 
     if action == 1:  # buy 1
         signal.loc[timeStep] = 10
@@ -153,7 +157,8 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
         # if inventory is not empty, sell
         if len(inventory) > 0:
-            profit += data[timeStep] - inventory.pop(0)
+            diff = data[timeStep] - inventory.pop(0)
+            profit += diff
     else:
         signal.loc[timeStep] = 0
 
@@ -172,7 +177,7 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
         #state = pdata[timeStep: timeStep + 1, :, :]  # preserves dimension for lstm input
         state = pdata[timeStep: timeStep + 1, :]
 
-    reward = getReward(timeStep,signal,data,state, endState)
+    reward = getReward(timeStep,signal,data,state, endState,diff)
 
     return state, timeStep, signal, endState, profit, reward
 
@@ -198,6 +203,7 @@ def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK,rsi,dji, episod
                                                                   realProfit)
 
         state = nextState
+
     while len(realInventory) > 0:
         realProfit += data.iloc[-1] - realInventory.pop(0)
 
@@ -219,7 +225,8 @@ def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK,rsi,dji, episod
     plt.suptitle(str(episode_i))
     if episode_i % 5 == 0:
         plt.savefig('plot/' + str(episode_i) + '.png')
-    #plt.show()
+    plt.show()
+    plt.close()
     endReward = bt.pnl.iloc[-1]
 
     return endReward, realProfit

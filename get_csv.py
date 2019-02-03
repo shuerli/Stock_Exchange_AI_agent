@@ -2,7 +2,8 @@ from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.techindicators import TechIndicators
 import pandas as pd
 from matplotlib import pyplot as plt
-
+import numpy as np
+from sklearn import preprocessing
 stock = 'GOOG'
 time = '1min'
 
@@ -42,16 +43,16 @@ dji = pd.read_csv('csv/dji.csv')
 #stoch = price - 8
 #rsi = price - 20
 
-#print(price)
+print(price)
 #print(sma20)
 #print(sma80)
 #print(stoch)
 #print(rsi)
-#print(dji)
+print(dji)
 
 
 
-price = price[400:600]
+#price = price[400:600]
 price = price.reset_index()
 price = price['4. close']
 
@@ -62,12 +63,18 @@ sma20 = sma20['SMA']
 sma80 = sma80[321:521]
 sma80 = sma80.reset_index()
 sma80 = sma80['SMA']
-#dji = dji.reset_index()
-#dji = dji['4. close']
+#dji = dji[400:600]
+dji = dji.reset_index()
+dji = dji['4. close']
 
+price = np.expand_dims(price,axis=1)
+dji = np.expand_dims(dji,axis=1)
+scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
+dji = scaler.fit_transform(dji)
+price = scaler.fit_transform(price)
 plt.plot(price,'r')
-plt.plot(sma20,'g')
-plt.plot(sma80,'b')
-#plt.plot(dji)
+#plt.plot(sma20,'g')
+#plt.plot(sma80,'b')
+plt.plot(dji)
 plt.show()
 

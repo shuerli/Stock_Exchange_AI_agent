@@ -5,7 +5,7 @@ import timeit
 from functions import *
 
 # number of training episodes
-episodes = 1500
+episodes = 500
 
 # discount factor, higher gamma, more important future reward
 gamma = 0.95
@@ -67,7 +67,8 @@ for i in range(episodes):
         if random.random() < epsilon:
             action = np.random.randint(0, 3)  # random action
         else:
-            action = (np.argmax(model.predict(state, batch_size=1)))  # agent action, argmax returns index of max qvalue
+            Q_value = model.predict(state, batch_size=1)
+            action = (np.argmax(Q_value))  # agent action, argmax returns index of max qvalue
 
         # perform trade and move to next state
         nextState, timeStep, signal, endState, profit,reward = trade(action, pdata, signal, timeStep, inventory, data, profit)
@@ -77,7 +78,7 @@ for i in range(episodes):
         replay_buffer.append((state, action, reward, nextState, endState))
 
         # reinforcement learning happens here
-        if len(replay_buffer) == buffer_size:
+        if len(replay_buffer) > buffer_size:
 
             # pop 1st element after buffer is full
             replay_buffer.pop(0)
@@ -92,11 +93,11 @@ for i in range(episodes):
             for transition in miniBatch:
                 state_, action_, reward_, newState_, endState_ = transition
                 # reward of current state
-                Q = model.predict(state, batch_size=1)
-                # max reward of next state
-                newQMax = np.max(model.predict(newState_, batch_size=1))
+                Q = model.predict(state_, batch_size=1)
 
                 if not endState_:
+                    # max reward of next state
+                    newQMax = np.max(model.predict(newState_, batch_size=1))
                     # non-terminal state
                     update = (reward_ + (gamma * newQMax))
                 else:
@@ -104,9 +105,9 @@ for i in range(episodes):
                     update = reward_
 
                 # update q table
-                Q[0][action] = update
+                Q[0][action_] = update
 
-                x.append(state)
+                x.append(state_)
                 y.append(Q)
 
             # reduce dimension
@@ -116,7 +117,7 @@ for i in range(episodes):
             # print(y)
 
             # fit data into the model
-            model.fit(x, y, epochs=2, verbose=0,
+            model.fit(x, y, epochs=1, verbose=0,
                       batch_size=minibatch_size)  # minibatch_size can be <= # of x datas
 
         state = nextState
@@ -171,8 +172,8 @@ for i in range(episodes):
         for listitem in profit_progress:
             filehandle.write('%s\n' % listitem)
 
-    print("Episode #: %s PnL:      %f Epsilon: %f Profit: %f" % (i, endReward, epsilon, profit))
-    print("Episode #: %s real PnL: %f               real Profit: %f" % (i, r_reward, r_profit))
+    print("Episode #:  %s PnL:      %f Epsilon: %f Profit: %f" % (i, endReward, epsilon, profit))
+    print("Episode #:  %s real PnL: %f              real Profit: %f" % (i, r_reward, r_profit))
 
     # set plot size
   #  plt.figure(figsize=(20, 10))
@@ -239,4 +240,4 @@ plt.plot(profit_df, 'b')
 plt.plot(r_profit_df, 'r')
 plt.tight_layout()
 plt.savefig('plot/summary' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)
-#plt.show()
+plt.show()
