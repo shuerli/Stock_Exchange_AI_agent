@@ -4,19 +4,19 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import numpy as np
 from sklearn import preprocessing
-stock = 'GOOG'
+stock = 'AAPL'
 time = '1min'
 
 ti = TechIndicators(key='H7M3SZXXJ81BCUQD', output_format='pandas', indexing_type='date')
 '''
-data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=20)
-data.to_csv('csv/sma20.csv')
+#data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=20)
+#data.to_csv('csv/sma20.csv')
 
 data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=80)
 data.to_csv('csv/sma80.csv')
 
-data, meta_data = ti.get_stoch(symbol=stock, interval=time)
-data.to_csv('csv/stoch.csv')
+#data, meta_data = ti.get_stoch(symbol=stock, interval=time)
+#data.to_csv('csv/stoch.csv')
 
 data, meta_data = ti.get_rsi(symbol=stock, interval=time)
 data.to_csv('csv/rsi.csv')
@@ -43,38 +43,49 @@ dji = pd.read_csv('csv/dji.csv')
 #stoch = price - 8
 #rsi = price - 20
 
-print(price)
+#print(price)
 #print(sma20)
 #print(sma80)
 #print(stoch)
-#print(rsi)
-print(dji)
+#rint(rsi)
+#print(dji)
 
 
-
-#price = price[400:600]
+price = price[1200:1800]
+print(price.iloc[0],'\n',price.iloc[-1],'\n')
 price = price.reset_index()
 price = price['4. close']
 
-sma20 = sma20[381:581]
+sma20 = sma20[1181:1781]
+print(sma20.iloc[0],'\n',sma20.iloc[-1],'\n')
+#print(sma20.to_string())
 sma20 = sma20.reset_index()
 sma20 = sma20['SMA']
 
-sma80 = sma80[321:521]
+sma80 = sma80[1119:1719]
+print(sma80.iloc[0],'\n',sma80.iloc[-1],'\n')
+#print(sma80.to_string())
 sma80 = sma80.reset_index()
 sma80 = sma80['SMA']
-#dji = dji[400:600]
+dji = dji[1207:1807]
+print(dji.iloc[0],'\n',dji.iloc[-1],'\n')
+#print(dji.to_string())
+stoch = stoch[1192:1792]
+print(stoch.iloc[0],'\n',stoch.iloc[-1],'\n')
+#print(stoch.to_string())
+rsi = rsi[1178:1778]
+print(rsi.iloc[0],'\n',rsi.iloc[-1],'\n')
+
 dji = dji.reset_index()
 dji = dji['4. close']
-
-price = np.expand_dims(price,axis=1)
+#price = np.expand_dims(price,axis=1)
 dji = np.expand_dims(dji,axis=1)
 scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
 dji = scaler.fit_transform(dji)
-price = scaler.fit_transform(price)
+#price = scaler.fit_transform(price)
 plt.plot(price,'r')
-#plt.plot(sma20,'g')
-#plt.plot(sma80,'b')
-plt.plot(dji)
+plt.plot(sma20,'g')
+plt.plot(sma80,'b')
+#plt.plot(dji)
 plt.show()
 

@@ -42,38 +42,38 @@ def getModel(load):
 # read data into pandas dataframe from csv file
 def getData():
     price = pd.read_csv('csv/price.csv')
-    price = price[400:600]
+    price = price[1200 :1800]
     price = price.reset_index()
     price = price['4. close']
 
     price2 = pd.read_csv('csv/price.csv')
-    price2 = price2[399:599]
+    price2 = price2[1199:1799]
     price2 = price2.reset_index()
     price2 = price2['4. close']
 
     sma20 = pd.read_csv('csv/sma20.csv')
-    sma20 = sma20[381:581]
+    sma20 = sma20[1181:1781]
     sma20 = sma20.reset_index()
     sma20 = sma20['SMA']
 
     sma80 = pd.read_csv('csv/sma80.csv')
-    sma80 = sma80[321:521]
+    sma80 = sma80[1119:1719]
     sma80 = sma80.reset_index()
     sma80 = sma80['SMA']
 
     stoch = pd.read_csv('csv/stoch.csv')
-    stoch = stoch[392:592]
+    stoch = stoch[1192:1792]
     stoch = stoch.reset_index()
     slowD = stoch['SlowD']
     slowK = stoch['SlowK']
 
     rsi = pd.read_csv('csv/rsi.csv')
-    rsi = rsi[380:580]
+    rsi = rsi[1178:1778]
     rsi = rsi.reset_index()
     rsi = rsi['RSI']
 
     dji = pd.read_csv('csv/dji.csv')
-    dji = dji[400:600]
+    dji = dji[1207:1807]
     dji = dji.reset_index()
     dji = dji['4. close']
 
