@@ -5,7 +5,7 @@ import timeit
 from functions import *
 
 # number of training episodes
-episodes = 500
+episodes = 5
 
 # discount factor, higher gamma, more important future reward
 gamma = 0.95
@@ -219,24 +219,16 @@ r_profit_df = pd.DataFrame({'col': real_profit_progress})
 r_pnl_df = r_pnl_df.rolling(window=60).mean()
 r_profit_df = r_profit_df.rolling(window=60).mean()
 
-plt.figure(figsize=(30, 20))
-plt.subplot(4, 1, 1)
-plt.title("trades")
-plt.xlabel("timestamp")
-bt.plotTrades()
-plt.subplot(4, 1, 2)
-plt.title("PnL")
-plt.xlabel("timestamp")
-bt.pnl.plot(style='-')
-plt.subplot(4, 1, 3)
+plt.figure(figsize=(20, 20))
+plt.subplot(2, 1, 1)
 plt.title("PnL progress")
 plt.xlabel("Episode(s)")
-plt.plot(pnl_df, 'b')
+plt.plot(real_pnl_progress, 'b')
 plt.plot(r_pnl_df, 'r')
-plt.subplot(4, 1, 4)
+plt.subplot(2, 1, 2)
 plt.title("Profit progress")
 plt.xlabel("Episode(s)")
-plt.plot(profit_df, 'b')
+plt.plot(real_profit_progress, 'b')
 plt.plot(r_profit_df, 'r')
 plt.tight_layout()
 plt.savefig('plot/summary' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)

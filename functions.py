@@ -100,7 +100,7 @@ def initializeState(data, data_prev, sma20, sma80,slowD,slowK,rsi, dji):
     return initialState, pdata
 
 # reward function
-def getReward(timeStep, signal, price,state, endState, diff):
+def getReward(timeStep, signal, price,state, endState):
 
     if not endState:
         # net earning from previous action
@@ -120,8 +120,7 @@ def getReward(timeStep, signal, price,state, endState, diff):
         #rewards -= 1 #don't encourage hold
         rewards += 0
 
-    #profit reward
-    #rewards += diff
+
 
     # sma reward
     if not endState:
@@ -147,7 +146,6 @@ def getReward(timeStep, signal, price,state, endState, diff):
 def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
     profit = totalProfit
-    diff = 0
 
     if action == 1:  # buy 1
         signal.loc[timeStep] = 10
@@ -155,10 +153,10 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
     elif action == 2:  # sell 1
         signal.loc[timeStep] = -10
 
-        # if inventory is not empty, sell
+        # if inventory is not empty, sell all
         if len(inventory) > 0:
-            diff = data[timeStep] - inventory.pop(0)
-            profit += diff
+            while len(inventory) > 0:
+                profit += data[timeStep] - inventory.pop(0)
     else:
         signal.loc[timeStep] = 0
 
@@ -177,7 +175,7 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
         #state = pdata[timeStep: timeStep + 1, :, :]  # preserves dimension for lstm input
         state = pdata[timeStep: timeStep + 1, :]
 
-    reward = getReward(timeStep,signal,data,state, endState,diff)
+    reward = getReward(timeStep,signal,data,state, endState)
 
     return state, timeStep, signal, endState, profit, reward
 
@@ -220,9 +218,16 @@ def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK,rsi,dji, episod
     print('Episode #: ',episode_i, ' r-Buy: ', long, ', r-Sell: ', short, 'r-hold: ',hold)
 
     bt = twp.Backtest(data, signal, signalType='shares')
-    plt.figure(figsize=(20, 10))
+    plt.figure(figsize=(20, 20))
+    plt.subplot(2,1,1)
+    plt.title("trades "+str(episode_i))
+    plt.xlabel("timestamp")
     bt.plotTrades()
-    plt.suptitle(str(episode_i))
+    plt.subplot(2, 1, 2)
+    plt.title("PnL "+str(episode_i))
+    plt.xlabel("timestamp")
+    bt.pnl.plot(style='-')
+
     if episode_i % 5 == 0:
         plt.savefig('plot/' + str(episode_i) + '.png')
     plt.show()
