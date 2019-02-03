@@ -5,19 +5,19 @@ import timeit
 from functions import *
 
 # number of training episodes
-episodes = 1000
+episodes = 1500
 
 # discount factor, higher gamma, more important future reward
-gamma = 0.5
+gamma = 0.95
 
 # probability of action randomness
 epsilon = 1
 
 # batchsize to be fed into the neural net
-minibatch_size = 50
+minibatch_size = 64
 
 # experience replay buffer size
-buffer_size = 100
+buffer_size = 128
 
 # initialize experience replay buffer
 replay_buffer = []
@@ -35,7 +35,7 @@ real_pnl_progress = []
 real_profit_progress = []
 
 # get price & techinical indicator data as pandas dataframe
-data, data_prev, sma20, sma80, slowD,slowK = getData()
+data, data_prev, sma20, sma80, slowD,slowK, rsi, dji = getData()
 
 # get neural net model
 model = getModel(0)
@@ -50,7 +50,7 @@ startTime = timeit.default_timer()
 # training start
 for i in range(episodes):
 
-    state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK)
+    state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK, rsi, dji)
 
     # indicate if now it's last state
     endState = 0
@@ -116,7 +116,7 @@ for i in range(episodes):
             # print(y)
 
             # fit data into the model
-            model.fit(x, y, epochs=1, verbose=0,
+            model.fit(x, y, epochs=2, verbose=0,
                       batch_size=minibatch_size)  # minibatch_size can be <= # of x datas
 
         state = nextState
@@ -137,7 +137,7 @@ for i in range(episodes):
             long += 1
         else:
             hold += 1
-    print('Buy: ', long, ', Sell: ', short, ', Hold: ', hold)
+    print('Episode #: ',i, ' Buy: ', long, ', Sell: ', short, ', Hold: ', hold)
 
     # incorporate all data into backtest module
     bt = twp.Backtest(data, signal, signalType='shares')
@@ -146,7 +146,7 @@ for i in range(episodes):
     endReward = bt.pnl.iloc[-1]
 
     # test real performance of the agent without randomness
-    r_reward, r_profit = test_agent(model, data, data_prev, sma20, sma80,slowD,slowK, i)
+    r_reward, r_profit = test_agent(model, data, data_prev, sma20, sma80,slowD,slowK,rsi,dji, i)
 
     # append real performance result to the progress list
     real_pnl_progress.append((r_reward))
@@ -182,7 +182,7 @@ for i in range(episodes):
   #  plt.show()
 
     # save model to file every 20 episodes
-    if i % 20 == 0 and i!=0:
+    if i % 50 == 0 and i!=0:
         model.save('model/episode' + str(i) + '.h5')
 
     # decrement epsilon over time
@@ -239,4 +239,4 @@ plt.plot(profit_df, 'b')
 plt.plot(r_profit_df, 'r')
 plt.tight_layout()
 plt.savefig('plot/summary' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)
-plt.show()
+#plt.show()

@@ -8,8 +8,9 @@ from keras.layers.core import Dense, Dropout
 from keras.layers.recurrent import LSTM
 from keras.models import load_model
 from keras.optimizers import Adam
-
-from matplotlib import pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 # pnl explained : https://www.investopedia.com/ask/answers/how-do-you-calculate-percentage-gain-or-loss-investment/
 # backtesting: a strategy to analyze how accurate a model did in performing trading with historycal data
 
@@ -17,7 +18,7 @@ from matplotlib import pyplot as plt
 def getModel(load):
 
     #number of inputs
-    num_inputs = 6
+    num_inputs = 8
 
     if load:
         model = load_model('model/episode960.h5')
@@ -40,41 +41,49 @@ def getModel(load):
 
 # read data into pandas dataframe from csv file
 def getData():
-    price = pd.read_csv('csv/FB1min1000.csv')
-    # price = price.tail(100).reset_index()
-    price = price[100:275]
+    price = pd.read_csv('csv/price.csv')
+    price = price[400:600]
     price = price.reset_index()
     price = price['4. close']
 
-    price2 = pd.read_csv('csv/FB1min1000.csv')
-    price2 = price2[99:274]
+    price2 = pd.read_csv('csv/price.csv')
+    price2 = price2[399:599]
     price2 = price2.reset_index()
     price2 = price2['4. close']
 
-    sma20 = pd.read_csv('csv/FB1min1000sma20.csv')
-    # sma20 = sma20.tail(100).reset_index()
-    sma20 = sma20[81:256]
+    sma20 = pd.read_csv('csv/sma20.csv')
+    sma20 = sma20[381:581]
     sma20 = sma20.reset_index()
     sma20 = sma20['SMA']
-    sma80 = pd.read_csv('csv/FB1min1000sma80.csv')
-    # sma80 = sma80.tail(100).reset_index()
-    sma80 = sma80[21:196]
+
+    sma80 = pd.read_csv('csv/sma80.csv')
+    sma80 = sma80[321:521]
     sma80 = sma80.reset_index()
     sma80 = sma80['SMA']
 
-    stoch = pd.read_csv('csv/FB1min1000stoch.csv')
-    stoch = stoch[92:267]
+    stoch = pd.read_csv('csv/stoch.csv')
+    stoch = stoch[392:592]
     stoch = stoch.reset_index()
     slowD = stoch['SlowD']
     slowK = stoch['SlowK']
 
-    return price, price2, sma20, sma80, slowD, slowK
+    rsi = pd.read_csv('csv/rsi.csv')
+    rsi = rsi[380:580]
+    rsi = rsi.reset_index()
+    rsi = rsi['RSI']
+
+    dji = pd.read_csv('csv/dji.csv')
+    dji = dji[400:600]
+    dji = dji.reset_index()
+    dji = dji['4. close']
+
+    return price, price2, sma20, sma80, slowD, slowK, rsi, dji
 
 # initialize first state
-def initializeState(data, data_prev, sma20, sma80,slowD,slowK):
+def initializeState(data, data_prev, sma20, sma80,slowD,slowK,rsi, dji):
 
     # stack all data into a table
-    pdata = np.column_stack((data, data_prev, sma20, sma80,slowD,slowK))
+    pdata = np.column_stack((data, data_prev, sma20, sma80,slowD,slowK, rsi, dji))
     pdata = np.nan_to_num(pdata)
 
     # pre-process data using standard scalar
@@ -172,12 +181,12 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
 
 # test agent without random actions
-def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK, episode_i):
+def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK,rsi,dji, episode_i):
 
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)
     signal.loc[0] = 1
-    state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK)
+    state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK,rsi,dji)
     endState = 0
     timeStep = 1
     realProfit = 0
@@ -202,15 +211,15 @@ def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK, episode_i):
             long += 1
         else:
             hold+=1
-    print('r-Buy: ', long, ', r-Sell: ', short, 'r-hold: ',hold)
+    print('Episode #: ',episode_i, ' r-Buy: ', long, ', r-Sell: ', short, 'r-hold: ',hold)
 
     bt = twp.Backtest(data, signal, signalType='shares')
     plt.figure(figsize=(20, 10))
     bt.plotTrades()
     plt.suptitle(str(episode_i))
-    if episode_i % 2 == 0:
+    if episode_i % 5 == 0:
         plt.savefig('plot/' + str(episode_i) + '.png')
-    plt.show()
+    #plt.show()
     endReward = bt.pnl.iloc[-1]
 
     return endReward, realProfit
