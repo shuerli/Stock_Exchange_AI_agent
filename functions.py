@@ -102,6 +102,8 @@ def initializeState(data, data_prev, sma20, sma80,slowD,slowK,rsi, dji):
 # reward function
 def getReward(timeStep, signal, price,state, endState):
 
+    unit_reward = 1
+
     if not endState:
         # net earning from previous action
         net = (price[timeStep] - price[timeStep - 1]) * signal[timeStep - 1]
@@ -110,19 +112,18 @@ def getReward(timeStep, signal, price,state, endState):
         net = bt.pnl.iloc[-1]
     rewards = 0
 
-
     #intuition reward
     if net > 0:
-        rewards += net
+        rewards += unit_reward*2
     elif net < 0:
-        rewards += net/5
+        rewards -= unit_reward/2
     else:
         #rewards -= 1 #don't encourage hold
         rewards += 0
 
 
 
-    # sma reward
+    '''# sma reward
     if not endState:
         #sma20 = state[0,0,2]
         #sma80 = state[0,0,3]
@@ -132,10 +133,10 @@ def getReward(timeStep, signal, price,state, endState):
 
         if sma_net < 0 : # short sma < long sma, down trend
             if signal[timeStep - 1] < 0:
-                rewards += abs(sma_net)
+                rewards += unit_reward
         elif sma_net > 0: #short sma > long sma, up trend
             if signal[timeStep - 1] > 0:
-                rewards += abs(sma_net)
+                rewards += unit_reward'''
 
 
 
