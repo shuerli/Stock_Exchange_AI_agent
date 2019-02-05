@@ -51,37 +51,43 @@ dji = pd.read_csv('csv/dji.csv')
 #print(dji)
 
 
-price = price[1200:1800]
+#price = price[1200:1800]
+price = price[900:1200]
 #price = price.tail(1000)
 print(price.iloc[0],'\n',price.iloc[-1],'\n')
+print('*****',price.shape[0])
 price = price.reset_index()
 price = price['4. close']
 
-sma20 = sma20[1181:1781]
+sma20 = sma20[881:1181]
 #sma20 = sma20.tail(1000)
 print(sma20.iloc[0],'\n',sma20.iloc[-1],'\n')
+print('*****',sma20.shape[0])
+print(sma20)
 #print(sma20.to_string())
 sma20 = sma20.reset_index()
 sma20 = sma20['SMA']
 
-sma80 = sma80[1119:1719]
+sma80 = sma80[820:1119]
 #sma80 = sma80.tail(1000)
 print(sma80.iloc[0],'\n',sma80.iloc[-1],'\n')
+print('*****',sma80.shape[0])
+print(sma80)
 #print(sma80.to_string())
 sma80 = sma80.reset_index()
 sma80 = sma80['SMA']
 
-dji = dji[1207:1807]
+dji = dji[899:1207]
 #dji = dji.tail(1000)
 print(dji.iloc[0],'\n',dji.iloc[-1],'\n')
 #print(dji.to_string())
 
-stoch = stoch[1192:1792]
+stoch = stoch[892:1192]
 #stoch = stoch.tail(1000)
 print(stoch.iloc[0],'\n',stoch.iloc[-1],'\n')
 #print(stoch.to_string())
 
-rsi = rsi[1178:1778]
+rsi = rsi[879:1178]
 #rsi = rsi.tail(1000)
 print(rsi.iloc[0],'\n',rsi.iloc[-1],'\n')
 

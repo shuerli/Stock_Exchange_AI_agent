@@ -9,19 +9,19 @@ from keras.layers.recurrent import LSTM
 from keras.models import load_model
 from keras.optimizers import Adam
 import matplotlib
-matplotlib.use('Agg')
+#matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 # pnl explained : https://www.investopedia.com/ask/answers/how-do-you-calculate-percentage-gain-or-loss-investment/
 # backtesting: a strategy to analyze how accurate a model did in performing trading with historycal data
 
 
-def getModel(load):
+def getModel(test):
 
     #number of inputs
     num_inputs = 8
 
-    if load:
-        model = load_model('model/episode960.h5')
+    if test:
+        model = load_model('model/FINAL_model.h5')
     else:
         '''
         model = Sequential()
@@ -39,43 +39,65 @@ def getModel(load):
         model.compile(loss="mse", optimizer=Adam(lr=0.001))
     return model
 
-# read data into pandas dataframe from csv file
-def getData():
+
+def merge_data():
     price = pd.read_csv('csv/price.csv')
-    price = price[1200 :1800]
-    price = price.reset_index()
-    price = price['4. close']
-
-    price2 = pd.read_csv('csv/price.csv')
-    price2 = price2[1199:1799]
-    price2 = price2.reset_index()
-    price2 = price2['4. close']
-
     sma20 = pd.read_csv('csv/sma20.csv')
-    sma20 = sma20[1181:1781]
-    sma20 = sma20.reset_index()
-    sma20 = sma20['SMA']
-
     sma80 = pd.read_csv('csv/sma80.csv')
-    sma80 = sma80[1119:1719]
-    sma80 = sma80.reset_index()
-    sma80 = sma80['SMA']
-
     stoch = pd.read_csv('csv/stoch.csv')
-    stoch = stoch[1192:1792]
-    stoch = stoch.reset_index()
-    slowD = stoch['SlowD']
-    slowK = stoch['SlowK']
-
     rsi = pd.read_csv('csv/rsi.csv')
-    rsi = rsi[1178:1778]
-    rsi = rsi.reset_index()
-    rsi = rsi['RSI']
-
     dji = pd.read_csv('csv/dji.csv')
-    dji = dji[1207:1807]
-    dji = dji.reset_index()
-    dji = dji['4. close']
+
+
+    price = price[['date','4. close']]
+    price.columns = ['date','price']
+    sma20 = sma20[['date', 'SMA']]
+    sma20.columns = ['date','sma20']
+    sma80 = sma80[['date', 'SMA']]
+    sma80.columns = ['date','sma80']
+    dji = dji[['date','4. close']]
+    dji.columns = ['date','dji']
+
+    indicator = pd.merge(sma80,sma20,on='date')
+    indicator = pd.merge(indicator,stoch, on='date')
+    indicator = pd.merge(indicator,rsi,on='date')
+
+    stock = pd.merge(price,dji,on='date')
+
+    stock['date'] = pd.to_datetime(stock.date)
+    indicator['date'] = pd.to_datetime(indicator.date)
+
+    final = pd.merge(stock,indicator, on='date')
+    return final
+
+
+# read data into pandas dataframe from csv file
+def getData(test):
+    
+    data = merge_data()
+    if not test:
+        data1 = data[1100:1700]
+        data2 = data[1099:1699]
+    else:
+        data1 = data[900:1100]
+        data2 = data[900:1100]
+
+
+
+    data1 = data1.reset_index()
+    data2 = data2.reset_index()
+
+
+    price = data1['price']
+    price2 = data2['price']
+    sma20 = data1['sma20']
+    sma80 = data1['sma80']
+    slowD = data1['SlowD']
+    slowK = data1['SlowK']
+    rsi = data1['RSI']
+    dji = data1['dji']
+
+
 
     return price, price2, sma20, sma80, slowD, slowK, rsi, dji
 

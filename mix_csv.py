@@ -1,5 +1,5 @@
 import pandas as pd
-
+from matplotlib import pyplot as plt
 price = pd.read_csv('csv/price.csv')
 sma20 = pd.read_csv('csv/sma20.csv')
 sma80 = pd.read_csv('csv/sma80.csv')
@@ -40,3 +40,13 @@ print(rsi)
 print(indicator)
 print(stock)
 print(final)
+
+final = final[750:1100]
+price = final['price']
+s2 = final['sma20']
+s8 = final['sma80']
+
+plt.plot(price,'r')
+plt.plot(s2,'g')
+plt.plot(s8,'b')
+plt.show()

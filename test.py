@@ -3,14 +3,9 @@ import random
 
 from functions import *
 
-# discount factor, higher gamma, more important future reward
-gamma = 0.95
-
-# probability of action randomness
-epsilon = 0.1
 
 # get price & techinical indicator data as pandas dataframe
-data, data_prev, sma20, sma80,slowD,slowK = getData()
+data, data_prev, sma20, sma80, slowD,slowK, rsi, dji = getData(1)
 
 # load model from file
 model = getModel(1)
@@ -19,7 +14,7 @@ model = getModel(1)
 signal = pd.Series(index=np.arange(len(data)))
 signal.fillna(value=0, inplace=True)
 signal.loc[0] = 1
-state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK)
+state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK, rsi, dji)
 # indicate if now it's last state
 endState = 0
 timeStep = 1
@@ -27,11 +22,7 @@ inventory = []
 profit = 0
 while not endState:
 
-    # exploitation vs exploration
-    if random.random() < epsilon:  # random decision
-        action = np.random.randint(0, 3)
-    else:  # agent decision
-        action = (np.argmax(model.predict(state, batch_size=1)))
+    action = (np.argmax(model.predict(state, batch_size=1)))
 
     # perform trade and move to next state
     nextState, timeStep, signal, endState, profit,reward = trade(action, pdata, signal, timeStep, inventory, data, profit)
@@ -63,7 +54,7 @@ print("profit is ", profit)
 bt = twp.Backtest(data, signal, signalType='shares')
 print(bt.data)
 
-plt.figure(figsize=(10, 10))
+plt.figure(figsize=(20, 20))
 plt.subplot(2, 1, 1)
 plt.title("trades")
 plt.xlabel("timestamp")
@@ -73,5 +64,5 @@ plt.title("PnL")
 plt.xlabel("timestamp")
 bt.pnl.plot(style='-')
 plt.tight_layout()
-plt.savefig('plot/summary_test' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)
+#plt.savefig('plot/summary_test' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)
 plt.show()
