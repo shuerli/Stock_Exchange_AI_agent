@@ -5,7 +5,7 @@ import timeit
 from functions import *
 
 # number of training episodes
-episodes = 500
+episodes = 1000
 
 # discount factor, higher gamma, more important future reward
 gamma = 0.95
@@ -35,7 +35,7 @@ real_pnl_progress = []
 real_profit_progress = []
 
 # get price & techinical indicator data as pandas dataframe
-data, data_prev, sma20, sma80, slowD,slowK, rsi, dji = getData()
+data, data_prev, sma20, sma80, slowD,slowK, rsi, dji = getData(0)
 
 # get neural net model
 model = getModel(0)
@@ -138,7 +138,7 @@ for i in range(episodes):
             long += 1
         else:
             hold += 1
-    print('Episode #: ',i, ' Buy: ', long, ', Sell: ', short, ', Hold: ', hold)
+    print('Episode #: ', i , ' With Random, Buy: ', long, ', Sell: ', short, ', Hold: ', hold)
 
     # incorporate all data into backtest module
     bt = twp.Backtest(data, signal, signalType='shares')
@@ -172,8 +172,8 @@ for i in range(episodes):
         for listitem in profit_progress:
             filehandle.write('%s\n' % listitem)
 
-    print("Episode #:  %s PnL:      %f Epsilon: %f Profit: %f" % (i, endReward, epsilon, profit))
-    print("Episode #:  %s real PnL: %f              real Profit: %f" % (i, r_reward, r_profit))
+    print("Episode #:  %s  With Random PnL: %f Profit: %f Epsilon: %f" % (i, endReward, profit, epsilon))
+    print("Episode #:  %s  No   Random PnL: %f Profit: %f" % (i, r_reward, r_profit))
 
     # set plot size
   #  plt.figure(figsize=(20, 10))

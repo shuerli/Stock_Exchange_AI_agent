@@ -75,12 +75,16 @@ def merge_data():
 def getData(test):
     
     data = merge_data()
-    if not test:
-        data1 = data[1100:1700]
-        data2 = data[1099:1699]
+    if test == 0:
+        data1 = data[1:801]
+        data2 = data[0:800]
+    elif test == 1:
+        data1 = data[801:1601]
+        data2 = data[800:1600]
     else:
-        data1 = data[900:1100]
-        data2 = data[900:1100]
+        data1 = data
+        data2 = data
+
 
 
 
@@ -238,7 +242,8 @@ def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK,rsi,dji, episod
             long += 1
         else:
             hold+=1
-    print('Episode #: ',episode_i, ' r-Buy: ', long, ', r-Sell: ', short, 'r-hold: ',hold)
+
+    print('Episode #: ', episode_i, ' No   Random, Buy: ', long, ', Sell: ', short, ', Hold: ', hold)
 
     bt = twp.Backtest(data, signal, signalType='shares')
     plt.figure(figsize=(20, 20))

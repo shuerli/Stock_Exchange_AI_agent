@@ -2,21 +2,23 @@ from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.techindicators import TechIndicators
 import pandas as pd
 from matplotlib import pyplot as plt
+from functions import getData
 import numpy as np
 from sklearn import preprocessing
-stock = 'AAPL'
+stock = 'IBM'
 time = '1min'
 
-ti = TechIndicators(key='H7M3SZXXJ81BCUQD', output_format='pandas', indexing_type='date')
 '''
-#data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=20)
-#data.to_csv('csv/sma20.csv')
+ti = TechIndicators(key='H7M3SZXXJ81BCUQD', output_format='pandas', indexing_type='date')
+
+data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=20)
+data.to_csv('csv/sma20.csv')
 
 data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=80)
 data.to_csv('csv/sma80.csv')
 
-#data, meta_data = ti.get_stoch(symbol=stock, interval=time)
-#data.to_csv('csv/stoch.csv')
+data, meta_data = ti.get_stoch(symbol=stock, interval=time)
+data.to_csv('csv/stoch.csv')
 
 data, meta_data = ti.get_rsi(symbol=stock, interval=time)
 data.to_csv('csv/rsi.csv')
@@ -30,14 +32,14 @@ data.to_csv('csv/price.csv')
 data, meta_data = ts.get_intraday(symbol='DJI',interval=time, outputsize='full')
 data.to_csv('csv/dji.csv')
 '''
-
+'''
 price = pd.read_csv('csv/price.csv')
 sma20 = pd.read_csv('csv/sma20.csv')
 sma80 = pd.read_csv('csv/sma80.csv')
 stoch = pd.read_csv('csv/stoch.csv')
 rsi = pd.read_csv('csv/rsi.csv')
 dji = pd.read_csv('csv/dji.csv')
-
+'''
 #sma20 = price - 19
 #sma80 = price - 79
 #stoch = price - 8
@@ -50,7 +52,7 @@ dji = pd.read_csv('csv/dji.csv')
 #rint(rsi)
 #print(dji)
 
-
+'''
 #price = price[1200:1800]
 price = price[900:1200]
 #price = price.tail(1000)
@@ -98,9 +100,18 @@ dji = np.expand_dims(dji,axis=1)
 scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
 dji = scaler.fit_transform(dji)
 #price = scaler.fit_transform(price)
-plt.plot(price,'r')
+'''
+
+#'''
+# get price & techinical indicator data as pandas dataframe
+data, data_prev, sma20, sma80, slowD,slowK, rsi, dji = getData(2)
+
+
+plt.plot(data,'r')
 plt.plot(sma20,'g')
 plt.plot(sma80,'b')
 #plt.plot(dji)
+plt.savefig('csv/stock.png')
 plt.show()
 
+#'''
