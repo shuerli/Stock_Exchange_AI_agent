@@ -41,7 +41,7 @@ print(indicator)
 print(stock)
 print(final)
 
-final = final[750:1100]
+final = final[500:1800]
 price = final['price']
 s2 = final['sma20']
 s8 = final['sma80']

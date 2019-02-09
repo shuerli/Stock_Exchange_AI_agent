@@ -68,23 +68,31 @@ def merge_data():
     indicator['date'] = pd.to_datetime(indicator.date)
 
     final = pd.merge(stock,indicator, on='date')
+    final = final.drop(columns=['date'])
     return final
 
 
 # read data into pandas dataframe from csv file
 def getData(test):
     
-    data = merge_data()
+    raw_data = merge_data()
+
+    # pre-process data using standard scalar
+    scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
+    processed_data = scaler.fit_transform(raw_data.values)
+
+    data = pd.DataFrame(processed_data, index = raw_data.index,columns=raw_data.columns)
+
+
     if test == 0:
-        data1 = data[1:801]
-        data2 = data[0:800]
+        data1 = data[1100:1800]
+        data2 = data[1099:1799]
     elif test == 1:
-        data1 = data[801:1601]
-        data2 = data[800:1600]
+        data1 = data[1100:1200]
+        data2 = data[1099:1199]
     else:
         data1 = data
         data2 = data
-
 
 
 
@@ -112,15 +120,8 @@ def initializeState(data, data_prev, sma20, sma80,slowD,slowK,rsi, dji):
     pdata = np.column_stack((data, data_prev, sma20, sma80,slowD,slowK, rsi, dji))
     pdata = np.nan_to_num(pdata)
 
-    # pre-process data using standard scalar
-    scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
-    pdata = scaler.fit_transform(pdata)
-
-    # expand dimension to fit into the neural net input
-    #pdata = np.expand_dims(pdata, axis=1)
-
     # initial state is 1st row of the table
-    #initialState = pdata[0:1, :, :]
+
     initialState = pdata[0:1, :]
 
     return initialState, pdata
