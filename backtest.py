@@ -285,8 +285,8 @@ class Backtest(object):
         idx = (self.data['shares'] > 0)
 
         if idx.any():
-            p[idx].plot(style='go')
-            #p[idx].plot(style='g.')
+            #p[idx].plot(style='go')
+            p[idx].plot(style='g.')
 
             l.append('buy')
 
@@ -296,8 +296,8 @@ class Backtest(object):
         idx = (self.data['shares'] < 0)
 
         if idx.any():
-            #p[idx].plot(style='r.')
-            p[idx].plot(style='ro')
+            p[idx].plot(style='r.')
+            #p[idx].plot(style='ro')
             l.append('sell')
 
         plt.xlim([p.index[0], p.index[-1]])  # show full axis

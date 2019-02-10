@@ -5,7 +5,7 @@ from functions import *
 
 
 # get price & techinical indicator data as pandas dataframe
-data, data_prev, sma20, sma80, slowD,slowK, rsi, dji = getData(1)
+pdata, data = getData(1)
 
 # load model from file
 model = getModel(1)
@@ -14,7 +14,7 @@ model = getModel(1)
 signal = pd.Series(index=np.arange(len(data)))
 signal.fillna(value=0, inplace=True)
 signal.loc[0] = 1
-state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK, rsi, dji)
+state= initializeState(pdata)
 # indicate if now it's last state
 endState = 0
 timeStep = 1

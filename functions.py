@@ -75,56 +75,77 @@ def merge_data():
 # read data into pandas dataframe from csv file
 def getData(test):
     
-    raw_data = merge_data()
+    '''raw_data = merge_data()
 
     # pre-process data using standard scalar
     scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
     processed_data = scaler.fit_transform(raw_data.values)
 
-    data = pd.DataFrame(processed_data, index = raw_data.index,columns=raw_data.columns)
-
-
-    if test == 0:
-        data1 = data[1100:1800]
-        data2 = data[1099:1799]
+    data = pd.DataFrame(processed_data, index = raw_data.index,columns=raw_data.columns)'''
+    data=merge_data()
+  
+    '''if test == 0:
+        data = data[1200:1700]
     elif test == 1:
-        data1 = data[1100:1200]
-        data2 = data[1099:1199]
+        data = data[1501:1801]
     else:
-        data1 = data
-        data2 = data
+        data = data
 
 
 
-    data1 = data1.reset_index()
-    data2 = data2.reset_index()
+    data = data.reset_index()'''
 
+    price = data['price'].values
+    price2 = np.diff(price)
+    price2 = np.insert(price2,0,0)
+    sma20 = data['sma20'].values
+    sma80 = data['sma80'].values
+    slowD = data['SlowD'].values
+    slowK = data['SlowK'].values
+    rsi = data['RSI'].values
+    dji = data['dji'].values
 
-    price = data1['price']
-    price2 = data2['price']
-    sma20 = data1['sma20']
-    sma80 = data1['sma80']
-    slowD = data1['SlowD']
-    slowK = data1['SlowK']
-    rsi = data1['RSI']
-    dji = data1['dji']
-
-
-
-    return price, price2, sma20, sma80, slowD, slowK, rsi, dji
-
-# initialize first state
-def initializeState(data, data_prev, sma20, sma80,slowD,slowK,rsi, dji):
 
     # stack all data into a table
-    pdata = np.column_stack((data, data_prev, sma20, sma80,slowD,slowK, rsi, dji))
+    pdata = np.column_stack((price, price2, sma20, sma80, slowD, slowK, rsi, dji))
     pdata = np.nan_to_num(pdata)
+    
+    scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
+    pdata = scaler.fit_transform(pdata)
 
+
+    
+
+    if test == 0:
+        pdata = pdata[1200:1700]
+        data = data[1200:1700]
+    elif test == 1:
+        pdata = pdata[1500:1800]
+        data = data[1500:1800]
+    else:
+        pdata = pdata
+        data = data
+
+    data = data.reset_index()
+    data = data['price']
+    
+    return pdata, data
+
+# initialize first state
+def initializeState(pdata):
+
+    # stack all data into a table
+    #pdata = np.column_stack((data, data_prev, sma20, sma80,slowD,slowK, rsi, dji))
+    #pdata = np.nan_to_num(pdata)
+    
+    #scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
+    #pdata = scaler.fit_transform(pdata)
+    
     # initial state is 1st row of the table
 
     initialState = pdata[0:1, :]
 
-    return initialState, pdata
+    return initialState
 
 # reward function
 def getReward(timeStep, signal, price,state, endState):
@@ -212,12 +233,12 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
 
 
 # test agent without random actions
-def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK,rsi,dji, episode_i):
+def test_agent(pdata, model, data, episode_i):
 
     signal = pd.Series(index=np.arange(len(data)))
     signal.fillna(value=0, inplace=True)
     signal.loc[0] = 1
-    state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK,rsi,dji)
+    state = initializeState(pdata)
     endState = 0
     timeStep = 1
     realProfit = 0
@@ -225,8 +246,7 @@ def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK,rsi,dji, episod
     while not endState:
         Q = model.predict(state, batch_size=1)
         action = (np.argmax(Q))
-        nextState, timeStep, signal, endState, realProfit,reward = trade(action, pdata, signal, timeStep, realInventory, data,
-                                                                  realProfit)
+        nextState, timeStep, signal, endState, realProfit,reward = trade(action, pdata, signal, timeStep, realInventory, data,realProfit)
 
         state = nextState
 

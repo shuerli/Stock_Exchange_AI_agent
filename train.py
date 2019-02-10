@@ -8,16 +8,16 @@ from functions import *
 episodes = 500
 
 # discount factor, higher gamma, more important future reward
-gamma = 0.95
+gamma = 0.8
 
 # probability of action randomness
 epsilon = 1
 
 # batchsize to be fed into the neural net
-minibatch_size = 128
+minibatch_size = 64
 
 # experience replay buffer size
-buffer_size = 256
+buffer_size = 128
 
 # initialize experience replay buffer
 replay_buffer = []
@@ -35,7 +35,7 @@ real_pnl_progress = []
 real_profit_progress = []
 
 # get price & techinical indicator data as pandas dataframe
-data, data_prev, sma20, sma80, slowD,slowK, rsi, dji = getData(0)
+pdata, data= getData(0)
 
 # get neural net model
 model = getModel(0)
@@ -50,7 +50,7 @@ startTime = timeit.default_timer()
 # training start
 for i in range(episodes):
 
-    state, pdata = initializeState(data, data_prev, sma20, sma80,slowD,slowK, rsi, dji)
+    state = initializeState(pdata)
 
     # indicate if now it's last state
     endState = 0
@@ -147,7 +147,7 @@ for i in range(episodes):
     endReward = bt.pnl.iloc[-1]
 
     # test real performance of the agent without randomness
-    r_reward, r_profit = test_agent(model, data, data_prev, sma20, sma80,slowD,slowK,rsi,dji, i)
+    r_reward, r_profit = test_agent(pdata,model, data, i)
 
     # append real performance result to the progress list
     real_pnl_progress.append((r_reward))
