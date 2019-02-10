@@ -9,7 +9,7 @@ from keras.layers.recurrent import LSTM
 from keras.models import load_model
 from keras.optimizers import Adam
 import matplotlib
-#matplotlib.use('Agg')
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 # pnl explained : https://www.investopedia.com/ask/answers/how-do-you-calculate-percentage-gain-or-loss-investment/
 # backtesting: a strategy to analyze how accurate a model did in performing trading with historycal data
@@ -257,7 +257,7 @@ def test_agent(model, data,data_prev, sma20, sma80, slowD, slowK,rsi,dji, episod
     plt.xlabel("timestamp")
     bt.pnl.plot(style='-')
 
-    if episode_i % 2 == 0:
+    if episode_i % 10 == 0:
         plt.savefig('plot/' + str(episode_i) + '.png')
     plt.show()
     plt.close()

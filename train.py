@@ -5,7 +5,7 @@ import timeit
 from functions import *
 
 # number of training episodes
-episodes = 1000
+episodes = 500
 
 # discount factor, higher gamma, more important future reward
 gamma = 0.95
