@@ -125,7 +125,7 @@ for i in range(episodes):
 
     # calculate final cash
     while len(inventory) > 0:
-        profit += data.iloc[-1] - inventory.pop(0)  # unsure if should be calculated this way??
+        profit += (data.iloc[-1] - inventory.pop(0))*10  # unsure if should be calculated this way??
 
     # print out decisions
     long = 0

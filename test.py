@@ -30,7 +30,7 @@ while not endState:
     state = nextState
 
 while len(inventory) > 0:
-    profit += data.iloc[-1] - inventory.pop(0)  # unsure if should be calculated this way??
+    profit += (data.iloc[-1] - inventory.pop(0))*10  # unsure if should be calculated this way??
 
 # print out decisions
 long = 0
@@ -64,5 +64,5 @@ plt.title("PnL")
 plt.xlabel("timestamp")
 bt.pnl.plot(style='-')
 plt.tight_layout()
-#plt.savefig('plot/summary_test' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)
+plt.savefig('plot/summary_test' + '.png', bbox_inches='tight', pad_inches=1, dpi=72)
 plt.show()

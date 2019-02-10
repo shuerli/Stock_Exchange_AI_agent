@@ -120,8 +120,8 @@ def getData(test):
         pdata = pdata[1200:1700]
         data = data[1200:1700]
     elif test == 1:
-        pdata = pdata[1500:1800]
-        data = data[1500:1800]
+        pdata = pdata[1600:]
+        data = data[1600:]
     else:
         pdata = pdata
         data = data
@@ -205,7 +205,7 @@ def trade(action, pdata, signal, timeStep, inventory, data, totalProfit):
         # if inventory is not empty, sell all
         if len(inventory) > 0:
             while len(inventory) > 0:
-                profit += data[timeStep] - inventory.pop(0)
+                profit += (data[timeStep] - inventory.pop(0))*10
     else:
         signal.loc[timeStep] = 0
 
