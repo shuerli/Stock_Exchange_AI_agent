@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 from functions import getData
 import numpy as np
 from sklearn import preprocessing
-stock = 'IBM'
+stock = 'MMM'
 time = '1min'
 
 '''
@@ -24,7 +24,7 @@ data, meta_data = ti.get_rsi(symbol=stock, interval=time)
 data.to_csv('csv/rsi.csv')
 '''
 '''
-ts = TimeSeries(key='SAFWRBY6D3BRFLUU',output_format='pandas', indexing_type='date')
+ts = TimeSeries(key='H7M3SZXXJ81BCUQD',output_format='pandas', indexing_type='date')
 
 data, meta_data = ts.get_intraday(symbol=stock,interval=time, outputsize='full')
 data.to_csv('csv/price.csv')
@@ -102,14 +102,14 @@ dji = scaler.fit_transform(dji)
 #price = scaler.fit_transform(price)
 '''
 
-#'''
+#   '''
 # get price & techinical indicator data as pandas dataframe
-data, data_prev, sma20, sma80, slowD,slowK, rsi, dji = getData(2)
+pdata,data = getData(2)
 
-
+print(data)
 plt.plot(data,'r')
-plt.plot(sma20,'g')
-plt.plot(sma80,'b')
+#plt.plot(sma20,'g')
+#plt.plot(sma80,'b')
 #plt.plot(dji)
 plt.savefig('csv/stock.png')
 plt.show()
