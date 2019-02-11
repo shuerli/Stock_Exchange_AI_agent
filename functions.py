@@ -33,7 +33,9 @@ def getModel(test):
         model.compile(optimizer='adam', loss='mse')'''
         model = Sequential()
         model.add(Dense(units=64, input_dim=num_inputs, activation="relu"))
+        model.add(Dropout(0.2))
         model.add(Dense(units=32, activation="relu"))
+        model.add(Dropout(0.2))
         model.add(Dense(units=8, activation="relu"))
         model.add(Dense(3, activation="linear"))
         model.compile(loss="mse", optimizer=Adam(lr=0.001))
@@ -117,11 +119,11 @@ def getData(test):
     
 
     if test == 0:
-        pdata = pdata[1200:1700]
-        data = data[1200:1700]
+        pdata = pdata[700:1700]
+        data = data[700:1700]
     elif test == 1:
-        pdata = pdata[1600:]
-        data = data[1600:]
+        pdata = pdata[1500:]
+        data = data[1500:]
     else:
         pdata = pdata
         data = data
