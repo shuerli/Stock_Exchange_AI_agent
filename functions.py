@@ -119,8 +119,8 @@ def getData(test):
     
 
     if test == 0:
-        pdata = pdata[700:1700]
-        data = data[700:1700]
+        pdata = pdata[:1500]
+        data = data[:1500]
     elif test == 1:
         pdata = pdata[1500:]
         data = data[1500:]
@@ -253,7 +253,7 @@ def test_agent(pdata, model, data, episode_i):
         state = nextState
 
     while len(realInventory) > 0:
-        realProfit += data.iloc[-1] - realInventory.pop(0)
+        realProfit += (data.iloc[-1] - realInventory.pop(0))*10
 
     long = 0
     short = 0

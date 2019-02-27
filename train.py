@@ -14,10 +14,10 @@ gamma = 0.8
 epsilon = 1
 
 # batchsize to be fed into the neural net
-minibatch_size = 100
+minibatch_size = 128
 
 # experience replay buffer size
-buffer_size = 200
+buffer_size = 256
 
 # initialize experience replay buffer
 replay_buffer = []

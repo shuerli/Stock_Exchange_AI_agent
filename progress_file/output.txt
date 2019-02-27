@@ -1,0 +1,2065 @@
+Episode #:  0  With Random, Buy:  502 , Sell:  503 , Hold:  495
+Episode #:  0  No   Random, Buy:  242 , Sell:  1258 , Hold:  0
+Episode #:  0  With Random PnL: 40.216000 Profit: 69.699000 Epsilon: 1.000000
+Episode #:  0  No   Random PnL: 42.066000 Profit: 234.938900
+Episode #:  1  With Random, Buy:  510 , Sell:  520 , Hold:  470
+Episode #:  1  No   Random, Buy:  214 , Sell:  1286 , Hold:  0
+Episode #:  1  With Random PnL: -20.061000 Profit: 28.360000 Epsilon: 0.998000
+Episode #:  1  No   Random PnL: 68.278000 Profit: 227.983900
+Episode #:  2  With Random, Buy:  497 , Sell:  508 , Hold:  495
+Episode #:  2  No   Random, Buy:  501 , Sell:  999 , Hold:  0
+Episode #:  2  With Random PnL: 37.500000 Profit: 20.967000 Epsilon: 0.996000
+Episode #:  2  No   Random PnL: 83.380000 Profit: 240.020900
+Episode #:  3  With Random, Buy:  528 , Sell:  491 , Hold:  481
+Episode #:  3  No   Random, Buy:  95 , Sell:  1405 , Hold:  0
+Episode #:  3  With Random PnL: -8.259000 Profit: 55.197000 Epsilon: 0.994000
+Episode #:  3  No   Random PnL: 63.072000 Profit: 138.417000
+Episode #:  4  With Random, Buy:  469 , Sell:  533 , Hold:  498
+Episode #:  4  No   Random, Buy:  1068 , Sell:  432 , Hold:  0
+Episode #:  4  With Random PnL: -33.319000 Profit: -40.612000 Epsilon: 0.992000
+Episode #:  4  No   Random PnL: 166.550000 Profit: 1111.481000
+Episode #:  5  With Random, Buy:  499 , Sell:  518 , Hold:  483
+Episode #:  5  No   Random, Buy:  744 , Sell:  756 , Hold:  0
+Episode #:  5  With Random PnL: 18.277000 Profit: -28.856000 Epsilon: 0.990000
+Episode #:  5  No   Random PnL: 160.314000 Profit: 574.844900
+Episode #:  6  With Random, Buy:  523 , Sell:  486 , Hold:  491
+Episode #:  6  No   Random, Buy:  1013 , Sell:  487 , Hold:  0
+Episode #:  6  With Random PnL: 31.088000 Profit: 14.220000 Epsilon: 0.988000
+Episode #:  6  No   Random PnL: 190.692000 Profit: 1216.038900
+Episode #:  7  With Random, Buy:  492 , Sell:  515 , Hold:  493
+Episode #:  7  No   Random, Buy:  1091 , Sell:  409 , Hold:  0
+Episode #:  7  With Random PnL: 0.285000 Profit: 36.880000 Epsilon: 0.986000
+Episode #:  7  No   Random PnL: 188.258000 Profit: 3197.526000
+Episode #:  8  With Random, Buy:  508 , Sell:  509 , Hold:  483
+Episode #:  8  No   Random, Buy:  1013 , Sell:  487 , Hold:  0
+Episode #:  8  With Random PnL: -42.530000 Profit: 23.394000 Epsilon: 0.984000
+Episode #:  8  No   Random PnL: 223.722000 Profit: 2906.835900
+Episode #:  9  With Random, Buy:  526 , Sell:  490 , Hold:  484
+Episode #:  9  No   Random, Buy:  1212 , Sell:  288 , Hold:  0
+Episode #:  9  With Random PnL: 54.214000 Profit: 61.345000 Epsilon: 0.982000
+Episode #:  9  No   Random PnL: 220.452000 Profit: 3259.559900
+Episode #:  10  With Random, Buy:  522 , Sell:  509 , Hold:  469
+Episode #:  10  No   Random, Buy:  1219 , Sell:  281 , Hold:  0
+Episode #:  10  With Random PnL: 58.750000 Profit: 99.228000 Epsilon: 0.980000
+Episode #:  10  No   Random PnL: 212.300000 Profit: 2691.057900
+Episode #:  11  With Random, Buy:  510 , Sell:  506 , Hold:  484
+Episode #:  11  No   Random, Buy:  1186 , Sell:  314 , Hold:  0
+Episode #:  11  With Random PnL: 7.548000 Profit: 19.383000 Epsilon: 0.978000
+Episode #:  11  No   Random PnL: 213.642000 Profit: 3201.219900
+Episode #:  12  With Random, Buy:  511 , Sell:  513 , Hold:  476
+Episode #:  12  No   Random, Buy:  1212 , Sell:  288 , Hold:  0
+Episode #:  12  With Random PnL: 58.623000 Profit: 29.125000 Epsilon: 0.976000
+Episode #:  12  No   Random PnL: 257.850000 Profit: 3158.885900
+Episode #:  13  With Random, Buy:  501 , Sell:  525 , Hold:  474
+Episode #:  13  No   Random, Buy:  1148 , Sell:  351 , Hold:  1
+Episode #:  13  With Random PnL: -31.305000 Profit: -19.095000 Epsilon: 0.974000
+Episode #:  13  No   Random PnL: 270.294000 Profit: 3034.863900
+Episode #:  14  With Random, Buy:  511 , Sell:  483 , Hold:  506
+Episode #:  14  No   Random, Buy:  1230 , Sell:  270 , Hold:  0
+Episode #:  14  With Random PnL: -15.025000 Profit: 62.362000 Epsilon: 0.972000
+Episode #:  14  No   Random PnL: 226.982000 Profit: 3190.874900
+Episode #:  15  With Random, Buy:  524 , Sell:  492 , Hold:  484
+Episode #:  15  No   Random, Buy:  1244 , Sell:  256 , Hold:  0
+Episode #:  15  With Random PnL: -9.309000 Profit: 12.016000 Epsilon: 0.970000
+Episode #:  15  No   Random PnL: 210.358000 Profit: 1638.740900
+Episode #:  16  With Random, Buy:  522 , Sell:  526 , Hold:  452
+Episode #:  16  No   Random, Buy:  1201 , Sell:  299 , Hold:  0
+Episode #:  16  With Random PnL: -43.085000 Profit: 34.150000 Epsilon: 0.968000
+Episode #:  16  No   Random PnL: 253.726000 Profit: 1977.511900
+Episode #:  17  With Random, Buy:  541 , Sell:  489 , Hold:  470
+Episode #:  17  No   Random, Buy:  1192 , Sell:  308 , Hold:  0
+Episode #:  17  With Random PnL: -13.858000 Profit: -20.654000 Epsilon: 0.966000
+Episode #:  17  No   Random PnL: 289.528000 Profit: 2786.037900
+Episode #:  18  With Random, Buy:  552 , Sell:  490 , Hold:  458
+Episode #:  18  No   Random, Buy:  1173 , Sell:  327 , Hold:  0
+Episode #:  18  With Random PnL: 17.791000 Profit: 38.983000 Epsilon: 0.964000
+Episode #:  18  No   Random PnL: 274.460000 Profit: 2761.174900
+Episode #:  19  With Random, Buy:  534 , Sell:  486 , Hold:  480
+Episode #:  19  No   Random, Buy:  1202 , Sell:  298 , Hold:  0
+Episode #:  19  With Random PnL: 17.048000 Profit: 62.117000 Epsilon: 0.962000
+Episode #:  19  No   Random PnL: 277.216000 Profit: 3170.259900
+Episode #:  20  With Random, Buy:  526 , Sell:  452 , Hold:  522
+Episode #:  20  No   Random, Buy:  1220 , Sell:  280 , Hold:  0
+Episode #:  20  With Random PnL: -32.287000 Profit: 23.691000 Epsilon: 0.960000
+Episode #:  20  No   Random PnL: 294.920000 Profit: 3480.554900
+Episode #:  21  With Random, Buy:  519 , Sell:  510 , Hold:  471
+Episode #:  21  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  21  With Random PnL: 46.216000 Profit: 81.430000 Epsilon: 0.958000
+Episode #:  21  No   Random PnL: 270.316000 Profit: 2251.970900
+Episode #:  22  With Random, Buy:  543 , Sell:  511 , Hold:  446
+Episode #:  22  No   Random, Buy:  1246 , Sell:  254 , Hold:  0
+Episode #:  22  With Random PnL: 47.202000 Profit: 2.828000 Epsilon: 0.956000
+Episode #:  22  No   Random PnL: 264.736000 Profit: 3273.513900
+Episode #:  23  With Random, Buy:  546 , Sell:  497 , Hold:  457
+Episode #:  23  No   Random, Buy:  1199 , Sell:  301 , Hold:  0
+Episode #:  23  With Random PnL: -12.988000 Profit: 12.769000 Epsilon: 0.954000
+Episode #:  23  No   Random PnL: 279.722000 Profit: 3001.398900
+Episode #:  24  With Random, Buy:  542 , Sell:  469 , Hold:  489
+Episode #:  24  No   Random, Buy:  1213 , Sell:  287 , Hold:  0
+Episode #:  24  With Random PnL: 7.101000 Profit: 27.517000 Epsilon: 0.952000
+Episode #:  24  No   Random PnL: 281.516000 Profit: 3228.866900
+Episode #:  25  With Random, Buy:  547 , Sell:  501 , Hold:  452
+Episode #:  25  No   Random, Buy:  1288 , Sell:  212 , Hold:  0
+Episode #:  25  With Random PnL: 11.612000 Profit: 75.075000 Epsilon: 0.950000
+Episode #:  25  No   Random PnL: 273.772000 Profit: 3402.654900
+Episode #:  26  With Random, Buy:  550 , Sell:  484 , Hold:  466
+Episode #:  26  No   Random, Buy:  1224 , Sell:  276 , Hold:  0
+Episode #:  26  With Random PnL: -21.847000 Profit: -30.571000 Epsilon: 0.948000
+Episode #:  26  No   Random PnL: 298.046000 Profit: 3123.751900
+Episode #:  27  With Random, Buy:  562 , Sell:  489 , Hold:  449
+Episode #:  27  No   Random, Buy:  1216 , Sell:  284 , Hold:  0
+Episode #:  27  With Random PnL: 44.292000 Profit: 61.821000 Epsilon: 0.946000
+Episode #:  27  No   Random PnL: 278.174000 Profit: 3032.649900
+Episode #:  28  With Random, Buy:  561 , Sell:  485 , Hold:  454
+Episode #:  28  No   Random, Buy:  1220 , Sell:  280 , Hold:  0
+Episode #:  28  With Random PnL: 2.007000 Profit: -5.185000 Epsilon: 0.944000
+Episode #:  28  No   Random PnL: 277.560000 Profit: 2980.122900
+Episode #:  29  With Random, Buy:  534 , Sell:  500 , Hold:  466
+Episode #:  29  No   Random, Buy:  1273 , Sell:  227 , Hold:  0
+Episode #:  29  With Random PnL: -10.186000 Profit: -18.734000 Epsilon: 0.942000
+Episode #:  29  No   Random PnL: 275.142000 Profit: 3381.018900
+Episode #:  30  With Random, Buy:  535 , Sell:  453 , Hold:  512
+Episode #:  30  No   Random, Buy:  1298 , Sell:  202 , Hold:  0
+Episode #:  30  With Random PnL: 8.127000 Profit: 36.000000 Epsilon: 0.940000
+Episode #:  30  No   Random PnL: 273.158000 Profit: 3225.190900
+Episode #:  31  With Random, Buy:  545 , Sell:  495 , Hold:  460
+Episode #:  31  No   Random, Buy:  1273 , Sell:  227 , Hold:  0
+Episode #:  31  With Random PnL: 4.392000 Profit: 9.189000 Epsilon: 0.938000
+Episode #:  31  No   Random PnL: 274.644000 Profit: 3108.566900
+Episode #:  32  With Random, Buy:  519 , Sell:  494 , Hold:  487
+Episode #:  32  No   Random, Buy:  1282 , Sell:  218 , Hold:  0
+Episode #:  32  With Random PnL: 25.069000 Profit: 2.199000 Epsilon: 0.936000
+Episode #:  32  No   Random PnL: 269.646000 Profit: 3279.338900
+Episode #:  33  With Random, Buy:  575 , Sell:  479 , Hold:  446
+Episode #:  33  No   Random, Buy:  1297 , Sell:  203 , Hold:  0
+Episode #:  33  With Random PnL: -4.009000 Profit: -51.322000 Epsilon: 0.934000
+Episode #:  33  No   Random PnL: 265.862000 Profit: 3638.001900
+Episode #:  34  With Random, Buy:  565 , Sell:  483 , Hold:  452
+Episode #:  34  No   Random, Buy:  1262 , Sell:  238 , Hold:  0
+Episode #:  34  With Random PnL: 28.246000 Profit: 16.237000 Epsilon: 0.932000
+Episode #:  34  No   Random PnL: 283.804000 Profit: 3039.568900
+Episode #:  35  With Random, Buy:  549 , Sell:  485 , Hold:  466
+Episode #:  35  No   Random, Buy:  1265 , Sell:  235 , Hold:  0
+Episode #:  35  With Random PnL: -19.590000 Profit: -22.654000 Epsilon: 0.930000
+Episode #:  35  No   Random PnL: 278.258000 Profit: 3035.691900
+Episode #:  36  With Random, Buy:  554 , Sell:  459 , Hold:  487
+Episode #:  36  No   Random, Buy:  1273 , Sell:  227 , Hold:  0
+Episode #:  36  With Random PnL: -35.695000 Profit: -25.184000 Epsilon: 0.928000
+Episode #:  36  No   Random PnL: 299.146000 Profit: 3111.986900
+Episode #:  37  With Random, Buy:  550 , Sell:  476 , Hold:  474
+Episode #:  37  No   Random, Buy:  1228 , Sell:  272 , Hold:  0
+Episode #:  37  With Random PnL: 5.864000 Profit: 37.264000 Epsilon: 0.926000
+Episode #:  37  No   Random PnL: 272.218000 Profit: 3053.893900
+Episode #:  38  With Random, Buy:  563 , Sell:  485 , Hold:  452
+Episode #:  38  No   Random, Buy:  1265 , Sell:  235 , Hold:  0
+Episode #:  38  With Random PnL: -17.401000 Profit: -45.198000 Epsilon: 0.924000
+Episode #:  38  No   Random PnL: 283.320000 Profit: 3029.268900
+Episode #:  39  With Random, Buy:  543 , Sell:  500 , Hold:  457
+Episode #:  39  No   Random, Buy:  1254 , Sell:  246 , Hold:  0
+Episode #:  39  With Random PnL: -33.810000 Profit: 16.835000 Epsilon: 0.922000
+Episode #:  39  No   Random PnL: 302.048000 Profit: 3014.746900
+Episode #:  40  With Random, Buy:  517 , Sell:  530 , Hold:  453
+Episode #:  40  No   Random, Buy:  1239 , Sell:  261 , Hold:  0
+Episode #:  40  With Random PnL: 58.971000 Profit: 78.385000 Epsilon: 0.920000
+Episode #:  40  No   Random PnL: 292.092000 Profit: 3216.456900
+Episode #:  41  With Random, Buy:  545 , Sell:  493 , Hold:  462
+Episode #:  41  No   Random, Buy:  1276 , Sell:  224 , Hold:  0
+Episode #:  41  With Random PnL: 62.077000 Profit: 147.693000 Epsilon: 0.918000
+Episode #:  41  No   Random PnL: 288.650000 Profit: 3108.820900
+Episode #:  42  With Random, Buy:  553 , Sell:  499 , Hold:  448
+Episode #:  42  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  42  With Random PnL: 86.296000 Profit: 108.474000 Epsilon: 0.916000
+Episode #:  42  No   Random PnL: 309.104000 Profit: 3029.143900
+Episode #:  43  With Random, Buy:  561 , Sell:  485 , Hold:  454
+Episode #:  43  No   Random, Buy:  1248 , Sell:  252 , Hold:  0
+Episode #:  43  With Random PnL: 48.783000 Profit: 171.132000 Epsilon: 0.914000
+Episode #:  43  No   Random PnL: 292.398000 Profit: 2983.011900
+Episode #:  44  With Random, Buy:  539 , Sell:  497 , Hold:  464
+Episode #:  44  No   Random, Buy:  1254 , Sell:  246 , Hold:  0
+Episode #:  44  With Random PnL: 63.835000 Profit: 110.051000 Epsilon: 0.912000
+Episode #:  44  No   Random PnL: 301.320000 Profit: 3035.792900
+Episode #:  45  With Random, Buy:  545 , Sell:  477 , Hold:  478
+Episode #:  45  No   Random, Buy:  1250 , Sell:  250 , Hold:  0
+Episode #:  45  With Random PnL: 103.592000 Profit: 83.177000 Epsilon: 0.910000
+Episode #:  45  No   Random PnL: 278.942000 Profit: 3025.324900
+Episode #:  46  With Random, Buy:  549 , Sell:  502 , Hold:  449
+Episode #:  46  No   Random, Buy:  1246 , Sell:  254 , Hold:  0
+Episode #:  46  With Random PnL: 30.370000 Profit: 127.272000 Epsilon: 0.908000
+Episode #:  46  No   Random PnL: 313.446000 Profit: 3325.358900
+Episode #:  47  With Random, Buy:  558 , Sell:  463 , Hold:  479
+Episode #:  47  No   Random, Buy:  1244 , Sell:  256 , Hold:  0
+Episode #:  47  With Random PnL: 58.420000 Profit: 65.831000 Epsilon: 0.906000
+Episode #:  47  No   Random PnL: 290.152000 Profit: 3050.911900
+Episode #:  48  With Random, Buy:  570 , Sell:  481 , Hold:  449
+Episode #:  48  No   Random, Buy:  1245 , Sell:  255 , Hold:  0
+Episode #:  48  With Random PnL: 17.051000 Profit: 41.221000 Epsilon: 0.904000
+Episode #:  48  No   Random PnL: 278.746000 Profit: 3093.776900
+Episode #:  49  With Random, Buy:  574 , Sell:  477 , Hold:  449
+Episode #:  49  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  49  With Random PnL: 49.800000 Profit: 126.559000 Epsilon: 0.902000
+Episode #:  49  No   Random PnL: 309.732000 Profit: 3122.117900
+Episode #:  50  With Random, Buy:  543 , Sell:  504 , Hold:  453
+Episode #:  50  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  50  With Random PnL: 44.270000 Profit: 90.405000 Epsilon: 0.900000
+Episode #:  50  No   Random PnL: 299.498000 Profit: 3145.403900
+Episode #:  51  With Random, Buy:  580 , Sell:  488 , Hold:  432
+Episode #:  51  No   Random, Buy:  1298 , Sell:  202 , Hold:  0
+Episode #:  51  With Random PnL: 57.340000 Profit: 96.935000 Epsilon: 0.898000
+Episode #:  51  No   Random PnL: 285.900000 Profit: 3160.590900
+Episode #:  52  With Random, Buy:  556 , Sell:  476 , Hold:  468
+Episode #:  52  No   Random, Buy:  1264 , Sell:  236 , Hold:  0
+Episode #:  52  With Random PnL: 9.569000 Profit: 4.145000 Epsilon: 0.896000
+Episode #:  52  No   Random PnL: 292.052000 Profit: 3243.781900
+Episode #:  53  With Random, Buy:  579 , Sell:  482 , Hold:  439
+Episode #:  53  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  53  With Random PnL: 32.081000 Profit: 95.439000 Epsilon: 0.894000
+Episode #:  53  No   Random PnL: 297.514000 Profit: 3150.517900
+Episode #:  54  With Random, Buy:  549 , Sell:  493 , Hold:  458
+Episode #:  54  No   Random, Buy:  1248 , Sell:  252 , Hold:  0
+Episode #:  54  With Random PnL: -16.735000 Profit: 0.796000 Epsilon: 0.892000
+Episode #:  54  No   Random PnL: 302.516000 Profit: 3097.433900
+Episode #:  55  With Random, Buy:  557 , Sell:  509 , Hold:  434
+Episode #:  55  No   Random, Buy:  1230 , Sell:  270 , Hold:  0
+Episode #:  55  With Random PnL: 55.686000 Profit: 47.647000 Epsilon: 0.890000
+Episode #:  55  No   Random PnL: 326.820000 Profit: 3057.116900
+Episode #:  56  With Random, Buy:  620 , Sell:  452 , Hold:  428
+Episode #:  56  No   Random, Buy:  1268 , Sell:  232 , Hold:  0
+Episode #:  56  With Random PnL: -11.375000 Profit: 57.212000 Epsilon: 0.888000
+Episode #:  56  No   Random PnL: 292.774000 Profit: 3085.155900
+Episode #:  57  With Random, Buy:  611 , Sell:  464 , Hold:  425
+Episode #:  57  No   Random, Buy:  1272 , Sell:  228 , Hold:  0
+Episode #:  57  With Random PnL: -3.390000 Profit: 45.081000 Epsilon: 0.886000
+Episode #:  57  No   Random PnL: 307.020000 Profit: 3081.800900
+Episode #:  58  With Random, Buy:  563 , Sell:  470 , Hold:  467
+Episode #:  58  No   Random, Buy:  1264 , Sell:  236 , Hold:  0
+Episode #:  58  With Random PnL: 21.241000 Profit: 24.244000 Epsilon: 0.884000
+Episode #:  58  No   Random PnL: 302.136000 Profit: 2926.298900
+Episode #:  59  With Random, Buy:  567 , Sell:  502 , Hold:  431
+Episode #:  59  No   Random, Buy:  1298 , Sell:  202 , Hold:  0
+Episode #:  59  With Random PnL: -10.601000 Profit: -0.095000 Epsilon: 0.882000
+Episode #:  59  No   Random PnL: 273.122000 Profit: 3045.638900
+Episode #:  60  With Random, Buy:  577 , Sell:  437 , Hold:  486
+Episode #:  60  No   Random, Buy:  1231 , Sell:  269 , Hold:  0
+Episode #:  60  With Random PnL: -23.333000 Profit: -93.243000 Epsilon: 0.880000
+Episode #:  60  No   Random PnL: 294.276000 Profit: 3213.621900
+Episode #:  61  With Random, Buy:  577 , Sell:  492 , Hold:  431
+Episode #:  61  No   Random, Buy:  1225 , Sell:  275 , Hold:  0
+Episode #:  61  With Random PnL: 39.806000 Profit: 125.541000 Epsilon: 0.878000
+Episode #:  61  No   Random PnL: 305.152000 Profit: 3088.680900
+Episode #:  62  With Random, Buy:  581 , Sell:  466 , Hold:  453
+Episode #:  62  No   Random, Buy:  1241 , Sell:  259 , Hold:  0
+Episode #:  62  With Random PnL: -31.266000 Profit: -42.918000 Epsilon: 0.876000
+Episode #:  62  No   Random PnL: 305.196000 Profit: 3276.357900
+Episode #:  63  With Random, Buy:  569 , Sell:  480 , Hold:  451
+Episode #:  63  No   Random, Buy:  1232 , Sell:  268 , Hold:  0
+Episode #:  63  With Random PnL: 69.368000 Profit: 159.303000 Epsilon: 0.874000
+Episode #:  63  No   Random PnL: 290.328000 Profit: 3045.199900
+Episode #:  64  With Random, Buy:  575 , Sell:  487 , Hold:  438
+Episode #:  64  No   Random, Buy:  1219 , Sell:  281 , Hold:  0
+Episode #:  64  With Random PnL: -25.043000 Profit: -56.649000 Epsilon: 0.872000
+Episode #:  64  No   Random PnL: 286.650000 Profit: 2898.249900
+Episode #:  65  With Random, Buy:  592 , Sell:  483 , Hold:  425
+Episode #:  65  No   Random, Buy:  1262 , Sell:  238 , Hold:  0
+Episode #:  65  With Random PnL: 19.260000 Profit: -41.301000 Epsilon: 0.870000
+Episode #:  65  No   Random PnL: 281.544000 Profit: 2915.831900
+Episode #:  66  With Random, Buy:  575 , Sell:  479 , Hold:  446
+Episode #:  66  No   Random, Buy:  1285 , Sell:  215 , Hold:  0
+Episode #:  66  With Random PnL: -27.918000 Profit: 8.659000 Epsilon: 0.868000
+Episode #:  66  No   Random PnL: 258.432000 Profit: 2954.512900
+Episode #:  67  With Random, Buy:  558 , Sell:  485 , Hold:  457
+Episode #:  67  No   Random, Buy:  1291 , Sell:  209 , Hold:  0
+Episode #:  67  With Random PnL: 21.220000 Profit: 45.583000 Epsilon: 0.866000
+Episode #:  67  No   Random PnL: 268.630000 Profit: 2993.775900
+Episode #:  68  With Random, Buy:  588 , Sell:  437 , Hold:  475
+Episode #:  68  No   Random, Buy:  1286 , Sell:  214 , Hold:  0
+Episode #:  68  With Random PnL: 43.683000 Profit: 16.625000 Epsilon: 0.864000
+Episode #:  68  No   Random PnL: 307.530000 Profit: 2967.200900
+Episode #:  69  With Random, Buy:  581 , Sell:  476 , Hold:  443
+Episode #:  69  No   Random, Buy:  1263 , Sell:  237 , Hold:  0
+Episode #:  69  With Random PnL: 47.619000 Profit: 10.414000 Epsilon: 0.862000
+Episode #:  69  No   Random PnL: 290.358000 Profit: 3364.512900
+Episode #:  70  With Random, Buy:  586 , Sell:  484 , Hold:  430
+Episode #:  70  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  70  With Random PnL: 3.064000 Profit: -1.272000 Epsilon: 0.860000
+Episode #:  70  No   Random PnL: 258.986000 Profit: 2990.349900
+Episode #:  71  With Random, Buy:  612 , Sell:  466 , Hold:  422
+Episode #:  71  No   Random, Buy:  1271 , Sell:  229 , Hold:  0
+Episode #:  71  With Random PnL: 20.952000 Profit: 80.597000 Epsilon: 0.858000
+Episode #:  71  No   Random PnL: 280.866000 Profit: 3447.562900
+Episode #:  72  With Random, Buy:  588 , Sell:  480 , Hold:  432
+Episode #:  72  No   Random, Buy:  1274 , Sell:  226 , Hold:  0
+Episode #:  72  With Random PnL: 75.114000 Profit: 133.906000 Epsilon: 0.856000
+Episode #:  72  No   Random PnL: 303.140000 Profit: 3506.404900
+Episode #:  73  With Random, Buy:  588 , Sell:  476 , Hold:  436
+Episode #:  73  No   Random, Buy:  1281 , Sell:  219 , Hold:  0
+Episode #:  73  With Random PnL: 62.239000 Profit: 70.228000 Epsilon: 0.854000
+Episode #:  73  No   Random PnL: 282.480000 Profit: 3084.034900
+Episode #:  74  With Random, Buy:  631 , Sell:  448 , Hold:  421
+Episode #:  74  No   Random, Buy:  1269 , Sell:  231 , Hold:  0
+Episode #:  74  With Random PnL: 70.946000 Profit: 100.789000 Epsilon: 0.852000
+Episode #:  74  No   Random PnL: 291.232000 Profit: 3221.698900
+Episode #:  75  With Random, Buy:  615 , Sell:  474 , Hold:  411
+Episode #:  75  No   Random, Buy:  245 , Sell:  1255 , Hold:  0
+Episode #:  75  With Random PnL: 34.012000 Profit: 82.053000 Epsilon: 0.850000
+Episode #:  75  No   Random PnL: 207.912000 Profit: 185.240000
+Episode #:  76  With Random, Buy:  585 , Sell:  517 , Hold:  398
+Episode #:  76  No   Random, Buy:  1281 , Sell:  219 , Hold:  0
+Episode #:  76  With Random PnL: 12.198000 Profit: -5.001000 Epsilon: 0.848000
+Episode #:  76  No   Random PnL: 283.184000 Profit: 3156.090900
+Episode #:  77  With Random, Buy:  636 , Sell:  454 , Hold:  410
+Episode #:  77  No   Random, Buy:  1288 , Sell:  212 , Hold:  0
+Episode #:  77  With Random PnL: 66.232000 Profit: 121.398000 Epsilon: 0.846000
+Episode #:  77  No   Random PnL: 293.762000 Profit: 3212.030900
+Episode #:  78  With Random, Buy:  618 , Sell:  486 , Hold:  396
+Episode #:  78  No   Random, Buy:  1273 , Sell:  227 , Hold:  0
+Episode #:  78  With Random PnL: 22.592000 Profit: 10.263000 Epsilon: 0.844000
+Episode #:  78  No   Random PnL: 315.270000 Profit: 3267.470900
+Episode #:  79  With Random, Buy:  604 , Sell:  481 , Hold:  415
+Episode #:  79  No   Random, Buy:  1235 , Sell:  265 , Hold:  0
+Episode #:  79  With Random PnL: 43.530000 Profit: 11.523000 Epsilon: 0.842000
+Episode #:  79  No   Random PnL: 298.082000 Profit: 3058.559900
+Episode #:  80  With Random, Buy:  619 , Sell:  445 , Hold:  436
+Episode #:  80  No   Random, Buy:  1244 , Sell:  256 , Hold:  0
+Episode #:  80  With Random PnL: 35.872000 Profit: -38.019000 Epsilon: 0.840000
+Episode #:  80  No   Random PnL: 293.702000 Profit: 3157.751900
+Episode #:  81  With Random, Buy:  598 , Sell:  456 , Hold:  446
+Episode #:  81  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  81  With Random PnL: 17.527000 Profit: 68.006000 Epsilon: 0.838000
+Episode #:  81  No   Random PnL: 303.464000 Profit: 3037.453900
+Episode #:  82  With Random, Buy:  586 , Sell:  470 , Hold:  444
+Episode #:  82  No   Random, Buy:  1268 , Sell:  232 , Hold:  0
+Episode #:  82  With Random PnL: 48.637000 Profit: 32.994000 Epsilon: 0.836000
+Episode #:  82  No   Random PnL: 314.890000 Profit: 3144.654900
+Episode #:  83  With Random, Buy:  618 , Sell:  479 , Hold:  403
+Episode #:  83  No   Random, Buy:  1285 , Sell:  215 , Hold:  0
+Episode #:  83  With Random PnL: 63.147000 Profit: 88.189000 Epsilon: 0.834000
+Episode #:  83  No   Random PnL: 303.616000 Profit: 3295.467900
+Episode #:  84  With Random, Buy:  620 , Sell:  474 , Hold:  406
+Episode #:  84  No   Random, Buy:  1275 , Sell:  225 , Hold:  0
+Episode #:  84  With Random PnL: 30.567000 Profit: 9.010000 Epsilon: 0.832000
+Episode #:  84  No   Random PnL: 295.002000 Profit: 3146.207900
+Episode #:  85  With Random, Buy:  615 , Sell:  480 , Hold:  405
+Episode #:  85  No   Random, Buy:  1237 , Sell:  263 , Hold:  0
+Episode #:  85  With Random PnL: 101.827000 Profit: 182.449000 Epsilon: 0.830000
+Episode #:  85  No   Random PnL: 319.484000 Profit: 3089.724900
+Episode #:  86  With Random, Buy:  600 , Sell:  482 , Hold:  418
+Episode #:  86  No   Random, Buy:  1231 , Sell:  269 , Hold:  0
+Episode #:  86  With Random PnL: 81.456000 Profit: -14.888000 Epsilon: 0.828000
+Episode #:  86  No   Random PnL: 303.164000 Profit: 3086.776900
+Episode #:  87  With Random, Buy:  607 , Sell:  507 , Hold:  386
+Episode #:  87  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  87  With Random PnL: 2.538000 Profit: 7.422000 Epsilon: 0.826000
+Episode #:  87  No   Random PnL: 307.854000 Profit: 3224.813900
+Episode #:  88  With Random, Buy:  603 , Sell:  482 , Hold:  415
+Episode #:  88  No   Random, Buy:  1234 , Sell:  266 , Hold:  0
+Episode #:  88  With Random PnL: 43.376000 Profit: 85.300000 Epsilon: 0.824000
+Episode #:  88  No   Random PnL: 295.366000 Profit: 2930.569900
+Episode #:  89  With Random, Buy:  599 , Sell:  471 , Hold:  430
+Episode #:  89  No   Random, Buy:  1230 , Sell:  270 , Hold:  0
+Episode #:  89  With Random PnL: 65.723000 Profit: 68.314000 Epsilon: 0.822000
+Episode #:  89  No   Random PnL: 316.842000 Profit: 3081.329900
+Episode #:  90  With Random, Buy:  642 , Sell:  447 , Hold:  411
+Episode #:  90  No   Random, Buy:  1235 , Sell:  265 , Hold:  0
+Episode #:  90  With Random PnL: 98.368000 Profit: 156.794000 Epsilon: 0.820000
+Episode #:  90  No   Random PnL: 305.246000 Profit: 3107.838900
+Episode #:  91  With Random, Buy:  643 , Sell:  466 , Hold:  391
+Episode #:  91  No   Random, Buy:  1242 , Sell:  258 , Hold:  0
+Episode #:  91  With Random PnL: 91.965000 Profit: 119.088000 Epsilon: 0.818000
+Episode #:  91  No   Random PnL: 311.480000 Profit: 3112.769900
+Episode #:  92  With Random, Buy:  635 , Sell:  467 , Hold:  398
+Episode #:  92  No   Random, Buy:  1240 , Sell:  260 , Hold:  0
+Episode #:  92  With Random PnL: 12.330000 Profit: -40.099000 Epsilon: 0.816000
+Episode #:  92  No   Random PnL: 308.346000 Profit: 3146.167900
+Episode #:  93  With Random, Buy:  637 , Sell:  443 , Hold:  420
+Episode #:  93  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  93  With Random PnL: 60.252000 Profit: 82.435000 Epsilon: 0.814000
+Episode #:  93  No   Random PnL: 277.526000 Profit: 3015.919900
+Episode #:  94  With Random, Buy:  617 , Sell:  504 , Hold:  379
+Episode #:  94  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  94  With Random PnL: -23.900000 Profit: 15.128000 Epsilon: 0.812000
+Episode #:  94  No   Random PnL: 335.148000 Profit: 3274.093900
+Episode #:  95  With Random, Buy:  627 , Sell:  464 , Hold:  409
+Episode #:  95  No   Random, Buy:  1253 , Sell:  247 , Hold:  0
+Episode #:  95  With Random PnL: -14.696000 Profit: -72.615000 Epsilon: 0.810000
+Episode #:  95  No   Random PnL: 309.968000 Profit: 3119.298900
+Episode #:  96  With Random, Buy:  623 , Sell:  480 , Hold:  397
+Episode #:  96  No   Random, Buy:  1265 , Sell:  235 , Hold:  0
+Episode #:  96  With Random PnL: 49.798000 Profit: 96.341000 Epsilon: 0.808000
+Episode #:  96  No   Random PnL: 302.612000 Profit: 3161.571900
+Episode #:  97  With Random, Buy:  641 , Sell:  492 , Hold:  367
+Episode #:  97  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  97  With Random PnL: 104.125000 Profit: 118.247000 Epsilon: 0.806000
+Episode #:  97  No   Random PnL: 330.472000 Profit: 3047.920900
+Episode #:  98  With Random, Buy:  672 , Sell:  437 , Hold:  391
+Episode #:  98  No   Random, Buy:  1252 , Sell:  248 , Hold:  0
+Episode #:  98  With Random PnL: 39.186000 Profit: 109.910000 Epsilon: 0.804000
+Episode #:  98  No   Random PnL: 302.438000 Profit: 3114.814900
+Episode #:  99  With Random, Buy:  653 , Sell:  435 , Hold:  412
+Episode #:  99  No   Random, Buy:  1233 , Sell:  267 , Hold:  0
+Episode #:  99  With Random PnL: 109.905000 Profit: 224.640000 Epsilon: 0.802000
+Episode #:  99  No   Random PnL: 304.146000 Profit: 3151.344900
+Episode #:  100  With Random, Buy:  651 , Sell:  466 , Hold:  383
+Episode #:  100  No   Random, Buy:  297 , Sell:  1203 , Hold:  0
+Episode #:  100  With Random PnL: 74.500000 Profit: 145.684000 Epsilon: 0.800000
+Episode #:  100  No   Random PnL: 217.026000 Profit: 158.710000
+Episode #:  101  With Random, Buy:  652 , Sell:  447 , Hold:  401
+Episode #:  101  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  101  With Random PnL: 46.433000 Profit: 112.670000 Epsilon: 0.798000
+Episode #:  101  No   Random PnL: 326.318000 Profit: 3265.899900
+Episode #:  102  With Random, Buy:  653 , Sell:  469 , Hold:  378
+Episode #:  102  No   Random, Buy:  284 , Sell:  1216 , Hold:  0
+Episode #:  102  With Random PnL: 48.401000 Profit: 47.028000 Epsilon: 0.796000
+Episode #:  102  No   Random PnL: 223.694000 Profit: 259.865000
+Episode #:  103  With Random, Buy:  666 , Sell:  459 , Hold:  375
+Episode #:  103  No   Random, Buy:  1243 , Sell:  257 , Hold:  0
+Episode #:  103  With Random PnL: 72.417000 Profit: 165.085000 Epsilon: 0.794000
+Episode #:  103  No   Random PnL: 324.316000 Profit: 3080.749900
+Episode #:  104  With Random, Buy:  668 , Sell:  459 , Hold:  373
+Episode #:  104  No   Random, Buy:  1239 , Sell:  261 , Hold:  0
+Episode #:  104  With Random PnL: 1.248000 Profit: 56.675000 Epsilon: 0.792000
+Episode #:  104  No   Random PnL: 351.158000 Profit: 3144.391900
+Episode #:  105  With Random, Buy:  647 , Sell:  476 , Hold:  377
+Episode #:  105  No   Random, Buy:  1243 , Sell:  257 , Hold:  0
+Episode #:  105  With Random PnL: 17.690000 Profit: 191.126000 Epsilon: 0.790000
+Episode #:  105  No   Random PnL: 340.620000 Profit: 3188.343900
+Episode #:  106  With Random, Buy:  651 , Sell:  449 , Hold:  400
+Episode #:  106  No   Random, Buy:  1273 , Sell:  227 , Hold:  0
+Episode #:  106  With Random PnL: 41.235000 Profit: 36.776000 Epsilon: 0.788000
+Episode #:  106  No   Random PnL: 324.204000 Profit: 3156.841900
+Episode #:  107  With Random, Buy:  690 , Sell:  437 , Hold:  373
+Episode #:  107  No   Random, Buy:  1263 , Sell:  237 , Hold:  0
+Episode #:  107  With Random PnL: 108.985000 Profit: 190.405000 Epsilon: 0.786000
+Episode #:  107  No   Random PnL: 318.012000 Profit: 3130.760900
+Episode #:  108  With Random, Buy:  668 , Sell:  451 , Hold:  381
+Episode #:  108  No   Random, Buy:  1254 , Sell:  246 , Hold:  0
+Episode #:  108  With Random PnL: 122.533000 Profit: 116.825000 Epsilon: 0.784000
+Episode #:  108  No   Random PnL: 320.628000 Profit: 3074.161900
+Episode #:  109  With Random, Buy:  621 , Sell:  464 , Hold:  415
+Episode #:  109  No   Random, Buy:  1271 , Sell:  229 , Hold:  0
+Episode #:  109  With Random PnL: 69.954000 Profit: 60.541000 Epsilon: 0.782000
+Episode #:  109  No   Random PnL: 322.682000 Profit: 3225.346900
+Episode #:  110  With Random, Buy:  651 , Sell:  458 , Hold:  391
+Episode #:  110  No   Random, Buy:  1258 , Sell:  242 , Hold:  0
+Episode #:  110  With Random PnL: 82.777000 Profit: 117.261000 Epsilon: 0.780000
+Episode #:  110  No   Random PnL: 335.734000 Profit: 3141.274900
+Episode #:  111  With Random, Buy:  629 , Sell:  476 , Hold:  395
+Episode #:  111  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  111  With Random PnL: 87.016000 Profit: 140.617000 Epsilon: 0.778000
+Episode #:  111  No   Random PnL: 350.144000 Profit: 3148.407900
+Episode #:  112  With Random, Buy:  648 , Sell:  460 , Hold:  392
+Episode #:  112  No   Random, Buy:  1242 , Sell:  258 , Hold:  0
+Episode #:  112  With Random PnL: 108.180000 Profit: 168.764000 Epsilon: 0.776000
+Episode #:  112  No   Random PnL: 328.364000 Profit: 3146.534900
+Episode #:  113  With Random, Buy:  668 , Sell:  449 , Hold:  383
+Episode #:  113  No   Random, Buy:  346 , Sell:  1154 , Hold:  0
+Episode #:  113  With Random PnL: 70.493000 Profit: 52.372000 Epsilon: 0.774000
+Episode #:  113  No   Random PnL: 252.612000 Profit: 271.456000
+Episode #:  114  With Random, Buy:  658 , Sell:  467 , Hold:  375
+Episode #:  114  No   Random, Buy:  1263 , Sell:  237 , Hold:  0
+Episode #:  114  With Random PnL: 63.082000 Profit: -18.297000 Epsilon: 0.772000
+Episode #:  114  No   Random PnL: 331.476000 Profit: 3083.134900
+Episode #:  115  With Random, Buy:  658 , Sell:  459 , Hold:  383
+Episode #:  115  No   Random, Buy:  1230 , Sell:  270 , Hold:  0
+Episode #:  115  With Random PnL: 45.433000 Profit: 68.847000 Epsilon: 0.770000
+Episode #:  115  No   Random PnL: 330.014000 Profit: 3063.998900
+Episode #:  116  With Random, Buy:  670 , Sell:  462 , Hold:  368
+Episode #:  116  No   Random, Buy:  1258 , Sell:  242 , Hold:  0
+Episode #:  116  With Random PnL: 67.379000 Profit: 170.636000 Epsilon: 0.768000
+Episode #:  116  No   Random PnL: 332.934000 Profit: 3156.735900
+Episode #:  117  With Random, Buy:  688 , Sell:  440 , Hold:  372
+Episode #:  117  No   Random, Buy:  1241 , Sell:  259 , Hold:  0
+Episode #:  117  With Random PnL: 61.431000 Profit: 145.028000 Epsilon: 0.766000
+Episode #:  117  No   Random PnL: 331.178000 Profit: 3053.188900
+Episode #:  118  With Random, Buy:  703 , Sell:  432 , Hold:  365
+Episode #:  118  No   Random, Buy:  318 , Sell:  1182 , Hold:  0
+Episode #:  118  With Random PnL: -4.209000 Profit: -57.980000 Epsilon: 0.764000
+Episode #:  118  No   Random PnL: 227.226000 Profit: 238.345000
+Episode #:  119  With Random, Buy:  652 , Sell:  479 , Hold:  369
+Episode #:  119  No   Random, Buy:  1243 , Sell:  256 , Hold:  1
+Episode #:  119  With Random PnL: 52.832000 Profit: 44.055000 Epsilon: 0.762000
+Episode #:  119  No   Random PnL: 316.002000 Profit: 3069.236900
+Episode #:  120  With Random, Buy:  626 , Sell:  449 , Hold:  425
+Episode #:  120  No   Random, Buy:  326 , Sell:  1174 , Hold:  0
+Episode #:  120  With Random PnL: 98.028000 Profit: 159.587000 Epsilon: 0.760000
+Episode #:  120  No   Random PnL: 241.174000 Profit: 247.822000
+Episode #:  121  With Random, Buy:  672 , Sell:  472 , Hold:  356
+Episode #:  121  No   Random, Buy:  1227 , Sell:  273 , Hold:  0
+Episode #:  121  With Random PnL: 79.829000 Profit: 103.289000 Epsilon: 0.758000
+Episode #:  121  No   Random PnL: 322.492000 Profit: 3058.296900
+Episode #:  122  With Random, Buy:  681 , Sell:  460 , Hold:  359
+Episode #:  122  No   Random, Buy:  1228 , Sell:  272 , Hold:  0
+Episode #:  122  With Random PnL: 25.660000 Profit: 95.047000 Epsilon: 0.756000
+Episode #:  122  No   Random PnL: 319.132000 Profit: 3029.420900
+Episode #:  123  With Random, Buy:  669 , Sell:  463 , Hold:  368
+Episode #:  123  No   Random, Buy:  1233 , Sell:  267 , Hold:  0
+Episode #:  123  With Random PnL: 18.985000 Profit: 109.498000 Epsilon: 0.754000
+Episode #:  123  No   Random PnL: 324.246000 Profit: 3052.503900
+Episode #:  124  With Random, Buy:  684 , Sell:  443 , Hold:  373
+Episode #:  124  No   Random, Buy:  310 , Sell:  1190 , Hold:  0
+Episode #:  124  With Random PnL: 37.377000 Profit: 77.542000 Epsilon: 0.752000
+Episode #:  124  No   Random PnL: 241.450000 Profit: 207.944000
+Episode #:  125  With Random, Buy:  639 , Sell:  490 , Hold:  371
+Episode #:  125  No   Random, Buy:  1265 , Sell:  235 , Hold:  0
+Episode #:  125  With Random PnL: 85.838000 Profit: 140.613000 Epsilon: 0.750000
+Episode #:  125  No   Random PnL: 314.504000 Profit: 3032.162900
+Episode #:  126  With Random, Buy:  662 , Sell:  488 , Hold:  350
+Episode #:  126  No   Random, Buy:  1241 , Sell:  259 , Hold:  0
+Episode #:  126  With Random PnL: 99.499000 Profit: 260.717000 Epsilon: 0.748000
+Episode #:  126  No   Random PnL: 311.662000 Profit: 3501.503900
+Episode #:  127  With Random, Buy:  654 , Sell:  464 , Hold:  382
+Episode #:  127  No   Random, Buy:  1231 , Sell:  269 , Hold:  0
+Episode #:  127  With Random PnL: 61.259000 Profit: 108.094000 Epsilon: 0.746000
+Episode #:  127  No   Random PnL: 323.246000 Profit: 3216.062900
+Episode #:  128  With Random, Buy:  666 , Sell:  510 , Hold:  324
+Episode #:  128  No   Random, Buy:  1244 , Sell:  256 , Hold:  0
+Episode #:  128  With Random PnL: 19.180000 Profit: 54.562000 Epsilon: 0.744000
+Episode #:  128  No   Random PnL: 318.826000 Profit: 3259.278900
+Episode #:  129  With Random, Buy:  703 , Sell:  446 , Hold:  351
+Episode #:  129  No   Random, Buy:  1238 , Sell:  262 , Hold:  0
+Episode #:  129  With Random PnL: 71.896000 Profit: 237.875000 Epsilon: 0.742000
+Episode #:  129  No   Random PnL: 318.670000 Profit: 3034.709900
+Episode #:  130  With Random, Buy:  676 , Sell:  429 , Hold:  395
+Episode #:  130  No   Random, Buy:  1249 , Sell:  251 , Hold:  0
+Episode #:  130  With Random PnL: 66.994000 Profit: 126.883000 Epsilon: 0.740000
+Episode #:  130  No   Random PnL: 307.584000 Profit: 2979.613900
+Episode #:  131  With Random, Buy:  677 , Sell:  462 , Hold:  361
+Episode #:  131  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  131  With Random PnL: 48.530000 Profit: 122.798000 Epsilon: 0.738000
+Episode #:  131  No   Random PnL: 336.080000 Profit: 3293.071900
+Episode #:  132  With Random, Buy:  715 , Sell:  419 , Hold:  366
+Episode #:  132  No   Random, Buy:  1271 , Sell:  228 , Hold:  1
+Episode #:  132  With Random PnL: 53.960000 Profit: 167.735000 Epsilon: 0.736000
+Episode #:  132  No   Random PnL: 309.870000 Profit: 3219.913900
+Episode #:  133  With Random, Buy:  718 , Sell:  432 , Hold:  350
+Episode #:  133  No   Random, Buy:  1243 , Sell:  257 , Hold:  0
+Episode #:  133  With Random PnL: 43.199000 Profit: 70.664000 Epsilon: 0.734000
+Episode #:  133  No   Random PnL: 326.782000 Profit: 3045.965900
+Episode #:  134  With Random, Buy:  681 , Sell:  453 , Hold:  366
+Episode #:  134  No   Random, Buy:  1233 , Sell:  267 , Hold:  0
+Episode #:  134  With Random PnL: 94.363000 Profit: 163.915000 Epsilon: 0.732000
+Episode #:  134  No   Random PnL: 337.692000 Profit: 3097.322900
+Episode #:  135  With Random, Buy:  655 , Sell:  493 , Hold:  352
+Episode #:  135  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  135  With Random PnL: 67.092000 Profit: 139.644000 Epsilon: 0.730000
+Episode #:  135  No   Random PnL: 332.444000 Profit: 3122.292900
+Episode #:  136  With Random, Buy:  661 , Sell:  475 , Hold:  364
+Episode #:  136  No   Random, Buy:  1260 , Sell:  240 , Hold:  0
+Episode #:  136  With Random PnL: 59.086000 Profit: 72.824000 Epsilon: 0.728000
+Episode #:  136  No   Random PnL: 318.560000 Profit: 3110.402900
+Episode #:  137  With Random, Buy:  718 , Sell:  419 , Hold:  363
+Episode #:  137  No   Random, Buy:  1234 , Sell:  266 , Hold:  0
+Episode #:  137  With Random PnL: 52.077000 Profit: 152.719000 Epsilon: 0.726000
+Episode #:  137  No   Random PnL: 330.308000 Profit: 2999.031900
+Episode #:  138  With Random, Buy:  670 , Sell:  454 , Hold:  376
+Episode #:  138  No   Random, Buy:  1238 , Sell:  262 , Hold:  0
+Episode #:  138  With Random PnL: 118.471000 Profit: 81.415000 Epsilon: 0.724000
+Episode #:  138  No   Random PnL: 317.984000 Profit: 3052.834900
+Episode #:  139  With Random, Buy:  700 , Sell:  418 , Hold:  382
+Episode #:  139  No   Random, Buy:  1258 , Sell:  242 , Hold:  0
+Episode #:  139  With Random PnL: 140.112000 Profit: 336.173000 Epsilon: 0.722000
+Episode #:  139  No   Random PnL: 306.054000 Profit: 3081.356900
+Episode #:  140  With Random, Buy:  694 , Sell:  476 , Hold:  330
+Episode #:  140  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  140  With Random PnL: 69.789000 Profit: 226.290000 Epsilon: 0.720000
+Episode #:  140  No   Random PnL: 309.454000 Profit: 2985.951900
+Episode #:  141  With Random, Buy:  712 , Sell:  450 , Hold:  338
+Episode #:  141  No   Random, Buy:  1243 , Sell:  257 , Hold:  0
+Episode #:  141  With Random PnL: 105.885000 Profit: 123.305000 Epsilon: 0.718000
+Episode #:  141  No   Random PnL: 327.250000 Profit: 3238.884900
+Episode #:  142  With Random, Buy:  662 , Sell:  455 , Hold:  383
+Episode #:  142  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  142  With Random PnL: 81.138000 Profit: 236.364000 Epsilon: 0.716000
+Episode #:  142  No   Random PnL: 316.864000 Profit: 2987.201900
+Episode #:  143  With Random, Buy:  688 , Sell:  432 , Hold:  380
+Episode #:  143  No   Random, Buy:  1238 , Sell:  262 , Hold:  0
+Episode #:  143  With Random PnL: 79.722000 Profit: 271.053000 Epsilon: 0.714000
+Episode #:  143  No   Random PnL: 323.644000 Profit: 3089.196900
+Episode #:  144  With Random, Buy:  688 , Sell:  457 , Hold:  355
+Episode #:  144  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  144  With Random PnL: 116.450000 Profit: 204.894000 Epsilon: 0.712000
+Episode #:  144  No   Random PnL: 329.126000 Profit: 3102.708900
+Episode #:  145  With Random, Buy:  702 , Sell:  432 , Hold:  366
+Episode #:  145  No   Random, Buy:  282 , Sell:  1218 , Hold:  0
+Episode #:  145  With Random PnL: 105.525000 Profit: 201.293000 Epsilon: 0.710000
+Episode #:  145  No   Random PnL: 244.288000 Profit: 248.558000
+Episode #:  146  With Random, Buy:  639 , Sell:  517 , Hold:  344
+Episode #:  146  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  146  With Random PnL: 80.033000 Profit: 141.625000 Epsilon: 0.708000
+Episode #:  146  No   Random PnL: 337.354000 Profit: 3286.693900
+Episode #:  147  With Random, Buy:  707 , Sell:  449 , Hold:  344
+Episode #:  147  No   Random, Buy:  325 , Sell:  1175 , Hold:  0
+Episode #:  147  With Random PnL: 65.326000 Profit: 48.194000 Epsilon: 0.706000
+Episode #:  147  No   Random PnL: 236.360000 Profit: 171.130000
+Episode #:  148  With Random, Buy:  706 , Sell:  450 , Hold:  344
+Episode #:  148  No   Random, Buy:  1230 , Sell:  270 , Hold:  0
+Episode #:  148  With Random PnL: 101.114000 Profit: 103.330000 Epsilon: 0.704000
+Episode #:  148  No   Random PnL: 339.188000 Profit: 3104.733900
+Episode #:  149  With Random, Buy:  711 , Sell:  433 , Hold:  356
+Episode #:  149  No   Random, Buy:  333 , Sell:  1167 , Hold:  0
+Episode #:  149  With Random PnL: 78.048000 Profit: 158.756000 Epsilon: 0.702000
+Episode #:  149  No   Random PnL: 233.672000 Profit: 201.273000
+Episode #:  150  With Random, Buy:  673 , Sell:  473 , Hold:  354
+Episode #:  150  No   Random, Buy:  331 , Sell:  1169 , Hold:  0
+Episode #:  150  With Random PnL: 137.190000 Profit: 179.039000 Epsilon: 0.700000
+Episode #:  150  No   Random PnL: 275.966000 Profit: 285.362000
+Episode #:  151  With Random, Buy:  678 , Sell:  471 , Hold:  351
+Episode #:  151  No   Random, Buy:  349 , Sell:  1151 , Hold:  0
+Episode #:  151  With Random PnL: 154.916000 Profit: 291.179000 Epsilon: 0.698000
+Episode #:  151  No   Random PnL: 249.916000 Profit: 189.116000
+Episode #:  152  With Random, Buy:  677 , Sell:  489 , Hold:  334
+Episode #:  152  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  152  With Random PnL: 56.913000 Profit: 79.554000 Epsilon: 0.696000
+Episode #:  152  No   Random PnL: 336.162000 Profit: 3221.408900
+Episode #:  153  With Random, Buy:  731 , Sell:  448 , Hold:  321
+Episode #:  153  No   Random, Buy:  1273 , Sell:  227 , Hold:  0
+Episode #:  153  With Random PnL: 63.861000 Profit: 176.019000 Epsilon: 0.694000
+Episode #:  153  No   Random PnL: 310.786000 Profit: 3150.096900
+Episode #:  154  With Random, Buy:  691 , Sell:  476 , Hold:  333
+Episode #:  154  No   Random, Buy:  305 , Sell:  1195 , Hold:  0
+Episode #:  154  With Random PnL: 69.295000 Profit: 186.125000 Epsilon: 0.692000
+Episode #:  154  No   Random PnL: 245.562000 Profit: 257.738000
+Episode #:  155  With Random, Buy:  705 , Sell:  448 , Hold:  347
+Episode #:  155  No   Random, Buy:  1244 , Sell:  256 , Hold:  0
+Episode #:  155  With Random PnL: 101.126000 Profit: 187.107000 Epsilon: 0.690000
+Episode #:  155  No   Random PnL: 337.328000 Profit: 3154.325900
+Episode #:  156  With Random, Buy:  697 , Sell:  430 , Hold:  373
+Episode #:  156  No   Random, Buy:  1234 , Sell:  266 , Hold:  0
+Episode #:  156  With Random PnL: 112.003000 Profit: 167.927000 Epsilon: 0.688000
+Episode #:  156  No   Random PnL: 329.258000 Profit: 3196.346900
+Episode #:  157  With Random, Buy:  677 , Sell:  477 , Hold:  346
+Episode #:  157  No   Random, Buy:  1238 , Sell:  262 , Hold:  0
+Episode #:  157  With Random PnL: 40.632000 Profit: 55.557000 Epsilon: 0.686000
+Episode #:  157  No   Random PnL: 346.362000 Profit: 3104.726900
+Episode #:  158  With Random, Buy:  705 , Sell:  474 , Hold:  321
+Episode #:  158  No   Random, Buy:  1234 , Sell:  266 , Hold:  0
+Episode #:  158  With Random PnL: 47.487000 Profit: 114.250000 Epsilon: 0.684000
+Episode #:  158  No   Random PnL: 334.790000 Profit: 3172.516900
+Episode #:  159  With Random, Buy:  706 , Sell:  486 , Hold:  308
+Episode #:  159  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  159  With Random PnL: 91.600000 Profit: 232.813000 Epsilon: 0.682000
+Episode #:  159  No   Random PnL: 328.824000 Profit: 3216.790900
+Episode #:  160  With Random, Buy:  680 , Sell:  465 , Hold:  355
+Episode #:  160  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  160  With Random PnL: 39.401000 Profit: 82.769000 Epsilon: 0.680000
+Episode #:  160  No   Random PnL: 334.874000 Profit: 3126.220900
+Episode #:  161  With Random, Buy:  685 , Sell:  486 , Hold:  329
+Episode #:  161  No   Random, Buy:  1250 , Sell:  250 , Hold:  0
+Episode #:  161  With Random PnL: 94.750000 Profit: 162.580000 Epsilon: 0.678000
+Episode #:  161  No   Random PnL: 342.844000 Profit: 3268.873900
+Episode #:  162  With Random, Buy:  675 , Sell:  491 , Hold:  334
+Episode #:  162  No   Random, Buy:  1286 , Sell:  214 , Hold:  0
+Episode #:  162  With Random PnL: 69.664000 Profit: 127.508000 Epsilon: 0.676000
+Episode #:  162  No   Random PnL: 314.628000 Profit: 3374.096900
+Episode #:  163  With Random, Buy:  700 , Sell:  435 , Hold:  365
+Episode #:  163  No   Random, Buy:  1275 , Sell:  225 , Hold:  0
+Episode #:  163  With Random PnL: 67.337000 Profit: 163.708000 Epsilon: 0.674000
+Episode #:  163  No   Random PnL: 321.466000 Profit: 3296.236900
+Episode #:  164  With Random, Buy:  723 , Sell:  442 , Hold:  335
+Episode #:  164  No   Random, Buy:  284 , Sell:  1216 , Hold:  0
+Episode #:  164  With Random PnL: 130.336000 Profit: 293.571000 Epsilon: 0.672000
+Episode #:  164  No   Random PnL: 238.388000 Profit: 268.553000
+Episode #:  165  With Random, Buy:  689 , Sell:  476 , Hold:  335
+Episode #:  165  No   Random, Buy:  358 , Sell:  1142 , Hold:  0
+Episode #:  165  With Random PnL: 125.840000 Profit: 218.533000 Epsilon: 0.670000
+Episode #:  165  No   Random PnL: 236.552000 Profit: 290.139000
+Episode #:  166  With Random, Buy:  695 , Sell:  445 , Hold:  360
+Episode #:  166  No   Random, Buy:  1268 , Sell:  232 , Hold:  0
+Episode #:  166  With Random PnL: 66.609000 Profit: 125.955000 Epsilon: 0.668000
+Episode #:  166  No   Random PnL: 323.484000 Profit: 3173.382900
+Episode #:  167  With Random, Buy:  732 , Sell:  430 , Hold:  338
+Episode #:  167  No   Random, Buy:  1267 , Sell:  233 , Hold:  0
+Episode #:  167  With Random PnL: 116.563000 Profit: 272.837000 Epsilon: 0.666000
+Episode #:  167  No   Random PnL: 319.408000 Profit: 3087.427900
+Episode #:  168  With Random, Buy:  654 , Sell:  499 , Hold:  347
+Episode #:  168  No   Random, Buy:  334 , Sell:  1166 , Hold:  0
+Episode #:  168  With Random PnL: 87.475000 Profit: 231.389000 Epsilon: 0.664000
+Episode #:  168  No   Random PnL: 231.792000 Profit: 203.741000
+Episode #:  169  With Random, Buy:  717 , Sell:  456 , Hold:  327
+Episode #:  169  No   Random, Buy:  317 , Sell:  1183 , Hold:  0
+Episode #:  169  With Random PnL: 110.595000 Profit: 214.226000 Epsilon: 0.662000
+Episode #:  169  No   Random PnL: 217.724000 Profit: 241.283000
+Episode #:  170  With Random, Buy:  741 , Sell:  428 , Hold:  331
+Episode #:  170  No   Random, Buy:  1261 , Sell:  239 , Hold:  0
+Episode #:  170  With Random PnL: 33.383000 Profit: 191.181000 Epsilon: 0.660000
+Episode #:  170  No   Random PnL: 302.606000 Profit: 3113.277900
+Episode #:  171  With Random, Buy:  739 , Sell:  426 , Hold:  335
+Episode #:  171  No   Random, Buy:  267 , Sell:  1233 , Hold:  0
+Episode #:  171  With Random PnL: 114.527000 Profit: 283.322000 Epsilon: 0.658000
+Episode #:  171  No   Random PnL: 235.122000 Profit: 229.320000
+Episode #:  172  With Random, Buy:  700 , Sell:  468 , Hold:  332
+Episode #:  172  No   Random, Buy:  1260 , Sell:  240 , Hold:  0
+Episode #:  172  With Random PnL: 139.542000 Profit: 253.823000 Epsilon: 0.656000
+Episode #:  172  No   Random PnL: 332.400000 Profit: 3098.194900
+Episode #:  173  With Random, Buy:  719 , Sell:  461 , Hold:  320
+Episode #:  173  No   Random, Buy:  1263 , Sell:  237 , Hold:  0
+Episode #:  173  With Random PnL: 82.885000 Profit: 224.036000 Epsilon: 0.654000
+Episode #:  173  No   Random PnL: 340.958000 Profit: 3262.059900
+Episode #:  174  With Random, Buy:  709 , Sell:  463 , Hold:  328
+Episode #:  174  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  174  With Random PnL: 107.491000 Profit: 141.077000 Epsilon: 0.652000
+Episode #:  174  No   Random PnL: 332.848000 Profit: 3237.738900
+Episode #:  175  With Random, Buy:  697 , Sell:  476 , Hold:  327
+Episode #:  175  No   Random, Buy:  1258 , Sell:  242 , Hold:  0
+Episode #:  175  With Random PnL: 100.720000 Profit: 113.307000 Epsilon: 0.650000
+Episode #:  175  No   Random PnL: 336.934000 Profit: 3118.893900
+Episode #:  176  With Random, Buy:  763 , Sell:  438 , Hold:  299
+Episode #:  176  No   Random, Buy:  1274 , Sell:  226 , Hold:  0
+Episode #:  176  With Random PnL: 100.614000 Profit: 176.832000 Epsilon: 0.648000
+Episode #:  176  No   Random PnL: 314.454000 Profit: 3224.971900
+Episode #:  177  With Random, Buy:  683 , Sell:  458 , Hold:  359
+Episode #:  177  No   Random, Buy:  1266 , Sell:  234 , Hold:  0
+Episode #:  177  With Random PnL: 127.482000 Profit: 148.966000 Epsilon: 0.646000
+Episode #:  177  No   Random PnL: 315.028000 Profit: 3195.842900
+Episode #:  178  With Random, Buy:  668 , Sell:  508 , Hold:  324
+Episode #:  178  No   Random, Buy:  258 , Sell:  1242 , Hold:  0
+Episode #:  178  With Random PnL: 132.724000 Profit: 252.941000 Epsilon: 0.644000
+Episode #:  178  No   Random PnL: 225.008000 Profit: 205.390000
+Episode #:  179  With Random, Buy:  677 , Sell:  486 , Hold:  337
+Episode #:  179  No   Random, Buy:  262 , Sell:  1237 , Hold:  1
+Episode #:  179  With Random PnL: 66.836000 Profit: 111.307000 Epsilon: 0.642000
+Episode #:  179  No   Random PnL: 223.058000 Profit: 217.138000
+Episode #:  180  With Random, Buy:  676 , Sell:  487 , Hold:  337
+Episode #:  180  No   Random, Buy:  289 , Sell:  1211 , Hold:  0
+Episode #:  180  With Random PnL: 117.108000 Profit: 200.056000 Epsilon: 0.640000
+Episode #:  180  No   Random PnL: 247.616000 Profit: 300.307000
+Episode #:  181  With Random, Buy:  745 , Sell:  436 , Hold:  319
+Episode #:  181  No   Random, Buy:  1268 , Sell:  232 , Hold:  0
+Episode #:  181  With Random PnL: 134.533000 Profit: 140.370000 Epsilon: 0.638000
+Episode #:  181  No   Random PnL: 334.562000 Profit: 3272.005900
+Episode #:  182  With Random, Buy:  761 , Sell:  424 , Hold:  315
+Episode #:  182  No   Random, Buy:  1266 , Sell:  234 , Hold:  0
+Episode #:  182  With Random PnL: 108.175000 Profit: 143.284000 Epsilon: 0.636000
+Episode #:  182  No   Random PnL: 335.678000 Profit: 3298.270900
+Episode #:  183  With Random, Buy:  767 , Sell:  458 , Hold:  275
+Episode #:  183  No   Random, Buy:  1260 , Sell:  240 , Hold:  0
+Episode #:  183  With Random PnL: 128.057000 Profit: 273.376000 Epsilon: 0.634000
+Episode #:  183  No   Random PnL: 324.166000 Profit: 3171.009900
+Episode #:  184  With Random, Buy:  760 , Sell:  428 , Hold:  312
+Episode #:  184  No   Random, Buy:  1269 , Sell:  231 , Hold:  0
+Episode #:  184  With Random PnL: 141.112000 Profit: 238.474000 Epsilon: 0.632000
+Episode #:  184  No   Random PnL: 330.528000 Profit: 3091.941900
+Episode #:  185  With Random, Buy:  740 , Sell:  458 , Hold:  302
+Episode #:  185  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  185  With Random PnL: 185.966000 Profit: 270.956000 Epsilon: 0.630000
+Episode #:  185  No   Random PnL: 233.656000 Profit: 269.931000
+Episode #:  186  With Random, Buy:  664 , Sell:  512 , Hold:  324
+Episode #:  186  No   Random, Buy:  1277 , Sell:  223 , Hold:  0
+Episode #:  186  With Random PnL: 167.001000 Profit: 140.602000 Epsilon: 0.628000
+Episode #:  186  No   Random PnL: 328.670000 Profit: 3365.052900
+Episode #:  187  With Random, Buy:  696 , Sell:  493 , Hold:  311
+Episode #:  187  No   Random, Buy:  1263 , Sell:  237 , Hold:  0
+Episode #:  187  With Random PnL: 90.043000 Profit: 92.366000 Epsilon: 0.626000
+Episode #:  187  No   Random PnL: 338.266000 Profit: 3200.942900
+Episode #:  188  With Random, Buy:  752 , Sell:  442 , Hold:  306
+Episode #:  188  No   Random, Buy:  1275 , Sell:  225 , Hold:  0
+Episode #:  188  With Random PnL: 121.941000 Profit: 167.712000 Epsilon: 0.624000
+Episode #:  188  No   Random PnL: 330.320000 Profit: 3352.542900
+Episode #:  189  With Random, Buy:  800 , Sell:  387 , Hold:  313
+Episode #:  189  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  189  With Random PnL: 111.228000 Profit: 336.294000 Epsilon: 0.622000
+Episode #:  189  No   Random PnL: 356.294000 Profit: 3321.931900
+Episode #:  190  With Random, Buy:  741 , Sell:  459 , Hold:  300
+Episode #:  190  No   Random, Buy:  1258 , Sell:  242 , Hold:  0
+Episode #:  190  With Random PnL: 132.088000 Profit: 213.596000 Epsilon: 0.620000
+Episode #:  190  No   Random PnL: 339.310000 Profit: 3231.482900
+Episode #:  191  With Random, Buy:  729 , Sell:  478 , Hold:  293
+Episode #:  191  No   Random, Buy:  269 , Sell:  1231 , Hold:  0
+Episode #:  191  With Random PnL: 87.747000 Profit: 185.458000 Epsilon: 0.618000
+Episode #:  191  No   Random PnL: 246.096000 Profit: 250.236000
+Episode #:  192  With Random, Buy:  727 , Sell:  457 , Hold:  316
+Episode #:  192  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  192  With Random PnL: 119.278000 Profit: 142.364000 Epsilon: 0.616000
+Episode #:  192  No   Random PnL: 343.726000 Profit: 3313.923900
+Episode #:  193  With Random, Buy:  742 , Sell:  453 , Hold:  305
+Episode #:  193  No   Random, Buy:  274 , Sell:  1226 , Hold:  0
+Episode #:  193  With Random PnL: 82.863000 Profit: 33.899000 Epsilon: 0.614000
+Episode #:  193  No   Random PnL: 255.212000 Profit: 266.935000
+Episode #:  194  With Random, Buy:  713 , Sell:  502 , Hold:  285
+Episode #:  194  No   Random, Buy:  1262 , Sell:  238 , Hold:  0
+Episode #:  194  With Random PnL: 15.685000 Profit: 30.263000 Epsilon: 0.612000
+Episode #:  194  No   Random PnL: 345.204000 Profit: 3360.066900
+Episode #:  195  With Random, Buy:  764 , Sell:  442 , Hold:  294
+Episode #:  195  No   Random, Buy:  1267 , Sell:  233 , Hold:  0
+Episode #:  195  With Random PnL: 124.703000 Profit: 275.214000 Epsilon: 0.610000
+Episode #:  195  No   Random PnL: 331.110000 Profit: 3195.620900
+Episode #:  196  With Random, Buy:  716 , Sell:  467 , Hold:  317
+Episode #:  196  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  196  With Random PnL: 159.327000 Profit: 192.079000 Epsilon: 0.608000
+Episode #:  196  No   Random PnL: 323.842000 Profit: 3145.757900
+Episode #:  197  With Random, Buy:  787 , Sell:  405 , Hold:  308
+Episode #:  197  No   Random, Buy:  1264 , Sell:  236 , Hold:  0
+Episode #:  197  With Random PnL: 93.626000 Profit: 64.903000 Epsilon: 0.606000
+Episode #:  197  No   Random PnL: 353.100000 Profit: 3377.088900
+Episode #:  198  With Random, Buy:  688 , Sell:  510 , Hold:  302
+Episode #:  198  No   Random, Buy:  1264 , Sell:  236 , Hold:  0
+Episode #:  198  With Random PnL: 147.458000 Profit: 328.334000 Epsilon: 0.604000
+Episode #:  198  No   Random PnL: 346.480000 Profit: 3262.271900
+Episode #:  199  With Random, Buy:  749 , Sell:  449 , Hold:  302
+Episode #:  199  No   Random, Buy:  1272 , Sell:  228 , Hold:  0
+Episode #:  199  With Random PnL: 205.271000 Profit: 492.169000 Epsilon: 0.602000
+Episode #:  199  No   Random PnL: 336.448000 Profit: 3327.887900
+Episode #:  200  With Random, Buy:  772 , Sell:  403 , Hold:  325
+Episode #:  200  No   Random, Buy:  1273 , Sell:  227 , Hold:  0
+Episode #:  200  With Random PnL: 118.064000 Profit: 300.957000 Epsilon: 0.600000
+Episode #:  200  No   Random PnL: 317.636000 Profit: 3250.773900
+Episode #:  201  With Random, Buy:  737 , Sell:  472 , Hold:  291
+Episode #:  201  No   Random, Buy:  1264 , Sell:  236 , Hold:  0
+Episode #:  201  With Random PnL: 109.341000 Profit: 194.495000 Epsilon: 0.598000
+Episode #:  201  No   Random PnL: 327.270000 Profit: 3275.244900
+Episode #:  202  With Random, Buy:  705 , Sell:  465 , Hold:  330
+Episode #:  202  No   Random, Buy:  1261 , Sell:  239 , Hold:  0
+Episode #:  202  With Random PnL: 107.803000 Profit: 92.792000 Epsilon: 0.596000
+Episode #:  202  No   Random PnL: 328.610000 Profit: 3192.132900
+Episode #:  203  With Random, Buy:  763 , Sell:  442 , Hold:  295
+Episode #:  203  No   Random, Buy:  300 , Sell:  1200 , Hold:  0
+Episode #:  203  With Random PnL: 127.685000 Profit: 214.405000 Epsilon: 0.594000
+Episode #:  203  No   Random PnL: 239.780000 Profit: 194.998000
+Episode #:  204  With Random, Buy:  721 , Sell:  451 , Hold:  328
+Episode #:  204  No   Random, Buy:  1279 , Sell:  221 , Hold:  0
+Episode #:  204  With Random PnL: 159.274000 Profit: 262.584000 Epsilon: 0.592000
+Episode #:  204  No   Random PnL: 324.486000 Profit: 3421.187900
+Episode #:  205  With Random, Buy:  784 , Sell:  402 , Hold:  314
+Episode #:  205  No   Random, Buy:  308 , Sell:  1192 , Hold:  0
+Episode #:  205  With Random PnL: 89.654000 Profit: 50.259000 Epsilon: 0.590000
+Episode #:  205  No   Random PnL: 225.926000 Profit: 276.751000
+Episode #:  206  With Random, Buy:  734 , Sell:  449 , Hold:  317
+Episode #:  206  No   Random, Buy:  1276 , Sell:  224 , Hold:  0
+Episode #:  206  With Random PnL: 165.736000 Profit: 186.106000 Epsilon: 0.588000
+Episode #:  206  No   Random PnL: 313.968000 Profit: 3204.169900
+Episode #:  207  With Random, Buy:  757 , Sell:  441 , Hold:  302
+Episode #:  207  No   Random, Buy:  1265 , Sell:  235 , Hold:  0
+Episode #:  207  With Random PnL: 159.248000 Profit: 217.986000 Epsilon: 0.586000
+Episode #:  207  No   Random PnL: 339.808000 Profit: 3135.801900
+Episode #:  208  With Random, Buy:  731 , Sell:  443 , Hold:  326
+Episode #:  208  No   Random, Buy:  268 , Sell:  1232 , Hold:  0
+Episode #:  208  With Random PnL: 34.809000 Profit: 69.656000 Epsilon: 0.584000
+Episode #:  208  No   Random PnL: 275.926000 Profit: 269.865000
+Episode #:  209  With Random, Buy:  760 , Sell:  432 , Hold:  308
+Episode #:  209  No   Random, Buy:  1261 , Sell:  239 , Hold:  0
+Episode #:  209  With Random PnL: 85.664000 Profit: 48.061000 Epsilon: 0.582000
+Episode #:  209  No   Random PnL: 350.466000 Profit: 3375.402900
+Episode #:  210  With Random, Buy:  773 , Sell:  448 , Hold:  279
+Episode #:  210  No   Random, Buy:  1268 , Sell:  232 , Hold:  0
+Episode #:  210  With Random PnL: 84.878000 Profit: 30.263000 Epsilon: 0.580000
+Episode #:  210  No   Random PnL: 334.646000 Profit: 3221.218900
+Episode #:  211  With Random, Buy:  775 , Sell:  442 , Hold:  283
+Episode #:  211  No   Random, Buy:  1264 , Sell:  236 , Hold:  0
+Episode #:  211  With Random PnL: 129.842000 Profit: 308.719000 Epsilon: 0.578000
+Episode #:  211  No   Random PnL: 324.698000 Profit: 3184.167900
+Episode #:  212  With Random, Buy:  806 , Sell:  403 , Hold:  291
+Episode #:  212  No   Random, Buy:  324 , Sell:  1176 , Hold:  0
+Episode #:  212  With Random PnL: 111.607000 Profit: 242.656000 Epsilon: 0.576000
+Episode #:  212  No   Random PnL: 241.462000 Profit: 249.526000
+Episode #:  213  With Random, Buy:  764 , Sell:  456 , Hold:  280
+Episode #:  213  No   Random, Buy:  275 , Sell:  1225 , Hold:  0
+Episode #:  213  With Random PnL: 106.986000 Profit: 171.696000 Epsilon: 0.574000
+Episode #:  213  No   Random PnL: 252.822000 Profit: 264.993000
+Episode #:  214  With Random, Buy:  750 , Sell:  475 , Hold:  275
+Episode #:  214  No   Random, Buy:  1267 , Sell:  233 , Hold:  0
+Episode #:  214  With Random PnL: 170.636000 Profit: 347.345000 Epsilon: 0.572000
+Episode #:  214  No   Random PnL: 332.524000 Profit: 3414.474900
+Episode #:  215  With Random, Buy:  728 , Sell:  483 , Hold:  289
+Episode #:  215  No   Random, Buy:  1266 , Sell:  234 , Hold:  0
+Episode #:  215  With Random PnL: 178.275000 Profit: 203.404000 Epsilon: 0.570000
+Episode #:  215  No   Random PnL: 336.090000 Profit: 3156.746900
+Episode #:  216  With Random, Buy:  618 , Sell:  594 , Hold:  288
+Episode #:  216  No   Random, Buy:  250 , Sell:  1250 , Hold:  0
+Episode #:  216  With Random PnL: 134.599000 Profit: 324.912000 Epsilon: 0.568000
+Episode #:  216  No   Random PnL: 247.316000 Profit: 186.515000
+Episode #:  217  With Random, Buy:  734 , Sell:  484 , Hold:  282
+Episode #:  217  No   Random, Buy:  1261 , Sell:  239 , Hold:  0
+Episode #:  217  With Random PnL: 168.966000 Profit: 399.167000 Epsilon: 0.566000
+Episode #:  217  No   Random PnL: 344.264000 Profit: 3157.364900
+Episode #:  218  With Random, Buy:  723 , Sell:  517 , Hold:  260
+Episode #:  218  No   Random, Buy:  308 , Sell:  1192 , Hold:  0
+Episode #:  218  With Random PnL: 130.659000 Profit: 131.018000 Epsilon: 0.564000
+Episode #:  218  No   Random PnL: 262.584000 Profit: 273.577000
+Episode #:  219  With Random, Buy:  829 , Sell:  420 , Hold:  251
+Episode #:  219  No   Random, Buy:  1272 , Sell:  228 , Hold:  0
+Episode #:  219  With Random PnL: 136.189000 Profit: 198.998000 Epsilon: 0.562000
+Episode #:  219  No   Random PnL: 317.968000 Profit: 3136.045900
+Episode #:  220  With Random, Buy:  703 , Sell:  502 , Hold:  295
+Episode #:  220  No   Random, Buy:  313 , Sell:  1187 , Hold:  0
+Episode #:  220  With Random PnL: 138.477000 Profit: 324.848000 Epsilon: 0.560000
+Episode #:  220  No   Random PnL: 243.508000 Profit: 233.147000
+Episode #:  221  With Random, Buy:  710 , Sell:  496 , Hold:  294
+Episode #:  221  No   Random, Buy:  1277 , Sell:  223 , Hold:  0
+Episode #:  221  With Random PnL: 111.058000 Profit: 212.555000 Epsilon: 0.558000
+Episode #:  221  No   Random PnL: 319.312000 Profit: 3124.155900
+Episode #:  222  With Random, Buy:  787 , Sell:  425 , Hold:  288
+Episode #:  222  No   Random, Buy:  1265 , Sell:  235 , Hold:  0
+Episode #:  222  With Random PnL: 121.291000 Profit: 186.174000 Epsilon: 0.556000
+Episode #:  222  No   Random PnL: 336.566000 Profit: 3211.176900
+Episode #:  223  With Random, Buy:  742 , Sell:  485 , Hold:  273
+Episode #:  223  No   Random, Buy:  1275 , Sell:  225 , Hold:  0
+Episode #:  223  With Random PnL: 104.537000 Profit: 215.617000 Epsilon: 0.554000
+Episode #:  223  No   Random PnL: 322.660000 Profit: 3241.206900
+Episode #:  224  With Random, Buy:  814 , Sell:  422 , Hold:  264
+Episode #:  224  No   Random, Buy:  262 , Sell:  1238 , Hold:  0
+Episode #:  224  With Random PnL: 96.130000 Profit: 257.377000 Epsilon: 0.552000
+Episode #:  224  No   Random PnL: 263.114000 Profit: 256.378000
+Episode #:  225  With Random, Buy:  700 , Sell:  531 , Hold:  269
+Episode #:  225  No   Random, Buy:  262 , Sell:  1238 , Hold:  0
+Episode #:  225  With Random PnL: 126.063000 Profit: 254.463000 Epsilon: 0.550000
+Episode #:  225  No   Random PnL: 248.486000 Profit: 274.807000
+Episode #:  226  With Random, Buy:  737 , Sell:  490 , Hold:  273
+Episode #:  226  No   Random, Buy:  1262 , Sell:  238 , Hold:  0
+Episode #:  226  With Random PnL: 103.025000 Profit: 277.983000 Epsilon: 0.548000
+Episode #:  226  No   Random PnL: 351.774000 Profit: 3333.734900
+Episode #:  227  With Random, Buy:  725 , Sell:  506 , Hold:  269
+Episode #:  227  No   Random, Buy:  1268 , Sell:  232 , Hold:  0
+Episode #:  227  With Random PnL: 97.679000 Profit: 275.777000 Epsilon: 0.546000
+Episode #:  227  No   Random PnL: 325.606000 Profit: 3124.880900
+Episode #:  228  With Random, Buy:  782 , Sell:  451 , Hold:  267
+Episode #:  228  No   Random, Buy:  293 , Sell:  1207 , Hold:  0
+Episode #:  228  With Random PnL: 220.763000 Profit: 494.403000 Epsilon: 0.544000
+Episode #:  228  No   Random PnL: 269.464000 Profit: 272.307000
+Episode #:  229  With Random, Buy:  743 , Sell:  512 , Hold:  245
+Episode #:  229  No   Random, Buy:  286 , Sell:  1214 , Hold:  0
+Episode #:  229  With Random PnL: 96.960000 Profit: 78.026000 Epsilon: 0.542000
+Episode #:  229  No   Random PnL: 254.656000 Profit: 270.971000
+Episode #:  230  With Random, Buy:  767 , Sell:  441 , Hold:  292
+Episode #:  230  No   Random, Buy:  1244 , Sell:  256 , Hold:  0
+Episode #:  230  With Random PnL: 136.527000 Profit: 220.946000 Epsilon: 0.540000
+Episode #:  230  No   Random PnL: 345.668000 Profit: 3105.176900
+Episode #:  231  With Random, Buy:  789 , Sell:  463 , Hold:  248
+Episode #:  231  No   Random, Buy:  1252 , Sell:  248 , Hold:  0
+Episode #:  231  With Random PnL: 198.035000 Profit: 308.650000 Epsilon: 0.538000
+Episode #:  231  No   Random PnL: 341.314000 Profit: 3140.360900
+Episode #:  232  With Random, Buy:  772 , Sell:  456 , Hold:  272
+Episode #:  232  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  232  With Random PnL: 73.887000 Profit: 193.830000 Epsilon: 0.536000
+Episode #:  232  No   Random PnL: 339.776000 Profit: 3163.751900
+Episode #:  233  With Random, Buy:  807 , Sell:  428 , Hold:  265
+Episode #:  233  No   Random, Buy:  1275 , Sell:  225 , Hold:  0
+Episode #:  233  With Random PnL: 225.990000 Profit: 377.477000 Epsilon: 0.534000
+Episode #:  233  No   Random PnL: 317.004000 Profit: 3346.120900
+Episode #:  234  With Random, Buy:  794 , Sell:  442 , Hold:  264
+Episode #:  234  No   Random, Buy:  1267 , Sell:  233 , Hold:  0
+Episode #:  234  With Random PnL: 109.758000 Profit: 341.526000 Epsilon: 0.532000
+Episode #:  234  No   Random PnL: 326.932000 Profit: 3124.959900
+Episode #:  235  With Random, Buy:  712 , Sell:  539 , Hold:  249
+Episode #:  235  No   Random, Buy:  1275 , Sell:  225 , Hold:  0
+Episode #:  235  With Random PnL: 143.251000 Profit: 301.384000 Epsilon: 0.530000
+Episode #:  235  No   Random PnL: 326.264000 Profit: 3121.117900
+Episode #:  236  With Random, Buy:  786 , Sell:  474 , Hold:  240
+Episode #:  236  No   Random, Buy:  297 , Sell:  1203 , Hold:  0
+Episode #:  236  With Random PnL: 92.043000 Profit: 196.571000 Epsilon: 0.528000
+Episode #:  236  No   Random PnL: 280.590000 Profit: 263.786000
+Episode #:  237  With Random, Buy:  822 , Sell:  408 , Hold:  270
+Episode #:  237  No   Random, Buy:  1270 , Sell:  230 , Hold:  0
+Episode #:  237  With Random PnL: 116.684000 Profit: 274.157000 Epsilon: 0.526000
+Episode #:  237  No   Random PnL: 330.488000 Profit: 3145.127900
+Episode #:  238  With Random, Buy:  796 , Sell:  451 , Hold:  253
+Episode #:  238  No   Random, Buy:  1253 , Sell:  247 , Hold:  0
+Episode #:  238  With Random PnL: 173.523000 Profit: 319.315000 Epsilon: 0.524000
+Episode #:  238  No   Random PnL: 349.290000 Profit: 3239.160900
+Episode #:  239  With Random, Buy:  770 , Sell:  487 , Hold:  243
+Episode #:  239  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  239  With Random PnL: 156.461000 Profit: 306.068000 Epsilon: 0.522000
+Episode #:  239  No   Random PnL: 283.034000 Profit: 285.684000
+Episode #:  240  With Random, Buy:  731 , Sell:  505 , Hold:  264
+Episode #:  240  No   Random, Buy:  270 , Sell:  1230 , Hold:  0
+Episode #:  240  With Random PnL: 99.396000 Profit: 182.956000 Epsilon: 0.520000
+Episode #:  240  No   Random PnL: 252.448000 Profit: 228.766000
+Episode #:  241  With Random, Buy:  816 , Sell:  407 , Hold:  277
+Episode #:  241  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  241  With Random PnL: 158.966000 Profit: 391.417000 Epsilon: 0.518000
+Episode #:  241  No   Random PnL: 340.396000 Profit: 3110.910900
+Episode #:  242  With Random, Buy:  724 , Sell:  527 , Hold:  249
+Episode #:  242  No   Random, Buy:  1271 , Sell:  229 , Hold:  0
+Episode #:  242  With Random PnL: 127.334000 Profit: 244.461000 Epsilon: 0.516000
+Episode #:  242  No   Random PnL: 348.940000 Profit: 3144.257900
+Episode #:  243  With Random, Buy:  764 , Sell:  453 , Hold:  283
+Episode #:  243  No   Random, Buy:  289 , Sell:  1211 , Hold:  0
+Episode #:  243  With Random PnL: 169.619000 Profit: 351.234000 Epsilon: 0.514000
+Episode #:  243  No   Random PnL: 224.978000 Profit: 172.888000
+Episode #:  244  With Random, Buy:  805 , Sell:  431 , Hold:  264
+Episode #:  244  No   Random, Buy:  317 , Sell:  1183 , Hold:  0
+Episode #:  244  With Random PnL: 103.286000 Profit: 193.431000 Epsilon: 0.512000
+Episode #:  244  No   Random PnL: 251.052000 Profit: 224.562000
+Episode #:  245  With Random, Buy:  788 , Sell:  473 , Hold:  239
+Episode #:  245  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  245  With Random PnL: 98.116000 Profit: 120.520000 Epsilon: 0.510000
+Episode #:  245  No   Random PnL: 337.336000 Profit: 3188.540900
+Episode #:  246  With Random, Buy:  835 , Sell:  429 , Hold:  236
+Episode #:  246  No   Random, Buy:  1252 , Sell:  248 , Hold:  0
+Episode #:  246  With Random PnL: 205.301000 Profit: 314.806000 Epsilon: 0.508000
+Episode #:  246  No   Random PnL: 346.388000 Profit: 3091.855900
+Episode #:  247  With Random, Buy:  817 , Sell:  450 , Hold:  233
+Episode #:  247  No   Random, Buy:  277 , Sell:  1223 , Hold:  0
+Episode #:  247  With Random PnL: 137.770000 Profit: 196.808000 Epsilon: 0.506000
+Episode #:  247  No   Random PnL: 270.464000 Profit: 193.705000
+Episode #:  248  With Random, Buy:  800 , Sell:  443 , Hold:  257
+Episode #:  248  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  248  With Random PnL: 150.926000 Profit: 282.836000 Epsilon: 0.504000
+Episode #:  248  No   Random PnL: 342.864000 Profit: 3125.682900
+Episode #:  249  With Random, Buy:  764 , Sell:  502 , Hold:  234
+Episode #:  249  No   Random, Buy:  1269 , Sell:  231 , Hold:  0
+Episode #:  249  With Random PnL: 112.692000 Profit: 156.200000 Epsilon: 0.502000
+Episode #:  249  No   Random PnL: 328.080000 Profit: 3198.157900
+Episode #:  250  With Random, Buy:  793 , Sell:  437 , Hold:  270
+Episode #:  250  No   Random, Buy:  1266 , Sell:  234 , Hold:  0
+Episode #:  250  With Random PnL: 126.715000 Profit: 172.904000 Epsilon: 0.500000
+Episode #:  250  No   Random PnL: 332.954000 Profit: 3059.247900
+Episode #:  251  With Random, Buy:  818 , Sell:  419 , Hold:  263
+Episode #:  251  No   Random, Buy:  1264 , Sell:  236 , Hold:  0
+Episode #:  251  With Random PnL: 162.420000 Profit: 269.412000 Epsilon: 0.498000
+Episode #:  251  No   Random PnL: 334.520000 Profit: 3107.867900
+Episode #:  252  With Random, Buy:  795 , Sell:  469 , Hold:  236
+Episode #:  252  No   Random, Buy:  246 , Sell:  1254 , Hold:  0
+Episode #:  252  With Random PnL: 182.777000 Profit: 319.640000 Epsilon: 0.496000
+Episode #:  252  No   Random PnL: 263.758000 Profit: 248.828000
+Episode #:  253  With Random, Buy:  686 , Sell:  579 , Hold:  235
+Episode #:  253  No   Random, Buy:  270 , Sell:  1230 , Hold:  0
+Episode #:  253  With Random PnL: 103.794000 Profit: 45.715000 Epsilon: 0.494000
+Episode #:  253  No   Random PnL: 260.730000 Profit: 239.932000
+Episode #:  254  With Random, Buy:  854 , Sell:  385 , Hold:  261
+Episode #:  254  No   Random, Buy:  1267 , Sell:  233 , Hold:  0
+Episode #:  254  With Random PnL: 126.810000 Profit: 330.533000 Epsilon: 0.492000
+Episode #:  254  No   Random PnL: 337.828000 Profit: 3227.236900
+Episode #:  255  With Random, Buy:  742 , Sell:  504 , Hold:  254
+Episode #:  255  No   Random, Buy:  1277 , Sell:  223 , Hold:  0
+Episode #:  255  With Random PnL: 126.348000 Profit: 285.006000 Epsilon: 0.490000
+Episode #:  255  No   Random PnL: 327.142000 Profit: 3285.764900
+Episode #:  256  With Random, Buy:  745 , Sell:  517 , Hold:  238
+Episode #:  256  No   Random, Buy:  1267 , Sell:  233 , Hold:  0
+Episode #:  256  With Random PnL: 196.286000 Profit: 375.362000 Epsilon: 0.488000
+Episode #:  256  No   Random PnL: 336.674000 Profit: 3178.369900
+Episode #:  257  With Random, Buy:  779 , Sell:  477 , Hold:  244
+Episode #:  257  No   Random, Buy:  1274 , Sell:  226 , Hold:  0
+Episode #:  257  With Random PnL: 143.022000 Profit: 222.842000 Epsilon: 0.486000
+Episode #:  257  No   Random PnL: 331.538000 Profit: 3097.811900
+Episode #:  258  With Random, Buy:  863 , Sell:  386 , Hold:  251
+Episode #:  258  No   Random, Buy:  1287 , Sell:  212 , Hold:  1
+Episode #:  258  With Random PnL: 146.715000 Profit: 204.709000 Epsilon: 0.484000
+Episode #:  258  No   Random PnL: 325.108000 Profit: 3327.831900
+Episode #:  259  With Random, Buy:  826 , Sell:  431 , Hold:  243
+Episode #:  259  No   Random, Buy:  271 , Sell:  1229 , Hold:  0
+Episode #:  259  With Random PnL: 190.326000 Profit: 447.201000 Epsilon: 0.482000
+Episode #:  259  No   Random PnL: 238.168000 Profit: 231.284000
+Episode #:  260  With Random, Buy:  814 , Sell:  450 , Hold:  236
+Episode #:  260  No   Random, Buy:  287 , Sell:  1213 , Hold:  0
+Episode #:  260  With Random PnL: 48.241000 Profit: 162.917000 Epsilon: 0.480000
+Episode #:  260  No   Random PnL: 262.216000 Profit: 237.912000
+Episode #:  261  With Random, Buy:  758 , Sell:  509 , Hold:  233
+Episode #:  261  No   Random, Buy:  270 , Sell:  1230 , Hold:  0
+Episode #:  261  With Random PnL: 136.665000 Profit: 255.854000 Epsilon: 0.478000
+Episode #:  261  No   Random PnL: 269.890000 Profit: 243.268000
+Episode #:  262  With Random, Buy:  759 , Sell:  497 , Hold:  244
+Episode #:  262  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  262  With Random PnL: 160.121000 Profit: 304.861000 Epsilon: 0.476000
+Episode #:  262  No   Random PnL: 341.514000 Profit: 3180.476900
+Episode #:  263  With Random, Buy:  818 , Sell:  460 , Hold:  222
+Episode #:  263  No   Random, Buy:  1261 , Sell:  239 , Hold:  0
+Episode #:  263  With Random PnL: 132.874000 Profit: 253.601000 Epsilon: 0.474000
+Episode #:  263  No   Random PnL: 340.164000 Profit: 3201.318900
+Episode #:  264  With Random, Buy:  776 , Sell:  499 , Hold:  225
+Episode #:  264  No   Random, Buy:  261 , Sell:  1239 , Hold:  0
+Episode #:  264  With Random PnL: 145.862000 Profit: 289.371000 Epsilon: 0.472000
+Episode #:  264  No   Random PnL: 264.236000 Profit: 236.443000
+Episode #:  265  With Random, Buy:  817 , Sell:  455 , Hold:  228
+Episode #:  265  No   Random, Buy:  1235 , Sell:  265 , Hold:  0
+Episode #:  265  With Random PnL: 159.683000 Profit: 373.235000 Epsilon: 0.470000
+Episode #:  265  No   Random PnL: 338.980000 Profit: 3183.607900
+Episode #:  266  With Random, Buy:  786 , Sell:  467 , Hold:  247
+Episode #:  266  No   Random, Buy:  261 , Sell:  1239 , Hold:  0
+Episode #:  266  With Random PnL: 123.921000 Profit: 319.449000 Epsilon: 0.468000
+Episode #:  266  No   Random PnL: 275.470000 Profit: 253.994000
+Episode #:  267  With Random, Buy:  858 , Sell:  410 , Hold:  232
+Episode #:  267  No   Random, Buy:  1262 , Sell:  238 , Hold:  0
+Episode #:  267  With Random PnL: 136.093000 Profit: 367.699000 Epsilon: 0.466000
+Episode #:  267  No   Random PnL: 351.294000 Profit: 3196.488900
+Episode #:  268  With Random, Buy:  886 , Sell:  377 , Hold:  237
+Episode #:  268  No   Random, Buy:  1249 , Sell:  251 , Hold:  0
+Episode #:  268  With Random PnL: 159.208000 Profit: 306.015000 Epsilon: 0.464000
+Episode #:  268  No   Random PnL: 353.346000 Profit: 3147.165900
+Episode #:  269  With Random, Buy:  806 , Sell:  472 , Hold:  222
+Episode #:  269  No   Random, Buy:  287 , Sell:  1213 , Hold:  0
+Episode #:  269  With Random PnL: 191.781000 Profit: 257.217000 Epsilon: 0.462000
+Episode #:  269  No   Random PnL: 277.878000 Profit: 248.619000
+Episode #:  270  With Random, Buy:  836 , Sell:  439 , Hold:  225
+Episode #:  270  No   Random, Buy:  256 , Sell:  1244 , Hold:  0
+Episode #:  270  With Random PnL: 122.016000 Profit: 296.574000 Epsilon: 0.460000
+Episode #:  270  No   Random PnL: 258.196000 Profit: 238.337000
+Episode #:  271  With Random, Buy:  834 , Sell:  439 , Hold:  227
+Episode #:  271  No   Random, Buy:  299 , Sell:  1201 , Hold:  0
+Episode #:  271  With Random PnL: 158.415000 Profit: 376.560000 Epsilon: 0.458000
+Episode #:  271  No   Random PnL: 256.896000 Profit: 239.678000
+Episode #:  272  With Random, Buy:  787 , Sell:  467 , Hold:  246
+Episode #:  272  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  272  With Random PnL: 137.481000 Profit: 214.706000 Epsilon: 0.456000
+Episode #:  272  No   Random PnL: 321.516000 Profit: 3205.093900
+Episode #:  273  With Random, Buy:  808 , Sell:  445 , Hold:  247
+Episode #:  273  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  273  With Random PnL: 132.953000 Profit: 455.025000 Epsilon: 0.454000
+Episode #:  273  No   Random PnL: 347.040000 Profit: 3107.103900
+Episode #:  274  With Random, Buy:  849 , Sell:  420 , Hold:  231
+Episode #:  274  No   Random, Buy:  1265 , Sell:  235 , Hold:  0
+Episode #:  274  With Random PnL: 218.909000 Profit: 374.173000 Epsilon: 0.452000
+Episode #:  274  No   Random PnL: 333.390000 Profit: 3256.710900
+Episode #:  275  With Random, Buy:  853 , Sell:  416 , Hold:  231
+Episode #:  275  No   Random, Buy:  255 , Sell:  1245 , Hold:  0
+Episode #:  275  With Random PnL: 138.420000 Profit: 354.201000 Epsilon: 0.450000
+Episode #:  275  No   Random PnL: 258.810000 Profit: 244.743000
+Episode #:  276  With Random, Buy:  866 , Sell:  407 , Hold:  227
+Episode #:  276  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  276  With Random PnL: 225.160000 Profit: 484.801000 Epsilon: 0.448000
+Episode #:  276  No   Random PnL: 341.962000 Profit: 3305.658900
+Episode #:  277  With Random, Buy:  868 , Sell:  418 , Hold:  214
+Episode #:  277  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  277  With Random PnL: 144.165000 Profit: 287.728000 Epsilon: 0.446000
+Episode #:  277  No   Random PnL: 335.136000 Profit: 3255.090900
+Episode #:  278  With Random, Buy:  840 , Sell:  438 , Hold:  222
+Episode #:  278  No   Random, Buy:  1250 , Sell:  250 , Hold:  0
+Episode #:  278  With Random PnL: 120.018000 Profit: 186.998000 Epsilon: 0.444000
+Episode #:  278  No   Random PnL: 359.618000 Profit: 3182.130900
+Episode #:  279  With Random, Buy:  771 , Sell:  522 , Hold:  207
+Episode #:  279  No   Random, Buy:  248 , Sell:  1252 , Hold:  0
+Episode #:  279  With Random PnL: 179.334000 Profit: 293.602000 Epsilon: 0.442000
+Episode #:  279  No   Random PnL: 274.748000 Profit: 243.720000
+Episode #:  280  With Random, Buy:  774 , Sell:  500 , Hold:  226
+Episode #:  280  No   Random, Buy:  1243 , Sell:  257 , Hold:  0
+Episode #:  280  With Random PnL: 91.289000 Profit: 258.831000 Epsilon: 0.440000
+Episode #:  280  No   Random PnL: 354.484000 Profit: 3148.534900
+Episode #:  281  With Random, Buy:  846 , Sell:  458 , Hold:  196
+Episode #:  281  No   Random, Buy:  1245 , Sell:  255 , Hold:  0
+Episode #:  281  With Random PnL: 166.855000 Profit: 403.036000 Epsilon: 0.438000
+Episode #:  281  No   Random PnL: 349.938000 Profit: 3157.200900
+Episode #:  282  With Random, Buy:  869 , Sell:  440 , Hold:  191
+Episode #:  282  No   Random, Buy:  1245 , Sell:  255 , Hold:  0
+Episode #:  282  With Random PnL: 155.510000 Profit: 399.412000 Epsilon: 0.436000
+Episode #:  282  No   Random PnL: 351.178000 Profit: 3222.959900
+Episode #:  283  With Random, Buy:  864 , Sell:  423 , Hold:  213
+Episode #:  283  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  283  With Random PnL: 162.624000 Profit: 373.439000 Epsilon: 0.434000
+Episode #:  283  No   Random PnL: 343.970000 Profit: 3267.319900
+Episode #:  284  With Random, Buy:  828 , Sell:  471 , Hold:  201
+Episode #:  284  No   Random, Buy:  1258 , Sell:  242 , Hold:  0
+Episode #:  284  With Random PnL: 197.072000 Profit: 444.634000 Epsilon: 0.432000
+Episode #:  284  No   Random PnL: 337.900000 Profit: 3244.475900
+Episode #:  285  With Random, Buy:  824 , Sell:  482 , Hold:  194
+Episode #:  285  No   Random, Buy:  291 , Sell:  1209 , Hold:  0
+Episode #:  285  With Random PnL: 258.852000 Profit: 465.301000 Epsilon: 0.430000
+Episode #:  285  No   Random PnL: 272.922000 Profit: 276.338000
+Episode #:  286  With Random, Buy:  787 , Sell:  499 , Hold:  214
+Episode #:  286  No   Random, Buy:  283 , Sell:  1217 , Hold:  0
+Episode #:  286  With Random PnL: 169.301000 Profit: 375.100000 Epsilon: 0.428000
+Episode #:  286  No   Random PnL: 264.180000 Profit: 244.174000
+Episode #:  287  With Random, Buy:  811 , Sell:  464 , Hold:  225
+Episode #:  287  No   Random, Buy:  262 , Sell:  1238 , Hold:  0
+Episode #:  287  With Random PnL: 175.017000 Profit: 262.106000 Epsilon: 0.426000
+Episode #:  287  No   Random PnL: 259.896000 Profit: 284.943000
+Episode #:  288  With Random, Buy:  789 , Sell:  487 , Hold:  224
+Episode #:  288  No   Random, Buy:  268 , Sell:  1232 , Hold:  0
+Episode #:  288  With Random PnL: 161.608000 Profit: 278.497000 Epsilon: 0.424000
+Episode #:  288  No   Random PnL: 266.410000 Profit: 282.754000
+Episode #:  289  With Random, Buy:  743 , Sell:  509 , Hold:  248
+Episode #:  289  No   Random, Buy:  314 , Sell:  1186 , Hold:  0
+Episode #:  289  With Random PnL: 124.835000 Profit: 226.828000 Epsilon: 0.422000
+Episode #:  289  No   Random PnL: 280.086000 Profit: 291.552000
+Episode #:  290  With Random, Buy:  836 , Sell:  458 , Hold:  206
+Episode #:  290  No   Random, Buy:  273 , Sell:  1227 , Hold:  0
+Episode #:  290  With Random PnL: 163.074000 Profit: 287.446000 Epsilon: 0.420000
+Episode #:  290  No   Random PnL: 295.042000 Profit: 271.483000
+Episode #:  291  With Random, Buy:  788 , Sell:  529 , Hold:  183
+Episode #:  291  No   Random, Buy:  278 , Sell:  1222 , Hold:  0
+Episode #:  291  With Random PnL: 203.956000 Profit: 244.180000 Epsilon: 0.418000
+Episode #:  291  No   Random PnL: 269.504000 Profit: 262.229000
+Episode #:  292  With Random, Buy:  827 , Sell:  469 , Hold:  204
+Episode #:  292  No   Random, Buy:  1246 , Sell:  254 , Hold:  0
+Episode #:  292  With Random PnL: 194.174000 Profit: 293.165000 Epsilon: 0.416000
+Episode #:  292  No   Random PnL: 347.690000 Profit: 3146.975900
+Episode #:  293  With Random, Buy:  789 , Sell:  509 , Hold:  202
+Episode #:  293  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  293  With Random PnL: 156.547000 Profit: 233.566000 Epsilon: 0.414000
+Episode #:  293  No   Random PnL: 352.134000 Profit: 3257.103900
+Episode #:  294  With Random, Buy:  893 , Sell:  424 , Hold:  183
+Episode #:  294  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  294  With Random PnL: 200.712000 Profit: 447.240000 Epsilon: 0.412000
+Episode #:  294  No   Random PnL: 333.258000 Profit: 3252.849900
+Episode #:  295  With Random, Buy:  807 , Sell:  501 , Hold:  192
+Episode #:  295  No   Random, Buy:  1253 , Sell:  247 , Hold:  0
+Episode #:  295  With Random PnL: 156.569000 Profit: 440.491000 Epsilon: 0.410000
+Episode #:  295  No   Random PnL: 349.556000 Profit: 3167.800900
+Episode #:  296  With Random, Buy:  892 , Sell:  404 , Hold:  204
+Episode #:  296  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  296  With Random PnL: 138.060000 Profit: 316.098000 Epsilon: 0.408000
+Episode #:  296  No   Random PnL: 343.316000 Profit: 3103.800900
+Episode #:  297  With Random, Buy:  911 , Sell:  396 , Hold:  193
+Episode #:  297  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  297  With Random PnL: 162.457000 Profit: 593.336000 Epsilon: 0.406000
+Episode #:  297  No   Random PnL: 352.652000 Profit: 3076.738900
+Episode #:  298  With Random, Buy:  733 , Sell:  528 , Hold:  239
+Episode #:  298  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  298  With Random PnL: 176.369000 Profit: 271.681000 Epsilon: 0.404000
+Episode #:  298  No   Random PnL: 343.658000 Profit: 3143.796900
+Episode #:  299  With Random, Buy:  815 , Sell:  467 , Hold:  218
+Episode #:  299  No   Random, Buy:  283 , Sell:  1217 , Hold:  0
+Episode #:  299  With Random PnL: 181.395000 Profit: 429.337000 Epsilon: 0.402000
+Episode #:  299  No   Random PnL: 267.002000 Profit: 199.247000
+Episode #:  300  With Random, Buy:  820 , Sell:  476 , Hold:  204
+Episode #:  300  No   Random, Buy:  1267 , Sell:  233 , Hold:  0
+Episode #:  300  With Random PnL: 181.456000 Profit: 389.633000 Epsilon: 0.400000
+Episode #:  300  No   Random PnL: 341.882000 Profit: 3181.039900
+Episode #:  301  With Random, Buy:  765 , Sell:  534 , Hold:  201
+Episode #:  301  No   Random, Buy:  1274 , Sell:  226 , Hold:  0
+Episode #:  301  With Random PnL: 172.176000 Profit: 270.718000 Epsilon: 0.398000
+Episode #:  301  No   Random PnL: 331.484000 Profit: 3431.562900
+Episode #:  302  With Random, Buy:  810 , Sell:  490 , Hold:  200
+Episode #:  302  No   Random, Buy:  262 , Sell:  1238 , Hold:  0
+Episode #:  302  With Random PnL: 215.841000 Profit: 496.692000 Epsilon: 0.396000
+Episode #:  302  No   Random PnL: 298.268000 Profit: 265.333000
+Episode #:  303  With Random, Buy:  900 , Sell:  415 , Hold:  185
+Episode #:  303  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  303  With Random PnL: 213.097000 Profit: 386.072000 Epsilon: 0.394000
+Episode #:  303  No   Random PnL: 337.588000 Profit: 3221.922900
+Episode #:  304  With Random, Buy:  879 , Sell:  436 , Hold:  185
+Episode #:  304  No   Random, Buy:  288 , Sell:  1212 , Hold:  0
+Episode #:  304  With Random PnL: 167.816000 Profit: 362.559000 Epsilon: 0.392000
+Episode #:  304  No   Random PnL: 278.560000 Profit: 247.943000
+Episode #:  305  With Random, Buy:  833 , Sell:  459 , Hold:  208
+Episode #:  305  No   Random, Buy:  259 , Sell:  1241 , Hold:  0
+Episode #:  305  With Random PnL: 256.712000 Profit: 427.897000 Epsilon: 0.390000
+Episode #:  305  No   Random PnL: 276.152000 Profit: 246.469000
+Episode #:  306  With Random, Buy:  908 , Sell:  409 , Hold:  183
+Episode #:  306  No   Random, Buy:  1260 , Sell:  240 , Hold:  0
+Episode #:  306  With Random PnL: 211.729000 Profit: 421.069000 Epsilon: 0.388000
+Episode #:  306  No   Random PnL: 357.376000 Profit: 3336.999900
+Episode #:  307  With Random, Buy:  834 , Sell:  461 , Hold:  205
+Episode #:  307  No   Random, Buy:  1250 , Sell:  250 , Hold:  0
+Episode #:  307  With Random PnL: 153.775000 Profit: 397.021000 Epsilon: 0.386000
+Episode #:  307  No   Random PnL: 351.178000 Profit: 3233.353900
+Episode #:  308  With Random, Buy:  792 , Sell:  495 , Hold:  213
+Episode #:  308  No   Random, Buy:  243 , Sell:  1257 , Hold:  0
+Episode #:  308  With Random PnL: 142.404000 Profit: 294.462000 Epsilon: 0.384000
+Episode #:  308  No   Random PnL: 262.194000 Profit: 227.821000
+Episode #:  309  With Random, Buy:  795 , Sell:  517 , Hold:  188
+Episode #:  309  No   Random, Buy:  273 , Sell:  1227 , Hold:  0
+Episode #:  309  With Random PnL: 183.932000 Profit: -17.350000 Epsilon: 0.382000
+Episode #:  309  No   Random PnL: 269.650000 Profit: 233.173000
+Episode #:  310  With Random, Buy:  864 , Sell:  435 , Hold:  201
+Episode #:  310  No   Random, Buy:  287 , Sell:  1213 , Hold:  0
+Episode #:  310  With Random PnL: 161.175000 Profit: 319.600000 Epsilon: 0.380000
+Episode #:  310  No   Random PnL: 254.966000 Profit: 213.698000
+Episode #:  311  With Random, Buy:  782 , Sell:  544 , Hold:  174
+Episode #:  311  No   Random, Buy:  1251 , Sell:  249 , Hold:  0
+Episode #:  311  With Random PnL: 166.980000 Profit: 345.591000 Epsilon: 0.378000
+Episode #:  311  No   Random PnL: 345.380000 Profit: 3310.435900
+Episode #:  312  With Random, Buy:  892 , Sell:  431 , Hold:  177
+Episode #:  312  No   Random, Buy:  261 , Sell:  1239 , Hold:  0
+Episode #:  312  With Random PnL: 207.873000 Profit: 579.286000 Epsilon: 0.376000
+Episode #:  312  No   Random PnL: 287.150000 Profit: 257.624000
+Episode #:  313  With Random, Buy:  846 , Sell:  462 , Hold:  192
+Episode #:  313  No   Random, Buy:  1270 , Sell:  230 , Hold:  0
+Episode #:  313  With Random PnL: 192.094000 Profit: 462.513000 Epsilon: 0.374000
+Episode #:  313  No   Random PnL: 337.164000 Profit: 3137.910900
+Episode #:  314  With Random, Buy:  823 , Sell:  503 , Hold:  174
+Episode #:  314  No   Random, Buy:  1245 , Sell:  255 , Hold:  0
+Episode #:  314  With Random PnL: 215.937000 Profit: 391.695000 Epsilon: 0.372000
+Episode #:  314  No   Random PnL: 337.682000 Profit: 3272.623900
+Episode #:  315  With Random, Buy:  914 , Sell:  408 , Hold:  178
+Episode #:  315  No   Random, Buy:  1218 , Sell:  282 , Hold:  0
+Episode #:  315  With Random PnL: 177.101000 Profit: 513.035000 Epsilon: 0.370000
+Episode #:  315  No   Random PnL: 343.284000 Profit: 3084.569900
+Episode #:  316  With Random, Buy:  928 , Sell:  396 , Hold:  176
+Episode #:  316  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  316  With Random PnL: 224.364000 Profit: 566.629000 Epsilon: 0.368000
+Episode #:  316  No   Random PnL: 352.274000 Profit: 3140.674900
+Episode #:  317  With Random, Buy:  898 , Sell:  418 , Hold:  184
+Episode #:  317  No   Random, Buy:  308 , Sell:  1192 , Hold:  0
+Episode #:  317  With Random PnL: 165.225000 Profit: 513.105000 Epsilon: 0.366000
+Episode #:  317  No   Random PnL: 287.356000 Profit: 282.605000
+Episode #:  318  With Random, Buy:  831 , Sell:  480 , Hold:  189
+Episode #:  318  No   Random, Buy:  256 , Sell:  1244 , Hold:  0
+Episode #:  318  With Random PnL: 243.430000 Profit: 518.241000 Epsilon: 0.364000
+Episode #:  318  No   Random PnL: 293.682000 Profit: 256.968000
+Episode #:  319  With Random, Buy:  831 , Sell:  498 , Hold:  171
+Episode #:  319  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  319  With Random PnL: 171.419000 Profit: 227.472000 Epsilon: 0.362000
+Episode #:  319  No   Random PnL: 352.294000 Profit: 3280.135900
+Episode #:  320  With Random, Buy:  821 , Sell:  488 , Hold:  191
+Episode #:  320  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  320  With Random PnL: 188.197000 Profit: 479.205000 Epsilon: 0.360000
+Episode #:  320  No   Random PnL: 353.336000 Profit: 3111.285900
+Episode #:  321  With Random, Buy:  843 , Sell:  476 , Hold:  181
+Episode #:  321  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  321  With Random PnL: 190.126000 Profit: 403.788000 Epsilon: 0.358000
+Episode #:  321  No   Random PnL: 279.468000 Profit: 295.872000
+Episode #:  322  With Random, Buy:  890 , Sell:  422 , Hold:  188
+Episode #:  322  No   Random, Buy:  1258 , Sell:  242 , Hold:  0
+Episode #:  322  With Random PnL: 171.550000 Profit: 248.287000 Epsilon: 0.356000
+Episode #:  322  No   Random PnL: 361.050000 Profit: 3168.110900
+Episode #:  323  With Random, Buy:  810 , Sell:  488 , Hold:  202
+Episode #:  323  No   Random, Buy:  1252 , Sell:  248 , Hold:  0
+Episode #:  323  With Random PnL: 179.748000 Profit: 465.900000 Epsilon: 0.354000
+Episode #:  323  No   Random PnL: 349.104000 Profit: 3274.322900
+Episode #:  324  With Random, Buy:  881 , Sell:  443 , Hold:  176
+Episode #:  324  No   Random, Buy:  1257 , Sell:  243 , Hold:  0
+Episode #:  324  With Random PnL: 146.855000 Profit: 366.966000 Epsilon: 0.352000
+Episode #:  324  No   Random PnL: 357.540000 Profit: 3199.509900
+Episode #:  325  With Random, Buy:  820 , Sell:  503 , Hold:  177
+Episode #:  325  No   Random, Buy:  270 , Sell:  1230 , Hold:  0
+Episode #:  325  With Random PnL: 154.808000 Profit: 286.891000 Epsilon: 0.350000
+Episode #:  325  No   Random PnL: 302.726000 Profit: 260.011000
+Episode #:  326  With Random, Buy:  834 , Sell:  486 , Hold:  180
+Episode #:  326  No   Random, Buy:  1254 , Sell:  246 , Hold:  0
+Episode #:  326  With Random PnL: 180.634000 Profit: 406.355000 Epsilon: 0.348000
+Episode #:  326  No   Random PnL: 361.312000 Profit: 3185.349900
+Episode #:  327  With Random, Buy:  911 , Sell:  427 , Hold:  162
+Episode #:  327  No   Random, Buy:  1243 , Sell:  257 , Hold:  0
+Episode #:  327  With Random PnL: 162.261000 Profit: 408.306000 Epsilon: 0.346000
+Episode #:  327  No   Random PnL: 369.336000 Profit: 3275.017900
+Episode #:  328  With Random, Buy:  896 , Sell:  446 , Hold:  158
+Episode #:  328  No   Random, Buy:  292 , Sell:  1208 , Hold:  0
+Episode #:  328  With Random PnL: 240.205000 Profit: 325.192000 Epsilon: 0.344000
+Episode #:  328  No   Random PnL: 296.620000 Profit: 200.140000
+Episode #:  329  With Random, Buy:  864 , Sell:  472 , Hold:  164
+Episode #:  329  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  329  With Random PnL: 254.646000 Profit: 562.253000 Epsilon: 0.342000
+Episode #:  329  No   Random PnL: 300.412000 Profit: 280.819000
+Episode #:  330  With Random, Buy:  880 , Sell:  438 , Hold:  182
+Episode #:  330  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  330  With Random PnL: 174.497000 Profit: 397.868000 Epsilon: 0.340000
+Episode #:  330  No   Random PnL: 364.580000 Profit: 3179.291900
+Episode #:  331  With Random, Buy:  890 , Sell:  433 , Hold:  177
+Episode #:  331  No   Random, Buy:  1267 , Sell:  233 , Hold:  0
+Episode #:  331  With Random PnL: 194.359000 Profit: 646.701000 Epsilon: 0.338000
+Episode #:  331  No   Random PnL: 346.542000 Profit: 3249.086900
+Episode #:  332  With Random, Buy:  916 , Sell:  406 , Hold:  178
+Episode #:  332  No   Random, Buy:  274 , Sell:  1226 , Hold:  0
+Episode #:  332  With Random PnL: 266.369000 Profit: 585.201000 Epsilon: 0.336000
+Episode #:  332  No   Random PnL: 292.748000 Profit: 265.871000
+Episode #:  333  With Random, Buy:  890 , Sell:  443 , Hold:  167
+Episode #:  333  No   Random, Buy:  1245 , Sell:  255 , Hold:  0
+Episode #:  333  With Random PnL: 177.127000 Profit: 439.578000 Epsilon: 0.334000
+Episode #:  333  No   Random PnL: 354.454000 Profit: 3184.642900
+Episode #:  334  With Random, Buy:  787 , Sell:  537 , Hold:  176
+Episode #:  334  No   Random, Buy:  256 , Sell:  1244 , Hold:  0
+Episode #:  334  With Random PnL: 270.987000 Profit: 446.777000 Epsilon: 0.332000
+Episode #:  334  No   Random PnL: 280.584000 Profit: 260.953000
+Episode #:  335  With Random, Buy:  891 , Sell:  459 , Hold:  150
+Episode #:  335  No   Random, Buy:  272 , Sell:  1228 , Hold:  0
+Episode #:  335  With Random PnL: 201.351000 Profit: 337.369000 Epsilon: 0.330000
+Episode #:  335  No   Random PnL: 283.916000 Profit: 251.724000
+Episode #:  336  With Random, Buy:  829 , Sell:  493 , Hold:  178
+Episode #:  336  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  336  With Random PnL: 191.624000 Profit: 342.926000 Epsilon: 0.328000
+Episode #:  336  No   Random PnL: 362.604000 Profit: 3239.071900
+Episode #:  337  With Random, Buy:  854 , Sell:  489 , Hold:  157
+Episode #:  337  No   Random, Buy:  269 , Sell:  1231 , Hold:  0
+Episode #:  337  With Random PnL: 242.094000 Profit: 426.437000 Epsilon: 0.326000
+Episode #:  337  No   Random PnL: 281.512000 Profit: 243.179000
+Episode #:  338  With Random, Buy:  878 , Sell:  474 , Hold:  148
+Episode #:  338  No   Random, Buy:  270 , Sell:  1230 , Hold:  0
+Episode #:  338  With Random PnL: 234.610000 Profit: 451.350000 Epsilon: 0.324000
+Episode #:  338  No   Random PnL: 280.490000 Profit: 254.531000
+Episode #:  339  With Random, Buy:  903 , Sell:  421 , Hold:  176
+Episode #:  339  No   Random, Buy:  259 , Sell:  1241 , Hold:  0
+Episode #:  339  With Random PnL: 182.484000 Profit: 210.894000 Epsilon: 0.322000
+Episode #:  339  No   Random PnL: 285.650000 Profit: 244.724000
+Episode #:  340  With Random, Buy:  893 , Sell:  449 , Hold:  158
+Episode #:  340  No   Random, Buy:  1256 , Sell:  244 , Hold:  0
+Episode #:  340  With Random PnL: 223.223000 Profit: 470.503000 Epsilon: 0.320000
+Episode #:  340  No   Random PnL: 350.740000 Profit: 3210.738900
+Episode #:  341  With Random, Buy:  903 , Sell:  434 , Hold:  163
+Episode #:  341  No   Random, Buy:  1252 , Sell:  248 , Hold:  0
+Episode #:  341  With Random PnL: 232.207000 Profit: 398.468000 Epsilon: 0.318000
+Episode #:  341  No   Random PnL: 345.950000 Profit: 3275.465900
+Episode #:  342  With Random, Buy:  888 , Sell:  435 , Hold:  177
+Episode #:  342  No   Random, Buy:  1264 , Sell:  236 , Hold:  0
+Episode #:  342  With Random PnL: 190.818000 Profit: 572.885000 Epsilon: 0.316000
+Episode #:  342  No   Random PnL: 349.816000 Profit: 3127.894900
+Episode #:  343  With Random, Buy:  917 , Sell:  412 , Hold:  171
+Episode #:  343  No   Random, Buy:  270 , Sell:  1230 , Hold:  0
+Episode #:  343  With Random PnL: 219.669000 Profit: 673.037000 Epsilon: 0.314000
+Episode #:  343  No   Random PnL: 295.824000 Profit: 267.594000
+Episode #:  344  With Random, Buy:  924 , Sell:  422 , Hold:  154
+Episode #:  344  No   Random, Buy:  1248 , Sell:  252 , Hold:  0
+Episode #:  344  With Random PnL: 147.683000 Profit: 417.875000 Epsilon: 0.312000
+Episode #:  344  No   Random PnL: 364.278000 Profit: 3261.431900
+Episode #:  345  With Random, Buy:  950 , Sell:  394 , Hold:  156
+Episode #:  345  No   Random, Buy:  1269 , Sell:  231 , Hold:  0
+Episode #:  345  With Random PnL: 222.564000 Profit: 513.467000 Epsilon: 0.310000
+Episode #:  345  No   Random PnL: 331.058000 Profit: 3138.675900
+Episode #:  346  With Random, Buy:  956 , Sell:  383 , Hold:  161
+Episode #:  346  No   Random, Buy:  1263 , Sell:  237 , Hold:  0
+Episode #:  346  With Random PnL: 222.797000 Profit: 582.303000 Epsilon: 0.308000
+Episode #:  346  No   Random PnL: 340.156000 Profit: 3212.328900
+Episode #:  347  With Random, Buy:  897 , Sell:  454 , Hold:  149
+Episode #:  347  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  347  With Random PnL: 219.101000 Profit: 388.923000 Epsilon: 0.306000
+Episode #:  347  No   Random PnL: 344.682000 Profit: 3166.517900
+Episode #:  348  With Random, Buy:  946 , Sell:  402 , Hold:  152
+Episode #:  348  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  348  With Random PnL: 225.894000 Profit: 571.828000 Epsilon: 0.304000
+Episode #:  348  No   Random PnL: 359.016000 Profit: 3231.313900
+Episode #:  349  With Random, Buy:  909 , Sell:  444 , Hold:  147
+Episode #:  349  No   Random, Buy:  282 , Sell:  1218 , Hold:  0
+Episode #:  349  With Random PnL: 245.267000 Profit: 471.652000 Epsilon: 0.302000
+Episode #:  349  No   Random PnL: 305.490000 Profit: 304.316000
+Episode #:  350  With Random, Buy:  949 , Sell:  409 , Hold:  142
+Episode #:  350  No   Random, Buy:  1271 , Sell:  229 , Hold:  0
+Episode #:  350  With Random PnL: 146.110000 Profit: 396.181000 Epsilon: 0.300000
+Episode #:  350  No   Random PnL: 348.050000 Profit: 3250.674900
+Episode #:  351  With Random, Buy:  944 , Sell:  402 , Hold:  154
+Episode #:  351  No   Random, Buy:  1253 , Sell:  247 , Hold:  0
+Episode #:  351  With Random PnL: 213.912000 Profit: 462.387000 Epsilon: 0.298000
+Episode #:  351  No   Random PnL: 352.008000 Profit: 3158.301900
+Episode #:  352  With Random, Buy:  846 , Sell:  493 , Hold:  161
+Episode #:  352  No   Random, Buy:  276 , Sell:  1224 , Hold:  0
+Episode #:  352  With Random PnL: 249.191000 Profit: 461.701000 Epsilon: 0.296000
+Episode #:  352  No   Random PnL: 280.268000 Profit: 258.994000
+Episode #:  353  With Random, Buy:  877 , Sell:  477 , Hold:  146
+Episode #:  353  No   Random, Buy:  1245 , Sell:  255 , Hold:  0
+Episode #:  353  With Random PnL: 167.049000 Profit: 157.374000 Epsilon: 0.294000
+Episode #:  353  No   Random PnL: 343.708000 Profit: 3153.135900
+Episode #:  354  With Random, Buy:  864 , Sell:  468 , Hold:  168
+Episode #:  354  No   Random, Buy:  277 , Sell:  1223 , Hold:  0
+Episode #:  354  With Random PnL: 207.683000 Profit: 245.111000 Epsilon: 0.292000
+Episode #:  354  No   Random PnL: 300.062000 Profit: 289.182000
+Episode #:  355  With Random, Buy:  935 , Sell:  427 , Hold:  138
+Episode #:  355  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  355  With Random PnL: 155.559000 Profit: 508.458000 Epsilon: 0.290000
+Episode #:  355  No   Random PnL: 280.962000 Profit: 279.604000
+Episode #:  356  With Random, Buy:  888 , Sell:  488 , Hold:  124
+Episode #:  356  No   Random, Buy:  1242 , Sell:  258 , Hold:  0
+Episode #:  356  With Random PnL: 199.437000 Profit: 321.946000 Epsilon: 0.288000
+Episode #:  356  No   Random PnL: 359.324000 Profit: 3197.999900
+Episode #:  357  With Random, Buy:  944 , Sell:  401 , Hold:  155
+Episode #:  357  No   Random, Buy:  1251 , Sell:  249 , Hold:  0
+Episode #:  357  With Random PnL: 217.735000 Profit: 361.533000 Epsilon: 0.286000
+Episode #:  357  No   Random PnL: 363.094000 Profit: 3184.983900
+Episode #:  358  With Random, Buy:  834 , Sell:  535 , Hold:  131
+Episode #:  358  No   Random, Buy:  286 , Sell:  1214 , Hold:  0
+Episode #:  358  With Random PnL: 243.884000 Profit: 377.029000 Epsilon: 0.284000
+Episode #:  358  No   Random PnL: 289.920000 Profit: 256.125000
+Episode #:  359  With Random, Buy:  808 , Sell:  565 , Hold:  127
+Episode #:  359  No   Random, Buy:  277 , Sell:  1223 , Hold:  0
+Episode #:  359  With Random PnL: 235.589000 Profit: 361.578000 Epsilon: 0.282000
+Episode #:  359  No   Random PnL: 300.900000 Profit: 274.563000
+Episode #:  360  With Random, Buy:  879 , Sell:  481 , Hold:  140
+Episode #:  360  No   Random, Buy:  1254 , Sell:  246 , Hold:  0
+Episode #:  360  With Random PnL: 237.451000 Profit: 618.647000 Epsilon: 0.280000
+Episode #:  360  No   Random PnL: 354.030000 Profit: 3278.928900
+Episode #:  361  With Random, Buy:  840 , Sell:  527 , Hold:  133
+Episode #:  361  No   Random, Buy:  276 , Sell:  1224 , Hold:  0
+Episode #:  361  With Random PnL: 278.467000 Profit: 435.248000 Epsilon: 0.278000
+Episode #:  361  No   Random PnL: 293.916000 Profit: 261.229000
+Episode #:  362  With Random, Buy:  916 , Sell:  451 , Hold:  133
+Episode #:  362  No   Random, Buy:  267 , Sell:  1233 , Hold:  0
+Episode #:  362  With Random PnL: 210.335000 Profit: 386.259000 Epsilon: 0.276000
+Episode #:  362  No   Random PnL: 291.810000 Profit: 269.121000
+Episode #:  363  With Random, Buy:  902 , Sell:  460 , Hold:  138
+Episode #:  363  No   Random, Buy:  1263 , Sell:  237 , Hold:  0
+Episode #:  363  With Random PnL: 229.557000 Profit: 458.337000 Epsilon: 0.274000
+Episode #:  363  No   Random PnL: 358.924000 Profit: 3190.482900
+Episode #:  364  With Random, Buy:  865 , Sell:  504 , Hold:  131
+Episode #:  364  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  364  With Random PnL: 252.617000 Profit: 486.191000 Epsilon: 0.272000
+Episode #:  364  No   Random PnL: 295.996000 Profit: 271.138000
+Episode #:  365  With Random, Buy:  865 , Sell:  492 , Hold:  143
+Episode #:  365  No   Random, Buy:  304 , Sell:  1196 , Hold:  0
+Episode #:  365  With Random PnL: 204.687000 Profit: 359.914000 Epsilon: 0.270000
+Episode #:  365  No   Random PnL: 277.452000 Profit: 247.799000
+Episode #:  366  With Random, Buy:  885 , Sell:  475 , Hold:  140
+Episode #:  366  No   Random, Buy:  310 , Sell:  1190 , Hold:  0
+Episode #:  366  With Random PnL: 217.170000 Profit: 455.127000 Epsilon: 0.268000
+Episode #:  366  No   Random PnL: 272.950000 Profit: 282.148000
+Episode #:  367  With Random, Buy:  984 , Sell:  384 , Hold:  132
+Episode #:  367  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  367  With Random PnL: 230.818000 Profit: 629.339000 Epsilon: 0.266000
+Episode #:  367  No   Random PnL: 344.544000 Profit: 3270.751900
+Episode #:  368  With Random, Buy:  744 , Sell:  640 , Hold:  116
+Episode #:  368  No   Random, Buy:  312 , Sell:  1188 , Hold:  0
+Episode #:  368  With Random PnL: 254.759000 Profit: 310.586000 Epsilon: 0.264000
+Episode #:  368  No   Random PnL: 301.646000 Profit: 271.026000
+Episode #:  369  With Random, Buy:  925 , Sell:  444 , Hold:  131
+Episode #:  369  No   Random, Buy:  278 , Sell:  1222 , Hold:  0
+Episode #:  369  With Random PnL: 201.060000 Profit: 521.284000 Epsilon: 0.262000
+Episode #:  369  No   Random PnL: 289.792000 Profit: 269.605000
+Episode #:  370  With Random, Buy:  918 , Sell:  450 , Hold:  132
+Episode #:  370  No   Random, Buy:  298 , Sell:  1202 , Hold:  0
+Episode #:  370  With Random PnL: 221.630000 Profit: 434.036000 Epsilon: 0.260000
+Episode #:  370  No   Random PnL: 294.776000 Profit: 289.598000
+Episode #:  371  With Random, Buy:  884 , Sell:  474 , Hold:  142
+Episode #:  371  No   Random, Buy:  301 , Sell:  1199 , Hold:  0
+Episode #:  371  With Random PnL: 266.077000 Profit: 641.542000 Epsilon: 0.258000
+Episode #:  371  No   Random PnL: 301.478000 Profit: 273.012000
+Episode #:  372  With Random, Buy:  920 , Sell:  447 , Hold:  133
+Episode #:  372  No   Random, Buy:  1255 , Sell:  245 , Hold:  0
+Episode #:  372  With Random PnL: 226.736000 Profit: 562.062000 Epsilon: 0.256000
+Episode #:  372  No   Random PnL: 355.048000 Profit: 3231.113900
+Episode #:  373  With Random, Buy:  884 , Sell:  483 , Hold:  133
+Episode #:  373  No   Random, Buy:  315 , Sell:  1185 , Hold:  0
+Episode #:  373  With Random PnL: 210.736000 Profit: 567.101000 Epsilon: 0.254000
+Episode #:  373  No   Random PnL: 299.124000 Profit: 274.655000
+Episode #:  374  With Random, Buy:  958 , Sell:  422 , Hold:  120
+Episode #:  374  No   Random, Buy:  288 , Sell:  1212 , Hold:  0
+Episode #:  374  With Random PnL: 224.469000 Profit: 446.771000 Epsilon: 0.252000
+Episode #:  374  No   Random PnL: 308.220000 Profit: 274.902000
+Episode #:  375  With Random, Buy:  943 , Sell:  432 , Hold:  125
+Episode #:  375  No   Random, Buy:  281 , Sell:  1219 , Hold:  0
+Episode #:  375  With Random PnL: 238.808000 Profit: 437.575000 Epsilon: 0.250000
+Episode #:  375  No   Random PnL: 303.258000 Profit: 267.871000
+Episode #:  376  With Random, Buy:  917 , Sell:  470 , Hold:  113
+Episode #:  376  No   Random, Buy:  277 , Sell:  1223 , Hold:  0
+Episode #:  376  With Random PnL: 264.356000 Profit: 581.485000 Epsilon: 0.248000
+Episode #:  376  No   Random PnL: 309.904000 Profit: 284.193000
+Episode #:  377  With Random, Buy:  955 , Sell:  440 , Hold:  105
+Episode #:  377  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  377  With Random PnL: 190.378000 Profit: 473.121000 Epsilon: 0.246000
+Episode #:  377  No   Random PnL: 293.358000 Profit: 274.329000
+Episode #:  378  With Random, Buy:  931 , Sell:  441 , Hold:  128
+Episode #:  378  No   Random, Buy:  1238 , Sell:  262 , Hold:  0
+Episode #:  378  With Random PnL: 208.684000 Profit: 373.195000 Epsilon: 0.244000
+Episode #:  378  No   Random PnL: 375.654000 Profit: 3326.831900
+Episode #:  379  With Random, Buy:  978 , Sell:  409 , Hold:  113
+Episode #:  379  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  379  With Random PnL: 247.287000 Profit: 701.798000 Epsilon: 0.242000
+Episode #:  379  No   Random PnL: 358.926000 Profit: 3203.289900
+Episode #:  380  With Random, Buy:  964 , Sell:  401 , Hold:  135
+Episode #:  380  No   Random, Buy:  1247 , Sell:  253 , Hold:  0
+Episode #:  380  With Random PnL: 307.679000 Profit: 864.576000 Epsilon: 0.240000
+Episode #:  380  No   Random PnL: 360.692000 Profit: 3274.893900
+Episode #:  381  With Random, Buy:  907 , Sell:  463 , Hold:  130
+Episode #:  381  No   Random, Buy:  1259 , Sell:  241 , Hold:  0
+Episode #:  381  With Random PnL: 256.728000 Profit: 659.635000 Epsilon: 0.238000
+Episode #:  381  No   Random PnL: 363.982000 Profit: 3215.083900
+Episode #:  382  With Random, Buy:  945 , Sell:  446 , Hold:  109
+Episode #:  382  No   Random, Buy:  279 , Sell:  1221 , Hold:  0
+Episode #:  382  With Random PnL: 287.537000 Profit: 718.473000 Epsilon: 0.236000
+Episode #:  382  No   Random PnL: 311.920000 Profit: 285.402000
+Episode #:  383  With Random, Buy:  850 , Sell:  526 , Hold:  124
+Episode #:  383  No   Random, Buy:  1253 , Sell:  247 , Hold:  0
+Episode #:  383  With Random PnL: 251.368000 Profit: 503.935000 Epsilon: 0.234000
+Episode #:  383  No   Random PnL: 364.056000 Profit: 3208.823900
+Episode #:  384  With Random, Buy:  945 , Sell:  455 , Hold:  100
+Episode #:  384  No   Random, Buy:  1243 , Sell:  257 , Hold:  0
+Episode #:  384  With Random PnL: 243.498000 Profit: 589.275000 Epsilon: 0.232000
+Episode #:  384  No   Random PnL: 353.082000 Profit: 3269.893900
+Episode #:  385  With Random, Buy:  956 , Sell:  431 , Hold:  113
+Episode #:  385  No   Random, Buy:  261 , Sell:  1239 , Hold:  0
+Episode #:  385  With Random PnL: 228.365000 Profit: 625.980000 Epsilon: 0.230000
+Episode #:  385  No   Random PnL: 307.064000 Profit: 265.899000
+Episode #:  386  With Random, Buy:  976 , Sell:  412 , Hold:  112
+Episode #:  386  No   Random, Buy:  288 , Sell:  1212 , Hold:  0
+Episode #:  386  With Random PnL: 232.307000 Profit: 568.353000 Epsilon: 0.228000
+Episode #:  386  No   Random PnL: 287.962000 Profit: 262.499000
+Episode #:  387  With Random, Buy:  931 , Sell:  463 , Hold:  106
+Episode #:  387  No   Random, Buy:  1253 , Sell:  247 , Hold:  0
+Episode #:  387  With Random PnL: 205.384000 Profit: 359.216000 Epsilon: 0.226000
+Episode #:  387  No   Random PnL: 362.204000 Profit: 3310.898900
+Episode #:  388  With Random, Buy:  932 , Sell:  452 , Hold:  116
+Episode #:  388  No   Random, Buy:  1242 , Sell:  258 , Hold:  0
+Episode #:  388  With Random PnL: 209.143000 Profit: 764.097000 Epsilon: 0.224000
+Episode #:  388  No   Random PnL: 365.018000 Profit: 3255.819900
+Episode #:  389  With Random, Buy:  1016 , Sell:  379 , Hold:  105
+Episode #:  389  No   Random, Buy:  285 , Sell:  1215 , Hold:  0
+Episode #:  389  With Random PnL: 211.521000 Profit: 335.451000 Epsilon: 0.222000
+Episode #:  389  No   Random PnL: 298.340000 Profit: 283.922000
+Episode #:  390  With Random, Buy:  883 , Sell:  498 , Hold:  119
+Episode #:  390  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  390  With Random PnL: 259.945000 Profit: 721.845000 Epsilon: 0.220000
+Episode #:  390  No   Random PnL: 288.734000 Profit: 245.681000
+Episode #:  391  With Random, Buy:  946 , Sell:  460 , Hold:  94
+Episode #:  391  No   Random, Buy:  1230 , Sell:  269 , Hold:  1
+Episode #:  391  With Random PnL: 275.591000 Profit: 429.585000 Epsilon: 0.218000
+Episode #:  391  No   Random PnL: 364.708000 Profit: 3287.724900
+Episode #:  392  With Random, Buy:  941 , Sell:  456 , Hold:  103
+Episode #:  392  No   Random, Buy:  285 , Sell:  1215 , Hold:  0
+Episode #:  392  With Random PnL: 234.138000 Profit: 505.065000 Epsilon: 0.216000
+Episode #:  392  No   Random PnL: 304.372000 Profit: 279.647000
+Episode #:  393  With Random, Buy:  916 , Sell:  491 , Hold:  93
+Episode #:  393  No   Random, Buy:  1240 , Sell:  260 , Hold:  0
+Episode #:  393  With Random PnL: 280.967000 Profit: 611.896000 Epsilon: 0.214000
+Episode #:  393  No   Random PnL: 367.454000 Profit: 3282.935900
+Episode #:  394  With Random, Buy:  1018 , Sell:  361 , Hold:  121
+Episode #:  394  No   Random, Buy:  1239 , Sell:  261 , Hold:  0
+Episode #:  394  With Random PnL: 238.136000 Profit: 684.896000 Epsilon: 0.212000
+Episode #:  394  No   Random PnL: 364.008000 Profit: 3277.629900
+Episode #:  395  With Random, Buy:  953 , Sell:  436 , Hold:  111
+Episode #:  395  No   Random, Buy:  1235 , Sell:  265 , Hold:  0
+Episode #:  395  With Random PnL: 256.353000 Profit: 637.453000 Epsilon: 0.210000
+Episode #:  395  No   Random PnL: 376.050000 Profit: 3292.721900
+Episode #:  396  With Random, Buy:  943 , Sell:  454 , Hold:  103
+Episode #:  396  No   Random, Buy:  279 , Sell:  1221 , Hold:  0
+Episode #:  396  With Random PnL: 263.002000 Profit: 589.016000 Epsilon: 0.208000
+Episode #:  396  No   Random PnL: 305.570000 Profit: 285.314000
+Episode #:  397  With Random, Buy:  959 , Sell:  446 , Hold:  95
+Episode #:  397  No   Random, Buy:  1242 , Sell:  258 , Hold:  0
+Episode #:  397  With Random PnL: 248.977000 Profit: 494.202000 Epsilon: 0.206000
+Episode #:  397  No   Random PnL: 372.932000 Profit: 3297.524900
+Episode #:  398  With Random, Buy:  893 , Sell:  511 , Hold:  96
+Episode #:  398  No   Random, Buy:  287 , Sell:  1213 , Hold:  0
+Episode #:  398  With Random PnL: 263.544000 Profit: 533.836000 Epsilon: 0.204000
+Episode #:  398  No   Random PnL: 311.410000 Profit: 286.575000
+Episode #:  399  With Random, Buy:  939 , Sell:  454 , Hold:  107
+Episode #:  399  No   Random, Buy:  281 , Sell:  1219 , Hold:  0
+Episode #:  399  With Random PnL: 264.565000 Profit: 786.053000 Epsilon: 0.202000
+Episode #:  399  No   Random PnL: 307.676000 Profit: 290.089000
+Episode #:  400  With Random, Buy:  937 , Sell:  461 , Hold:  102
+Episode #:  400  No   Random, Buy:  275 , Sell:  1225 , Hold:  0
+Episode #:  400  With Random PnL: 248.182000 Profit: 542.159000 Epsilon: 0.200000
+Episode #:  400  No   Random PnL: 302.354000 Profit: 281.937000
+Episode #:  401  With Random, Buy:  894 , Sell:  507 , Hold:  99
+Episode #:  401  No   Random, Buy:  273 , Sell:  1227 , Hold:  0
+Episode #:  401  With Random PnL: 264.195000 Profit: 681.111000 Epsilon: 0.198000
+Episode #:  401  No   Random PnL: 306.002000 Profit: 276.261000
+Episode #:  402  With Random, Buy:  1012 , Sell:  383 , Hold:  105
+Episode #:  402  No   Random, Buy:  1244 , Sell:  256 , Hold:  0
+Episode #:  402  With Random PnL: 246.479000 Profit: 589.702000 Epsilon: 0.196000
+Episode #:  402  No   Random PnL: 366.182000 Profit: 3301.809900
+Episode #:  403  With Random, Buy:  954 , Sell:  462 , Hold:  84
+Episode #:  403  No   Random, Buy:  285 , Sell:  1215 , Hold:  0
+Episode #:  403  With Random PnL: 321.339000 Profit: 912.074000 Epsilon: 0.194000
+Episode #:  403  No   Random PnL: 316.620000 Profit: 277.607000
+Episode #:  404  With Random, Buy:  1025 , Sell:  380 , Hold:  95
+Episode #:  404  No   Random, Buy:  1244 , Sell:  256 , Hold:  0
+Episode #:  404  With Random PnL: 253.274000 Profit: 609.498000 Epsilon: 0.192000
+Episode #:  404  No   Random PnL: 374.248000 Profit: 3365.479900
+Episode #:  405  With Random, Buy:  1013 , Sell:  397 , Hold:  90
+Episode #:  405  No   Random, Buy:  1231 , Sell:  269 , Hold:  0
+Episode #:  405  With Random PnL: 277.881000 Profit: 506.534000 Epsilon: 0.190000
+Episode #:  405  No   Random PnL: 381.176000 Profit: 3305.948900
+Episode #:  406  With Random, Buy:  925 , Sell:  481 , Hold:  94
+Episode #:  406  No   Random, Buy:  300 , Sell:  1200 , Hold:  0
+Episode #:  406  With Random PnL: 272.898000 Profit: 785.487000 Epsilon: 0.188000
+Episode #:  406  No   Random PnL: 319.650000 Profit: 290.195000
+Episode #:  407  With Random, Buy:  987 , Sell:  413 , Hold:  100
+Episode #:  407  No   Random, Buy:  286 , Sell:  1214 , Hold:  0
+Episode #:  407  With Random PnL: 250.915000 Profit: 566.258000 Epsilon: 0.186000
+Episode #:  407  No   Random PnL: 317.842000 Profit: 285.726000
+Episode #:  408  With Random, Buy:  1049 , Sell:  371 , Hold:  80
+Episode #:  408  No   Random, Buy:  263 , Sell:  1237 , Hold:  0
+Episode #:  408  With Random PnL: 296.660000 Profit: 916.896000 Epsilon: 0.184000
+Episode #:  408  No   Random PnL: 304.244000 Profit: 257.748000
+Episode #:  409  With Random, Buy:  949 , Sell:  470 , Hold:  81
+Episode #:  409  No   Random, Buy:  276 , Sell:  1224 , Hold:  0
+Episode #:  409  With Random PnL: 277.761000 Profit: 655.483000 Epsilon: 0.182000
+Episode #:  409  No   Random PnL: 313.930000 Profit: 274.760000
+Episode #:  410  With Random, Buy:  920 , Sell:  494 , Hold:  86
+Episode #:  410  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  410  With Random PnL: 254.801000 Profit: 533.717000 Epsilon: 0.180000
+Episode #:  410  No   Random PnL: 308.482000 Profit: 281.902000
+Episode #:  411  With Random, Buy:  949 , Sell:  444 , Hold:  107
+Episode #:  411  No   Random, Buy:  282 , Sell:  1218 , Hold:  0
+Episode #:  411  With Random PnL: 242.702000 Profit: 694.161000 Epsilon: 0.178000
+Episode #:  411  No   Random PnL: 300.626000 Profit: 294.293000
+Episode #:  412  With Random, Buy:  804 , Sell:  613 , Hold:  83
+Episode #:  412  No   Random, Buy:  268 , Sell:  1232 , Hold:  0
+Episode #:  412  With Random PnL: 274.770000 Profit: 512.860000 Epsilon: 0.176000
+Episode #:  412  No   Random PnL: 289.562000 Profit: 265.162000
+Episode #:  413  With Random, Buy:  853 , Sell:  537 , Hold:  110
+Episode #:  413  No   Random, Buy:  293 , Sell:  1207 , Hold:  0
+Episode #:  413  With Random PnL: 265.196000 Profit: 558.049000 Epsilon: 0.174000
+Episode #:  413  No   Random PnL: 295.242000 Profit: 265.183000
+Episode #:  414  With Random, Buy:  932 , Sell:  486 , Hold:  82
+Episode #:  414  No   Random, Buy:  311 , Sell:  1189 , Hold:  0
+Episode #:  414  With Random PnL: 232.542000 Profit: 588.910000 Epsilon: 0.172000
+Episode #:  414  No   Random PnL: 310.636000 Profit: 304.364000
+Episode #:  415  With Random, Buy:  981 , Sell:  438 , Hold:  81
+Episode #:  415  No   Random, Buy:  1232 , Sell:  268 , Hold:  0
+Episode #:  415  With Random PnL: 289.579000 Profit: 719.103000 Epsilon: 0.170000
+Episode #:  415  No   Random PnL: 344.512000 Profit: 3213.571900
+Episode #:  416  With Random, Buy:  910 , Sell:  498 , Hold:  92
+Episode #:  416  No   Random, Buy:  267 , Sell:  1233 , Hold:  0
+Episode #:  416  With Random PnL: 281.858000 Profit: 776.574000 Epsilon: 0.168000
+Episode #:  416  No   Random PnL: 288.698000 Profit: 244.758000
+Episode #:  417  With Random, Buy:  988 , Sell:  446 , Hold:  66
+Episode #:  417  No   Random, Buy:  280 , Sell:  1220 , Hold:  0
+Episode #:  417  With Random PnL: 245.401000 Profit: 594.200000 Epsilon: 0.166000
+Episode #:  417  No   Random PnL: 290.706000 Profit: 275.692000
+Episode #:  418  With Random, Buy:  967 , Sell:  450 , Hold:  83
+Episode #:  418  No   Random, Buy:  1238 , Sell:  262 , Hold:  0
+Episode #:  418  With Random PnL: 209.868000 Profit: 392.279000 Epsilon: 0.164000
+Episode #:  418  No   Random PnL: 362.102000 Profit: 3366.731900
+Episode #:  419  With Random, Buy:  926 , Sell:  496 , Hold:  78
+Episode #:  419  No   Random, Buy:  1235 , Sell:  265 , Hold:  0
+Episode #:  419  With Random PnL: 296.145000 Profit: 686.035000 Epsilon: 0.162000
+Episode #:  419  No   Random PnL: 363.686000 Profit: 3358.615900
+Episode #:  420  With Random, Buy:  1010 , Sell:  409 , Hold:  81
+Episode #:  420  No   Random, Buy:  309 , Sell:  1191 , Hold:  0
+Episode #:  420  With Random PnL: 269.700000 Profit: 607.108000 Epsilon: 0.160000
+Episode #:  420  No   Random PnL: 289.372000 Profit: 295.321000
+Episode #:  421  With Random, Buy:  955 , Sell:  460 , Hold:  85
+Episode #:  421  No   Random, Buy:  1245 , Sell:  255 , Hold:  0
+Episode #:  421  With Random PnL: 248.025000 Profit: 776.035000 Epsilon: 0.158000
+Episode #:  421  No   Random PnL: 357.646000 Profit: 3401.674900
+Episode #:  422  With Random, Buy:  978 , Sell:  447 , Hold:  75
+Episode #:  422  No   Random, Buy:  1238 , Sell:  262 , Hold:  0
+Episode #:  422  With Random PnL: 226.340000 Profit: 627.600000 Epsilon: 0.156000
+Episode #:  422  No   Random PnL: 348.254000 Profit: 3400.325900
+Episode #:  423  With Random, Buy:  724 , Sell:  702 , Hold:  74
+Episode #:  423  No   Random, Buy:  275 , Sell:  1225 , Hold:  0
+Episode #:  423  With Random PnL: 247.203000 Profit: 767.949000 Epsilon: 0.154000
+Episode #:  423  No   Random PnL: 283.690000 Profit: 245.614000
+Episode #:  424  With Random, Buy:  916 , Sell:  518 , Hold:  66
+Episode #:  424  No   Random, Buy:  286 , Sell:  1214 , Hold:  0
+Episode #:  424  With Random PnL: 219.188000 Profit: 553.875000 Epsilon: 0.152000
+Episode #:  424  No   Random PnL: 288.568000 Profit: 262.087000
+Episode #:  425  With Random, Buy:  814 , Sell:  612 , Hold:  74
+Episode #:  425  No   Random, Buy:  1215 , Sell:  285 , Hold:  0
+Episode #:  425  With Random PnL: 241.803000 Profit: 698.705000 Epsilon: 0.150000
+Episode #:  425  No   Random PnL: 352.162000 Profit: 3352.951900
+Episode #:  426  With Random, Buy:  1007 , Sell:  422 , Hold:  71
+Episode #:  426  No   Random, Buy:  268 , Sell:  1232 , Hold:  0
+Episode #:  426  With Random PnL: 237.844000 Profit: 555.469000 Epsilon: 0.148000
+Episode #:  426  No   Random PnL: 287.150000 Profit: 251.621000
+Episode #:  427  With Random, Buy:  928 , Sell:  500 , Hold:  72
+Episode #:  427  No   Random, Buy:  282 , Sell:  1218 , Hold:  0
+Episode #:  427  With Random PnL: 236.523000 Profit: 682.539000 Epsilon: 0.146000
+Episode #:  427  No   Random PnL: 288.636000 Profit: 287.470000
+Episode #:  428  With Random, Buy:  1009 , Sell:  421 , Hold:  70
+Episode #:  428  No   Random, Buy:  269 , Sell:  1231 , Hold:  0
+Episode #:  428  With Random PnL: 251.523000 Profit: 702.405000 Epsilon: 0.144000
+Episode #:  428  No   Random PnL: 290.870000 Profit: 258.983000
+Episode #:  429  With Random, Buy:  1021 , Sell:  387 , Hold:  92
+Episode #:  429  No   Random, Buy:  1230 , Sell:  270 , Hold:  0
+Episode #:  429  With Random PnL: 253.503000 Profit: 397.240000 Epsilon: 0.142000
+Episode #:  429  No   Random PnL: 369.540000 Profit: 3296.531900
+Episode #:  430  With Random, Buy:  910 , Sell:  529 , Hold:  61
+Episode #:  430  No   Random, Buy:  1225 , Sell:  275 , Hold:  0
+Episode #:  430  With Random PnL: 272.595000 Profit: 601.169000 Epsilon: 0.140000
+Episode #:  430  No   Random PnL: 368.482000 Profit: 3297.603900
+Episode #:  431  With Random, Buy:  984 , Sell:  449 , Hold:  67
+Episode #:  431  No   Random, Buy:  1239 , Sell:  261 , Hold:  0
+Episode #:  431  With Random PnL: 217.243000 Profit: 733.353000 Epsilon: 0.138000
+Episode #:  431  No   Random PnL: 357.394000 Profit: 3288.189900
+Episode #:  432  With Random, Buy:  1015 , Sell:  408 , Hold:  77
+Episode #:  432  No   Random, Buy:  305 , Sell:  1195 , Hold:  0
+Episode #:  432  With Random PnL: 308.782000 Profit: 929.277000 Epsilon: 0.136000
+Episode #:  432  No   Random PnL: 274.660000 Profit: 285.264000
+Episode #:  433  With Random, Buy:  977 , Sell:  467 , Hold:  56
+Episode #:  433  No   Random, Buy:  1230 , Sell:  270 , Hold:  0
+Episode #:  433  With Random PnL: 288.059000 Profit: 651.180000 Epsilon: 0.134000
+Episode #:  433  No   Random PnL: 362.126000 Profit: 3350.671900
+Episode #:  434  With Random, Buy:  950 , Sell:  470 , Hold:  80
+Episode #:  434  No   Random, Buy:  1222 , Sell:  278 , Hold:  0
+Episode #:  434  With Random PnL: 276.612000 Profit: 590.148000 Epsilon: 0.132000
+Episode #:  434  No   Random PnL: 368.866000 Profit: 3348.887900
+Episode #:  435  With Random, Buy:  1014 , Sell:  425 , Hold:  61
+Episode #:  435  No   Random, Buy:  1236 , Sell:  264 , Hold:  0
+Episode #:  435  With Random PnL: 220.446000 Profit: 658.753000 Epsilon: 0.130000
+Episode #:  435  No   Random PnL: 365.954000 Profit: 3292.665900
+Episode #:  436  With Random, Buy:  965 , Sell:  478 , Hold:  57
+Episode #:  436  No   Random, Buy:  291 , Sell:  1209 , Hold:  0
+Episode #:  436  With Random PnL: 297.882000 Profit: 701.731000 Epsilon: 0.128000
+Episode #:  436  No   Random PnL: 272.272000 Profit: 237.840000
+Episode #:  437  With Random, Buy:  980 , Sell:  447 , Hold:  73
+Episode #:  437  No   Random, Buy:  1232 , Sell:  268 , Hold:  0
+Episode #:  437  With Random PnL: 260.022000 Profit: 1020.831000 Epsilon: 0.126000
+Episode #:  437  No   Random PnL: 368.128000 Profit: 3291.975900
+Episode #:  438  With Random, Buy:  914 , Sell:  507 , Hold:  79
+Episode #:  438  No   Random, Buy:  1224 , Sell:  276 , Hold:  0
+Episode #:  438  With Random PnL: 245.660000 Profit: 652.137000 Epsilon: 0.124000
+Episode #:  438  No   Random PnL: 357.594000 Profit: 3291.617900
+Episode #:  439  With Random, Buy:  854 , Sell:  576 , Hold:  70
+Episode #:  439  No   Random, Buy:  288 , Sell:  1212 , Hold:  0
+Episode #:  439  With Random PnL: 299.725000 Profit: 872.249000 Epsilon: 0.122000
+Episode #:  439  No   Random PnL: 293.116000 Profit: 273.368000
+Episode #:  440  With Random, Buy:  823 , Sell:  614 , Hold:  63
+Episode #:  440  No   Random, Buy:  1220 , Sell:  280 , Hold:  0
+Episode #:  440  With Random PnL: 230.550000 Profit: 624.330000 Epsilon: 0.120000
+Episode #:  440  No   Random PnL: 367.490000 Profit: 3256.633900
+Episode #:  441  With Random, Buy:  947 , Sell:  496 , Hold:  57
+Episode #:  441  No   Random, Buy:  1234 , Sell:  266 , Hold:  0
+Episode #:  441  With Random PnL: 283.326000 Profit: 952.943000 Epsilon: 0.118000
+Episode #:  441  No   Random PnL: 365.972000 Profit: 3347.463900
+Episode #:  442  With Random, Buy:  780 , Sell:  650 , Hold:  70
+Episode #:  442  No   Random, Buy:  1230 , Sell:  270 , Hold:  0
+Episode #:  442  With Random PnL: 239.367000 Profit: 706.262000 Epsilon: 0.116000
+Episode #:  442  No   Random PnL: 356.716000 Profit: 3310.790900
+Episode #:  443  With Random, Buy:  1013 , Sell:  441 , Hold:  46
+Episode #:  443  No   Random, Buy:  272 , Sell:  1228 , Hold:  0
+Episode #:  443  With Random PnL: 263.519000 Profit: 798.081000 Epsilon: 0.114000
+Episode #:  443  No   Random PnL: 289.708000 Profit: 253.766000
+Episode #:  444  With Random, Buy:  983 , Sell:  457 , Hold:  60
+Episode #:  444  No   Random, Buy:  1215 , Sell:  285 , Hold:  0
+Episode #:  444  With Random PnL: 283.015000 Profit: 657.248000 Epsilon: 0.112000
+Episode #:  444  No   Random PnL: 357.390000 Profit: 3204.067900
+Episode #:  445  With Random, Buy:  949 , Sell:  492 , Hold:  59
+Episode #:  445  No   Random, Buy:  245 , Sell:  1255 , Hold:  0
+Episode #:  445  With Random PnL: 277.976000 Profit: 1189.032000 Epsilon: 0.110000
+Episode #:  445  No   Random PnL: 262.568000 Profit: 209.482000
+Episode #:  446  With Random, Buy:  826 , Sell:  611 , Hold:  63
+Episode #:  446  No   Random, Buy:  1189 , Sell:  311 , Hold:  0
+Episode #:  446  With Random PnL: 251.607000 Profit: 674.213000 Epsilon: 0.108000
+Episode #:  446  No   Random PnL: 338.534000 Profit: 3216.062900
+Episode #:  447  With Random, Buy:  946 , Sell:  510 , Hold:  44
+Episode #:  447  No   Random, Buy:  1181 , Sell:  319 , Hold:  0
+Episode #:  447  With Random PnL: 264.963000 Profit: 971.457000 Epsilon: 0.106000
+Episode #:  447  No   Random PnL: 334.196000 Profit: 3182.500900
+Episode #:  448  With Random, Buy:  960 , Sell:  493 , Hold:  47
+Episode #:  448  No   Random, Buy:  258 , Sell:  1242 , Hold:  0
+Episode #:  448  With Random PnL: 276.298000 Profit: 1295.480000 Epsilon: 0.104000
+Episode #:  448  No   Random PnL: 254.482000 Profit: 207.362000
+Episode #:  449  With Random, Buy:  1004 , Sell:  445 , Hold:  51
+Episode #:  449  No   Random, Buy:  255 , Sell:  1245 , Hold:  0
+Episode #:  449  With Random PnL: 270.993000 Profit: 1044.054000 Epsilon: 0.102000
+Episode #:  449  No   Random PnL: 273.802000 Profit: 215.052000
+Episode #:  450  With Random, Buy:  901 , Sell:  540 , Hold:  59
+Episode #:  450  No   Random, Buy:  1222 , Sell:  278 , Hold:  0
+Episode #:  450  With Random PnL: 269.060000 Profit: 612.813000 Epsilon: 0.100000
+Episode #:  450  No   Random PnL: 374.462000 Profit: 3296.133900
+Episode #:  451  With Random, Buy:  966 , Sell:  480 , Hold:  54
+Episode #:  451  No   Random, Buy:  1213 , Sell:  287 , Hold:  0
+Episode #:  451  With Random PnL: 265.260000 Profit: 817.406000 Epsilon: 0.100000
+Episode #:  451  No   Random PnL: 375.120000 Profit: 3266.493900
+Episode #:  452  With Random, Buy:  966 , Sell:  471 , Hold:  63
+Episode #:  452  No   Random, Buy:  277 , Sell:  1223 , Hold:  0
+Episode #:  452  With Random PnL: 279.988000 Profit: 885.690000 Epsilon: 0.100000
+Episode #:  452  No   Random PnL: 278.430000 Profit: 246.427000
+Episode #:  453  With Random, Buy:  910 , Sell:  529 , Hold:  61
+Episode #:  453  No   Random, Buy:  267 , Sell:  1233 , Hold:  0
+Episode #:  453  With Random PnL: 297.421000 Profit: 685.247000 Epsilon: 0.100000
+Episode #:  453  No   Random PnL: 277.062000 Profit: 257.388000
+Episode #:  454  With Random, Buy:  934 , Sell:  503 , Hold:  63
+Episode #:  454  No   Random, Buy:  253 , Sell:  1247 , Hold:  0
+Episode #:  454  With Random PnL: 262.931000 Profit: 956.765000 Epsilon: 0.100000
+Episode #:  454  No   Random PnL: 283.186000 Profit: 242.827000
+Episode #:  455  With Random, Buy:  987 , Sell:  450 , Hold:  63
+Episode #:  455  No   Random, Buy:  1189 , Sell:  311 , Hold:  0
+Episode #:  455  With Random PnL: 249.384000 Profit: 724.974000 Epsilon: 0.100000
+Episode #:  455  No   Random PnL: 348.258000 Profit: 3196.088900
+Episode #:  456  With Random, Buy:  940 , Sell:  521 , Hold:  39
+Episode #:  456  No   Random, Buy:  231 , Sell:  1269 , Hold:  0
+Episode #:  456  With Random PnL: 230.394000 Profit: 792.958000 Epsilon: 0.100000
+Episode #:  456  No   Random PnL: 255.694000 Profit: 234.524000
+Episode #:  457  With Random, Buy:  984 , Sell:  464 , Hold:  52
+Episode #:  457  No   Random, Buy:  246 , Sell:  1254 , Hold:  0
+Episode #:  457  With Random PnL: 246.984000 Profit: 1033.303000 Epsilon: 0.100000
+Episode #:  457  No   Random PnL: 249.676000 Profit: 220.280000
+Episode #:  458  With Random, Buy:  966 , Sell:  474 , Hold:  60
+Episode #:  458  No   Random, Buy:  248 , Sell:  1252 , Hold:  0
+Episode #:  458  With Random PnL: 240.968000 Profit: 771.059000 Epsilon: 0.100000
+Episode #:  458  No   Random PnL: 262.562000 Profit: 216.765000
+Episode #:  459  With Random, Buy:  989 , Sell:  458 , Hold:  53
+Episode #:  459  No   Random, Buy:  276 , Sell:  1224 , Hold:  0
+Episode #:  459  With Random PnL: 235.148000 Profit: 591.944000 Epsilon: 0.100000
+Episode #:  459  No   Random PnL: 288.140000 Profit: 259.236000
+Episode #:  460  With Random, Buy:  996 , Sell:  462 , Hold:  42
+Episode #:  460  No   Random, Buy:  257 , Sell:  1243 , Hold:  0
+Episode #:  460  With Random PnL: 201.147000 Profit: 354.189000 Epsilon: 0.100000
+Episode #:  460  No   Random PnL: 238.272000 Profit: 214.465000
+Episode #:  461  With Random, Buy:  904 , Sell:  549 , Hold:  47
+Episode #:  461  No   Random, Buy:  1179 , Sell:  321 , Hold:  0
+Episode #:  461  With Random PnL: 232.059000 Profit: 606.122000 Epsilon: 0.100000
+Episode #:  461  No   Random PnL: 323.388000 Profit: 3144.487900
+Episode #:  462  With Random, Buy:  929 , Sell:  521 , Hold:  50
+Episode #:  462  No   Random, Buy:  1179 , Sell:  321 , Hold:  0
+Episode #:  462  With Random PnL: 242.665000 Profit: 828.303000 Epsilon: 0.100000
+Episode #:  462  No   Random PnL: 333.012000 Profit: 3249.620900
+Episode #:  463  With Random, Buy:  903 , Sell:  551 , Hold:  46
+Episode #:  463  No   Random, Buy:  1195 , Sell:  305 , Hold:  0
+Episode #:  463  With Random PnL: 327.537000 Profit: 804.775000 Epsilon: 0.100000
+Episode #:  463  No   Random PnL: 362.464000 Profit: 3222.941900
+Episode #:  464  With Random, Buy:  868 , Sell:  580 , Hold:  52
+Episode #:  464  No   Random, Buy:  251 , Sell:  1249 , Hold:  0
+Episode #:  464  With Random PnL: 223.682000 Profit: 646.030000 Epsilon: 0.100000
+Episode #:  464  No   Random PnL: 248.626000 Profit: 235.680000
+Episode #:  465  With Random, Buy:  923 , Sell:  535 , Hold:  42
+Episode #:  465  No   Random, Buy:  250 , Sell:  1250 , Hold:  0
+Episode #:  465  With Random PnL: 283.358000 Profit: 865.645000 Epsilon: 0.100000
+Episode #:  465  No   Random PnL: 259.158000 Profit: 237.375000
+Episode #:  466  With Random, Buy:  917 , Sell:  535 , Hold:  48
+Episode #:  466  No   Random, Buy:  263 , Sell:  1237 , Hold:  0
+Episode #:  466  With Random PnL: 245.591000 Profit: 730.169000 Epsilon: 0.100000
+Episode #:  466  No   Random PnL: 265.714000 Profit: 236.976000
+Episode #:  467  With Random, Buy:  887 , Sell:  572 , Hold:  41
+Episode #:  467  No   Random, Buy:  250 , Sell:  1250 , Hold:  0
+Episode #:  467  With Random PnL: 247.424000 Profit: 794.581000 Epsilon: 0.100000
+Episode #:  467  No   Random PnL: 251.776000 Profit: 224.874000
+Episode #:  468  With Random, Buy:  950 , Sell:  486 , Hold:  64
+Episode #:  468  No   Random, Buy:  1160 , Sell:  340 , Hold:  0
+Episode #:  468  With Random PnL: 238.807000 Profit: 1066.867000 Epsilon: 0.100000
+Episode #:  468  No   Random PnL: 345.078000 Profit: 3085.579900
+Episode #:  469  With Random, Buy:  973 , Sell:  478 , Hold:  49
+Episode #:  469  No   Random, Buy:  235 , Sell:  1265 , Hold:  0
+Episode #:  469  With Random PnL: 253.209000 Profit: 705.986000 Epsilon: 0.100000
+Episode #:  469  No   Random PnL: 262.878000 Profit: 217.902000
+Episode #:  470  With Random, Buy:  982 , Sell:  462 , Hold:  56
+Episode #:  470  No   Random, Buy:  1170 , Sell:  330 , Hold:  0
+Episode #:  470  With Random PnL: 282.004000 Profit: 710.735000 Epsilon: 0.100000
+Episode #:  470  No   Random PnL: 327.832000 Profit: 3115.202900
+Episode #:  471  With Random, Buy:  985 , Sell:  465 , Hold:  50
+Episode #:  471  No   Random, Buy:  227 , Sell:  1273 , Hold:  0
+Episode #:  471  With Random PnL: 253.460000 Profit: 672.227000 Epsilon: 0.100000
+Episode #:  471  No   Random PnL: 252.428000 Profit: 204.653000
+Episode #:  472  With Random, Buy:  754 , Sell:  678 , Hold:  68
+Episode #:  472  No   Random, Buy:  244 , Sell:  1256 , Hold:  0
+Episode #:  472  With Random PnL: 228.925000 Profit: 410.039000 Epsilon: 0.100000
+Episode #:  472  No   Random PnL: 233.840000 Profit: 204.123000
+Episode #:  473  With Random, Buy:  948 , Sell:  507 , Hold:  45
+Episode #:  473  No   Random, Buy:  227 , Sell:  1273 , Hold:  0
+Episode #:  473  With Random PnL: 222.957000 Profit: 645.739000 Epsilon: 0.100000
+Episode #:  473  No   Random PnL: 238.778000 Profit: 221.171000
+Episode #:  474  With Random, Buy:  936 , Sell:  513 , Hold:  51
+Episode #:  474  No   Random, Buy:  1172 , Sell:  328 , Hold:  0
+Episode #:  474  With Random PnL: 228.414000 Profit: 768.636000 Epsilon: 0.100000
+Episode #:  474  No   Random PnL: 337.450000 Profit: 3192.850900
+Episode #:  475  With Random, Buy:  976 , Sell:  470 , Hold:  54
+Episode #:  475  No   Random, Buy:  226 , Sell:  1274 , Hold:  0
+Episode #:  475  With Random PnL: 288.213000 Profit: 853.542000 Epsilon: 0.100000
+Episode #:  475  No   Random PnL: 244.870000 Profit: 218.314000
+Episode #:  476  With Random, Buy:  1023 , Sell:  427 , Hold:  50
+Episode #:  476  No   Random, Buy:  1184 , Sell:  316 , Hold:  0
+Episode #:  476  With Random PnL: 220.544000 Profit: 749.322000 Epsilon: 0.100000
+Episode #:  476  No   Random PnL: 316.706000 Profit: 3198.740900
+Episode #:  477  With Random, Buy:  994 , Sell:  449 , Hold:  57
+Episode #:  477  No   Random, Buy:  227 , Sell:  1273 , Hold:  0
+Episode #:  477  With Random PnL: 237.332000 Profit: 689.033000 Epsilon: 0.100000
+Episode #:  477  No   Random PnL: 247.022000 Profit: 228.198000
+Episode #:  478  With Random, Buy:  936 , Sell:  508 , Hold:  56
+Episode #:  478  No   Random, Buy:  1183 , Sell:  301 , Hold:  16
+Episode #:  478  With Random PnL: 256.938000 Profit: 568.836000 Epsilon: 0.100000
+Episode #:  478  No   Random PnL: 321.854000 Profit: 3224.529900
+Episode #:  479  With Random, Buy:  961 , Sell:  477 , Hold:  62
+Episode #:  479  No   Random, Buy:  212 , Sell:  1288 , Hold:  0
+Episode #:  479  With Random PnL: 264.634000 Profit: 935.548000 Epsilon: 0.100000
+Episode #:  479  No   Random PnL: 259.012000 Profit: 210.057000
+Episode #:  480  With Random, Buy:  950 , Sell:  497 , Hold:  53
+Episode #:  480  No   Random, Buy:  229 , Sell:  1271 , Hold:  0
+Episode #:  480  With Random PnL: 242.625000 Profit: 924.116000 Epsilon: 0.100000
+Episode #:  480  No   Random PnL: 250.822000 Profit: 230.433000
+Episode #:  481  With Random, Buy:  990 , Sell:  465 , Hold:  45
+Episode #:  481  No   Random, Buy:  243 , Sell:  1257 , Hold:  0
+Episode #:  481  With Random PnL: 213.917000 Profit: 614.440000 Epsilon: 0.100000
+Episode #:  481  No   Random PnL: 246.056000 Profit: 217.396000
+Episode #:  482  With Random, Buy:  1020 , Sell:  434 , Hold:  46
+Episode #:  482  No   Random, Buy:  240 , Sell:  1260 , Hold:  0
+Episode #:  482  With Random PnL: 225.506000 Profit: 700.719000 Epsilon: 0.100000
+Episode #:  482  No   Random PnL: 256.544000 Profit: 196.658000
+Episode #:  483  With Random, Buy:  949 , Sell:  503 , Hold:  48
+Episode #:  483  No   Random, Buy:  268 , Sell:  1231 , Hold:  1
+Episode #:  483  With Random PnL: 287.733000 Profit: 714.796000 Epsilon: 0.100000
+Episode #:  483  No   Random PnL: 303.778000 Profit: 273.667000
+Episode #:  484  With Random, Buy:  989 , Sell:  466 , Hold:  45
+Episode #:  484  No   Random, Buy:  254 , Sell:  1246 , Hold:  0
+Episode #:  484  With Random PnL: 300.200000 Profit: 727.226000 Epsilon: 0.100000
+Episode #:  484  No   Random PnL: 284.278000 Profit: 243.281000
+Episode #:  485  With Random, Buy:  990 , Sell:  450 , Hold:  60
+Episode #:  485  No   Random, Buy:  274 , Sell:  1226 , Hold:  0
+Episode #:  485  With Random PnL: 223.949000 Profit: 513.724000 Epsilon: 0.100000
+Episode #:  485  No   Random PnL: 279.770000 Profit: 260.525000
+Episode #:  486  With Random, Buy:  803 , Sell:  638 , Hold:  59
+Episode #:  486  No   Random, Buy:  237 , Sell:  1263 , Hold:  0
+Episode #:  486  With Random PnL: 216.990000 Profit: 565.520000 Epsilon: 0.100000
+Episode #:  486  No   Random PnL: 265.846000 Profit: 230.204000
+Episode #:  487  With Random, Buy:  950 , Sell:  492 , Hold:  58
+Episode #:  487  No   Random, Buy:  244 , Sell:  1256 , Hold:  0
+Episode #:  487  With Random PnL: 271.517000 Profit: 859.172000 Epsilon: 0.100000
+Episode #:  487  No   Random PnL: 264.986000 Profit: 239.525000
+Episode #:  488  With Random, Buy:  963 , Sell:  488 , Hold:  49
+Episode #:  488  No   Random, Buy:  248 , Sell:  1252 , Hold:  0
+Episode #:  488  With Random PnL: 264.668000 Profit: 734.265000 Epsilon: 0.100000
+Episode #:  488  No   Random PnL: 266.266000 Profit: 240.049000
+Episode #:  489  With Random, Buy:  988 , Sell:  470 , Hold:  42
+Episode #:  489  No   Random, Buy:  1208 , Sell:  292 , Hold:  0
+Episode #:  489  With Random PnL: 234.905000 Profit: 378.616000 Epsilon: 0.100000
+Episode #:  489  No   Random PnL: 353.666000 Profit: 3301.957900
+Episode #:  490  With Random, Buy:  910 , Sell:  551 , Hold:  39
+Episode #:  490  No   Random, Buy:  1178 , Sell:  321 , Hold:  1
+Episode #:  490  With Random PnL: 226.559000 Profit: 746.513000 Epsilon: 0.100000
+Episode #:  490  No   Random PnL: 309.102000 Profit: 3134.312900
+Episode #:  491  With Random, Buy:  1003 , Sell:  449 , Hold:  48
+Episode #:  491  No   Random, Buy:  227 , Sell:  1273 , Hold:  0
+Episode #:  491  With Random PnL: 248.566000 Profit: 535.689000 Epsilon: 0.100000
+Episode #:  491  No   Random PnL: 262.672000 Profit: 224.871000
+Episode #:  492  With Random, Buy:  1038 , Sell:  411 , Hold:  51
+Episode #:  492  No   Random, Buy:  1174 , Sell:  326 , Hold:  0
+Episode #:  492  With Random PnL: 275.865000 Profit: 1938.704000 Epsilon: 0.100000
+Episode #:  492  No   Random PnL: 320.638000 Profit: 3176.457900
+Episode #:  493  With Random, Buy:  900 , Sell:  560 , Hold:  40
+Episode #:  493  No   Random, Buy:  232 , Sell:  1268 , Hold:  0
+Episode #:  493  With Random PnL: 291.833000 Profit: 977.821000 Epsilon: 0.100000
+Episode #:  493  No   Random PnL: 254.914000 Profit: 217.038000
+Episode #:  494  With Random, Buy:  992 , Sell:  451 , Hold:  57
+Episode #:  494  No   Random, Buy:  1182 , Sell:  318 , Hold:  0
+Episode #:  494  With Random PnL: 213.593000 Profit: 671.858000 Epsilon: 0.100000
+Episode #:  494  No   Random PnL: 327.336000 Profit: 3116.427900
+Episode #:  495  With Random, Buy:  997 , Sell:  444 , Hold:  59
+Episode #:  495  No   Random, Buy:  232 , Sell:  1268 , Hold:  0
+Episode #:  495  With Random PnL: 261.293000 Profit: 963.778000 Epsilon: 0.100000
+Episode #:  495  No   Random PnL: 254.976000 Profit: 214.618000
+Episode #:  496  With Random, Buy:  982 , Sell:  479 , Hold:  39
+Episode #:  496  No   Random, Buy:  1177 , Sell:  323 , Hold:  0
+Episode #:  496  With Random PnL: 251.489000 Profit: 815.296000 Epsilon: 0.100000
+Episode #:  496  No   Random PnL: 319.836000 Profit: 3098.251900
+Episode #:  497  With Random, Buy:  1010 , Sell:  421 , Hold:  69
+Episode #:  497  No   Random, Buy:  1179 , Sell:  321 , Hold:  0
+Episode #:  497  With Random PnL: 263.537000 Profit: 1094.592000 Epsilon: 0.100000
+Episode #:  497  No   Random PnL: 334.634000 Profit: 3115.144900
+Episode #:  498  With Random, Buy:  867 , Sell:  585 , Hold:  48
+Episode #:  498  No   Random, Buy:  215 , Sell:  1285 , Hold:  0
+Episode #:  498  With Random PnL: 327.135000 Profit: 879.915000 Epsilon: 0.100000
+Episode #:  498  No   Random PnL: 254.512000 Profit: 199.091000
+Episode #:  499  With Random, Buy:  929 , Sell:  524 , Hold:  47
+Episode #:  499  No   Random, Buy:  1168 , Sell:  310 , Hold:  22
+Episode #:  499  With Random PnL: 254.646000 Profit: 745.055000 Epsilon: 0.100000
+Episode #:  499  No   Random PnL: 348.642000 Profit: 3171.519900
+Finished in  40438.60435686982 seconds
+         price  shares     value      cash      pnl
+0     196.6100     0.0     0.000     0.000    0.000
+1     196.5100   -10.0 -1965.100  1965.100    0.000
+2     196.3000   -10.0 -1963.000  1965.100    2.100
+3     196.4054   -10.0 -1964.054  1965.100    1.046
+4     196.4400   -10.0 -1964.400  1965.100    0.700
+5     196.4860   -10.0 -1964.860  1965.100    0.240
+6     196.6720   -10.0 -1966.720  1965.100   -1.620
+7     196.5900   -10.0 -1965.900  1965.100   -0.800
+8     196.6500   -10.0 -1966.500  1965.100   -1.400
+9     196.7800   -10.0 -1967.800  1965.100   -2.700
+10    197.0200   -10.0 -1970.200  1965.100   -5.100
+11    197.1250   -10.0 -1971.250  1965.100   -6.150
+12    197.3500   -10.0 -1973.500  1965.100   -8.400
+13    197.4048   -10.0 -1974.048  1965.100   -8.948
+14    197.6000   -10.0 -1976.000  1965.100  -10.900
+15    197.5900   -10.0 -1975.900  1965.100  -10.800
+16    197.4500   -10.0 -1974.500  1965.100   -9.400
+17    197.3900   -10.0 -1973.900  1965.100   -8.800
+18    197.4200    10.0  1974.200 -1983.300   -9.100
+19    197.6150    10.0  1976.150 -1983.300   -7.150
+20    197.5700    10.0  1975.700 -1983.300   -7.600
+21    197.6600    10.0  1976.600 -1983.300   -6.700
+22    197.7200    10.0  1977.200 -1983.300   -6.100
+23    197.6900    10.0  1976.900 -1983.300   -6.400
+24    197.8000   -10.0 -1978.000  1972.700   -5.300
+25    197.9100     0.0     0.000    -6.400   -6.400
+26    197.7150    10.0  1977.150 -1983.550   -6.400
+27    197.8900    10.0  1978.900 -1983.550   -4.650
+28    197.9800    10.0  1979.800 -1983.550   -3.750
+29    197.9200    10.0  1979.200 -1983.550   -4.350
+...        ...     ...       ...       ...      ...
+1470  198.8500    10.0  1988.500 -1753.213  235.287
+1471  198.9000   -10.0 -1989.000  2224.787  235.787
+1472  198.7600   -10.0 -1987.600  2224.787  237.187
+1473  198.7100    10.0  1987.100 -1749.413  237.687
+1474  198.7100   -10.0 -1987.100  2224.787  237.687
+1475  198.5500   -10.0 -1985.500  2224.787  239.287
+1476  198.6400   -10.0 -1986.400  2224.787  238.387
+1477  198.5500   -10.0 -1985.500  2224.787  239.287
+1478  198.4500    10.0  1984.500 -1744.213  240.287
+1479  198.6300   -10.0 -1986.300  2228.387  242.087
+1480  198.5500     0.0     0.000   242.887  242.887
+1481  198.5300    10.0  1985.300 -1742.413  242.887
+1482  198.5500    10.0  1985.500 -1742.413  243.087
+1483  198.9150   -10.0 -1989.150  2235.887  246.737
+1484  198.8400   -10.0 -1988.400  2235.887  247.487
+1485  198.7000    10.0  1987.000 -1738.113  248.887
+1486  198.9800   -10.0 -1989.800  2241.487  251.687
+1487  198.9000   -10.0 -1989.000  2241.487  252.487
+1488  199.0150   -10.0 -1990.150  2241.487  251.337
+1489  198.8000   -10.0 -1988.000  2241.487  253.487
+1490  198.7700   -10.0 -1987.700  2241.487  253.787
+1491  198.6500   -10.0 -1986.500  2241.487  254.987
+1492  198.4600     0.0     0.000   256.887  256.887
+1493  198.3281    10.0  1983.281 -1726.394  256.887
+1494  198.2900   -10.0 -1982.900  2239.406  256.506
+1495  198.3030    10.0  1983.030 -1726.654  256.376
+1496  198.2900    10.0  1982.900 -1726.654  256.246
+1497  198.2300    10.0  1982.300 -1726.654  255.646
+1498  198.1700    10.0  1981.700 -1726.654  255.046
+1499  198.1300    10.0  1981.300 -1726.654  254.646
+
+[1500 rows x 5 columns]
