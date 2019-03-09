@@ -286,7 +286,7 @@ class Backtest(object):
 
         if idx.any():
             #p[idx].plot(style='go')
-            p[idx].plot(style='g.')
+            p[idx].plot(style='g.', markersize = 24)
 
             l.append('buy')
 
@@ -296,7 +296,7 @@ class Backtest(object):
         idx = (self.data['shares'] < 0)
 
         if idx.any():
-            p[idx].plot(style='r.')
+            p[idx].plot(style='r.', markersize = 24)
             #p[idx].plot(style='ro')
             l.append('sell')
 

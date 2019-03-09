@@ -1,37 +1,16 @@
-from alpha_vantage.timeseries import TimeSeries
-from alpha_vantage.techindicators import TechIndicators
+'''
 import pandas as pd
 from matplotlib import pyplot as plt
 from functions import getData
 import numpy as np
 from sklearn import preprocessing
-stock = 'AAPL'
-time = '1min'
-
 '''
-ti = TechIndicators(key='H7M3SZXXJ81BCUQD', output_format='pandas', indexing_type='date')
+#stock = 'MMM'
+#time = '1min'
 
-data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=20)
-data.to_csv('csv/sma20.csv')
 
-data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=80)
-data.to_csv('csv/sma80.csv')
 
-data, meta_data = ti.get_stoch(symbol=stock, interval=time)
-data.to_csv('csv/stoch.csv')
 
-data, meta_data = ti.get_rsi(symbol=stock, interval=time)
-data.to_csv('csv/rsi.csv')
-'''
-'''
-ts = TimeSeries(key='H7M3SZXXJ81BCUQD',output_format='pandas', indexing_type='date')
-
-data, meta_data = ts.get_intraday(symbol=stock,interval=time, outputsize='full')
-data.to_csv('csv/price.csv')
-
-data, meta_data = ts.get_intraday(symbol='DJI',interval=time, outputsize='full')
-data.to_csv('csv/dji.csv')
-'''
 '''
 price = pd.read_csv('csv/price.csv')
 sma20 = pd.read_csv('csv/sma20.csv')
@@ -102,9 +81,9 @@ dji = scaler.fit_transform(dji)
 #price = scaler.fit_transform(price)
 '''
 
-#   '''
+'''
 # get price & techinical indicator data as pandas dataframe
-pdata,data = getData(-1)
+pdata,data = getData(2)
 
 print(data)
 plt.plot(data,'r')
@@ -114,4 +93,4 @@ plt.plot(data,'r')
 plt.savefig('csv/stock.png')
 plt.show()
 
-#'''
+'''

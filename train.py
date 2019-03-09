@@ -133,9 +133,9 @@ for i in range(episodes):
     hold = 0
     for j in range(signal.shape[0]):
         if signal.iloc[j] < 0:
-            short += 1
+            short += 1 #sell
         elif signal.iloc[j] > 0:
-            long += 1
+            long += 1 #buy
         else:
             hold += 1
     print('Episode #: ', i , ' With Random, Buy: ', long, ', Sell: ', short, ', Hold: ', hold)
@@ -171,6 +171,7 @@ for i in range(episodes):
     with open('progress_file/profit_progress.txt', 'w') as filehandle:
         for listitem in profit_progress:
             filehandle.write('%s\n' % listitem)
+
 
     print("Episode #:  %s  With Random PnL: %f Profit: %f Epsilon: %f" % (i, endReward, profit, epsilon))
     print("Episode #:  %s  No   Random PnL: %f Profit: %f" % (i, r_reward, r_profit))

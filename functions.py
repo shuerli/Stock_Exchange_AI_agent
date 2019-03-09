@@ -1,6 +1,7 @@
 import pandas as pd
 import backtest as twp
 import numpy as np
+import time
 from sklearn import preprocessing
 
 from keras.models import Sequential
@@ -9,10 +10,39 @@ from keras.layers.recurrent import LSTM
 from keras.models import load_model
 from keras.optimizers import Adam
 import matplotlib
-matplotlib.use('Agg')
+#matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from alpha_vantage.timeseries import TimeSeries
+from alpha_vantage.techindicators import TechIndicators
 # pnl explained : https://www.investopedia.com/ask/answers/how-do-you-calculate-percentage-gain-or-loss-investment/
 # backtesting: a strategy to analyze how accurate a model did in performing trading with historycal data
+
+def indicators(stock,time):
+    ti = TechIndicators(key='H7M3SZXXJ81BCUQD', output_format='pandas', indexing_type='date')
+
+    data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=20)
+    data.to_csv('csv/sma20.csv')
+
+    data, meta_data = ti.get_sma(symbol=stock, interval=time, time_period=80)
+    data.to_csv('csv/sma80.csv')
+
+    data, meta_data = ti.get_stoch(symbol=stock, interval=time)
+    data.to_csv('csv/stoch.csv')
+
+    data, meta_data = ti.get_rsi(symbol=stock, interval=time)
+    data.to_csv('csv/rsi.csv')
+
+
+
+def timeseries(stock,time):
+    ts = TimeSeries(key='H7M3SZXXJ81BCUQD', output_format='pandas', indexing_type='date')
+    data, meta_data = ts.get_intraday(symbol=stock,interval=time, outputsize='full')
+    data.to_csv('csv/price.csv')
+
+    data, meta_data = ts.get_intraday(symbol='DJI',interval=time, outputsize='full')
+    data.to_csv('csv/dji.csv')
+
+
 
 
 def getModel(test):
@@ -85,7 +115,7 @@ def getData(test):
 
     data = pd.DataFrame(processed_data, index = raw_data.index,columns=raw_data.columns)'''
     data=merge_data()
-  
+
     '''if test == 0:
         data = data[1200:1700]
     elif test == 1:
@@ -124,6 +154,9 @@ def getData(test):
     elif test == 1:
         pdata = pdata[1500:]
         data = data[1500:]
+    elif test == 2:
+        pdata = pdata[len(pdata)-11:len(pdata)-1]
+        data = data[len(data)-11:len(data)-1]
     else:
         pdata = pdata
         data = data
@@ -142,7 +175,7 @@ def initializeState(pdata):
     
     #scaler = preprocessing.StandardScaler() #unit standard derivation and 0 mean
     #pdata = scaler.fit_transform(pdata)
-    
+
     # initial state is 1st row of the table
 
     initialState = pdata[0:1, :]
@@ -258,6 +291,7 @@ def test_agent(pdata, model, data, episode_i):
     long = 0
     short = 0
     hold = 0
+    newdici = changedecision(signal)
     for j in range(signal.shape[0]):
         if signal.iloc[j] < 0:
             short += 1
@@ -266,6 +300,9 @@ def test_agent(pdata, model, data, episode_i):
         else:
             hold+=1
 
+
+    newprofitwhold = profitcal(data,newdici,5000)
+    print("Profit with hold: ", newprofitwhold , "  Orignal Profit: ", realProfit)
     print('Episode #: ', episode_i, ' No   Random, Buy: ', long, ', Sell: ', short, ', Hold: ', hold)
 
     bt = twp.Backtest(data, signal, signalType='shares')
@@ -283,6 +320,50 @@ def test_agent(pdata, model, data, episode_i):
         plt.savefig('plot/' + str(episode_i) + '.png')
     plt.show()
     plt.close()
+
+    bt2 = twp.Backtest(data, newdici, signalType='shares')
+    plt.figure(figsize=(20, 20))
+    plt.subplot(2,1,1)
+    plt.title("trades "+str(episode_i))
+    plt.xlabel("timestamp")
+    bt2.plotTrades()
+    plt.subplot(2, 1, 2)
+    plt.title("PnL "+str(episode_i))
+    plt.xlabel("timestamp")
+    bt2.pnl.plot(style='-')
+
+    if episode_i % 10 == 0:
+        plt.savefig('plot/' + str(episode_i) + '_hold.png')
+
+    plt.show()
+    plt.close()
     endReward = bt.pnl.iloc[-1]
 
     return endReward, realProfit
+
+def changedecision(decisions):
+    newdeci = decisions.copy()
+    prev = newdeci.iloc[0]
+    for j in range(newdeci.shape[0] - 1):
+        temp = newdeci.iloc[j + 1]
+        if prev == newdeci.iloc[j+1]:
+            newdeci.iloc[j + 1] = 0
+        prev = temp
+    return newdeci
+
+def profitcal(price, decisions, initial):
+    cash = initial
+    share = 0
+    for i in range(decisions.shape[0]-1):
+        signal = decisions.iloc[i+1]
+        if signal > 0 and cash != 0:
+            share = cash/price[i]
+            cash = 0
+        elif signal < 0 and share != 0:
+            cash = share * price[i]
+            share = 0
+    if share != 0:
+        cash = share * price[i]
+
+    return cash - initial
+
